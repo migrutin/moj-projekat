@@ -12,7 +12,7 @@ function Header() {
 
     return (
 
-        <header className="bg-blue-950 text-base sticky top-0 ">
+        <header className="bg-blue-950 text-base sticky z-50 top-0 ">
             <nav className="text-base flex justify-between items-center px-4 lg:mx-44 ">
 
 
