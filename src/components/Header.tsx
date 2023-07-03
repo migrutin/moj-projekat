@@ -12,10 +12,12 @@ function Header() {
 
     return (
        
-        <header className="bg-blue-950 py-2 text-base">
-            <div className="text-base flex justify-between items-center px-4 mx-44">
+        <header className="bg-blue-950 py-2 text-base sticky top-0">
+            <nav className="text-base flex justify-between items-center px-4 mx-44">
+
+
              {/* prvi red u Headeru */}
-                <div className="flex h-10 mb-0">
+                <div className=" flex h-10 mb-0">
 
                     <div onMouseOver={() => setDropDown(true)} onMouseLeave={() => setDropDown(false)}
                         className="flexitems-center space-x-2 cursor-pointer mr-3">
@@ -25,7 +27,7 @@ function Header() {
 
                         {dropDown && (
                             <div className="absolute top-5 left-24
-                                        mt-8 w-48 bg-white border border-gray-300 rounded-md shadow-lg">
+                                        mt-8 w-48 bg-white border border-gray-300 rounded-md shadow-lg sm:hidden">
                                 <ul className="py-2">
                                     <li className="px-4 py-2">
                                         <h2>Fizička lica</h2>
@@ -42,7 +44,7 @@ function Header() {
 
 
                     </div>
-                    <div className=' mt-0 h-10 w-64 cursor-pointer'>
+                    <div className=' mt-0 h-8 w-64 cursor-pointer'>
                         <i className="fas fa-envelope text-white" ></i>
                         <span className='ml-2 text-white'>prodaja@gigatronshop.com</span>
                     </div>
@@ -61,14 +63,14 @@ function Header() {
                         <span className='text-white'>Lista želja</span>
                     </div>
                 </div>
-            </div>
+            </nav>
 
 
 
 
 
                             {/* Drugi red u Headeru */}
-            <div className='flex mt-0'>
+            <div className='flex mt-0 '>
                 <div className=" flex justify-between items-center h-24 px-4 ml-44 mr-5 my-0">
                     <img src={logo} alt="Logo" className='h-28 w-40 my-2' />
                 </div>
