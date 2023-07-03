@@ -20,7 +20,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "tailwind": "tailwindcss build src/index.css -o src/tailwind.css",
+    "start:tailwind": "npm run tailwind && react-scripts start",
+    "build:tailwind": "npm run tailwind && react-scripts build",
+    "test:tailwind": "npm run tailwind && react-scripts test"
   },
   "eslintConfig": {
     "extends": [
