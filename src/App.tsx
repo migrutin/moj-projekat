@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import Header from './components/Header';
-import Body from './components/UnderHeader';
-import UnderHeader from './components/UnderHeader';
+import Underline from './components/Underline';
+
 
 function App() {
   return (
     <div>
       <Header></Header>
-      <UnderHeader></UnderHeader>
+      <Underline></Underline>
+      
+
     </div>
   );
 }

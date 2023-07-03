@@ -1,7 +1,6 @@
-
 import React from 'react'
 
-function UnderHeader() {
+function Underline() {
   return (
     <div className='bg-white max-w-full h-16 flex px-32 justify-between text-base'>
 
@@ -18,7 +17,7 @@ function UnderHeader() {
         
       </div>
 
-      <div className='flex space-x-2 py-3 mr-72'>
+      <div className='flex space-x-4 py-3 mr-72'>
         <a className='text-black cursor-pointer font-semibold'>Akcije</a>
         <a href='https://gigatron.rs/prodavnice' className='text-black cursor-pointer '>Prodavnice</a>
         <a className='text-black cursor-pointer '>Poslovanje</a>
@@ -34,4 +33,7 @@ function UnderHeader() {
   )
 }
 
-export default UnderHeader
+export default Underline
+
+
+
