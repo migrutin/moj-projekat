@@ -1,6 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import logomajstor from '../img/logomajstor.png';
+import majstor from '../img/majstor.png'
+import glob from '../img/glob.png'
 
 function BodyPart() {
+
+
     return (
         <div className='bg-gray-100 max-w-full h-full px-16'>
             <div className='flex bg-transparent h-96 w-3/4 ml-44 space-x-6 pt-10    '>
@@ -160,9 +166,9 @@ function BodyPart() {
                     <div className="bg-purple-200 rounded-lg h-96 w-1/4 justify-between flex items-center  ">
                         <div className="flex flex-col mr-2">
                             <h2 className="font-semibold ml-2">4</h2>
-                            
+
                         </div>
-                        
+
 
 
                     </div>
@@ -172,6 +178,40 @@ function BodyPart() {
 
                 </div>
             </div>
+
+
+            {/* Usluzna montaza */}
+            {/*  !!!!!!!!!!OVDE UNETI LINK KA DRUGOJ STRANICI!!!!!!!!! */}
+            <Link to="/App.tsx">
+                <div className='bg-blue-900 rounded-lg h-24 w-3/4 mt-10 ml-44 
+            pt-auto flex  justify-between py-1'>
+                    <img src={logomajstor} alt="" className='h-32 w-32 ' />
+                    <div className='flex-col h-24 mt-2'>
+                        <h1 className='font-bold text-2xl text-yellow-600'>USLUŽNA MONTAŽA</h1>
+                        <p className='font-bold text-2xl text-white'>televizora i samostojeće bele tehnike</p>
+                    </div>
+                    <img src={majstor} alt="majstor" className='' />
+                    <div className=' h-24 w-72 relative'>
+                        <button className='h-10 w-32 rounded-full absolute right-1 bottom-3 bg-yellow-600 hover:bg-yellow-300'> Saznajte više</button>
+                    </div>
+                </div>
+            </Link>
+
+            <Link to="/App.tsx">
+                <div className='bg-purple-950 rounded-lg h-24 w-3/4 mt-32 ml-44 
+            pt-auto flex  justify-between py-1'>
+                    <img src={glob} alt="" className='h-20 w-32 ml-2 mt-1' />
+                    <div className='flex-col h-24 mt-2'>
+                        <h1 className='font-bold text-2xl text-yellow-600'>Globaltel POSTPAID paketi uz telefone</h1>
+                        <p className='font-bold text-2xl text-white'>u svim Gigatron prodavnicama!</p>
+                    </div>
+                    <img src={majstor} alt="" className='' />
+                    <div className=' h-24 w-72 relative'>
+                        <button className='h-10 w-32 rounded-full absolute right-1 bottom-3 bg-yellow-600 hover:bg-yellow-300'> Saznajte više</button>
+                    </div>
+                </div>
+            </Link>
+        
 
 
 
