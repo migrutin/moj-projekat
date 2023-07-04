@@ -40,7 +40,7 @@ function BodyPart() {
             </div>
 
 
-        {/* Akicije, popusti, isporuka - section */}
+            {/* Akicije, popusti, isporuka - section */}
 
             <div className='bg-white rounded-lg h-28 w-3/4 mt-10 ml-44 
             pt-auto flex  justify-between px-10 py-2'>
@@ -93,7 +93,7 @@ function BodyPart() {
             </div>
 
 
-                {/* Najtrazeniji proizvodi */}
+            {/* Najtrazeniji proizvodi */}
             <div className='bg-transparent rounded-lg h-56 w-3/4 mt-10 ml-44 
             pt-auto flex  justify-between flex-col '>
 
@@ -101,9 +101,21 @@ function BodyPart() {
                 <div className="container bg-white rounded-lg h-52 w-full"></div>
 
             </div>
-        
+
+            {/* Specijalni popusti i akcije */}
+
+            <div className='flex-col'>
+            <h1 className='font-bold text-2xl ml-44 mt-10'>Specijalni popusti i akcije</h1>
+            <div className="grid grid-rows-3 grid-flow-col gap-4 w-3/4 mx-44 my-10 space-x-4">
+                <div className="rounded-lg h-96 w-96  bg-red-200 row-span-3  ">01</div>
+                <div className="rounded-lg h-48 w-96 bg-blue-200 col-span-2 ">02</div>
+                <div className="rounded-lg h-44 w-96 bg-green-200 row-span-2 col-span-2 ">03</div>
+                <div className="rounded-lg h-96 w-96 bg-purple-200 row-span-3 ">01</div>
+            </div>
 
 
+            </div>
+           
 
 
 
