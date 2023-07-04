@@ -2,7 +2,7 @@ import React from 'react'
 
 function BodyPart() {
     return (
-        <div className='bg-gray-100 max-w-full h-full'>
+        <div className='bg-gray-100 max-w-full h-full px-16'>
             <div className='flex bg-transparent h-96 w-3/4 ml-44 space-x-6 pt-10    '>
                 <div className="relative bg-green-200 w-3/4 rounded-lg z-10">
                     <button className="absolute bottom-2 right-2 rounded-full
@@ -104,18 +104,75 @@ function BodyPart() {
 
             {/* Specijalni popusti i akcije */}
 
-            <div className='flex-col'>
+
             <h1 className='font-bold text-2xl ml-44 mt-10'>Specijalni popusti i akcije</h1>
-            <div className="grid grid-rows-3 grid-flow-col gap-4 w-3/4 mx-44 my-10 space-x-4">
-                <div className="rounded-lg h-96 w-96  bg-red-200 row-span-3  ">01</div>
-                <div className="rounded-lg h-48 w-96 bg-blue-200 col-span-2 ">02</div>
-                <div className="rounded-lg h-44 w-96 bg-green-200 row-span-2 col-span-2 ">03</div>
-                <div className="rounded-lg h-96 w-96 bg-purple-200 row-span-3 ">01</div>
+            <div className="grid grid-cols-3 gap-4 w-3/4 ml-44 my-10 space-x-4">
+                <div className="rounded-lg h-96 bg-red-200">01</div>
+                <div className="flex flex-col space-y-4">
+                    <div className="rounded-lg h-48 bg-blue-200">02</div>
+                    <div className="rounded-lg h-44 bg-green-200">03</div>
+                </div>
+                <div className="rounded-lg h-96 bg-purple-200">04</div>
             </div>
 
 
+
+
+
+            {/* Preporucujemo za Vas */}
+
+            <div>
+                <h1 className='font-bold text-2xl ml-44'>Preporučujemo za Vas</h1>
+                <div className='bg-transparent rounded-lg h-full w-3/4 mt-10 ml-44 
+            pt-auto flex py-2 space-x-3'>
+
+
+                    <div className="bg-yellow-200 rounded-lg h-96 w-1/4 justify-between flex items-center">
+
+                        <div className="flex flex-col ml-4">
+                            <h2 className="font-semibold">1</h2>
+
+                        </div>
+
+
+                    </div>
+
+                    <div className="bg-blue-200 rounded-lg h-96 w-1/4 justify-between flex items-center ">
+
+                        <div className="flex flex-col ml-4">
+                            <h2 className="font-semibold">2</h2>
+
+                        </div>
+
+
+                    </div>
+
+                    <div className="bg-green-200 rounded-lg h-96 w-1/4 justify-between flex items-center ">
+
+                        <div className="flex flex-col ml-4 ">
+                            <h2 className="font-semibold ">3</h2>
+
+                        </div>
+
+
+                    </div>
+
+                    <div className="bg-purple-200 rounded-lg h-96 w-1/4 justify-between flex items-center  ">
+                        <div className="flex flex-col mr-2">
+                            <h2 className="font-semibold ml-2">4</h2>
+                            
+                        </div>
+                        
+
+
+                    </div>
+
+
+
+
+                </div>
             </div>
-           
+
 
 
 
