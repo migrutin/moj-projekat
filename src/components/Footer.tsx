@@ -8,7 +8,7 @@ import intesa from '../img/intesa.png'
 import nlb from '../img/nlb.png'
 import raiffeisen from '../img/raiffiesen.png'
 import wspay from '../img/wspay.png'
-import ips from '../img/ips.jpg'
+import ipss from '../img/ipss.png'
 import visasecure from '../img/visasecure.png'
 import idcheck from '../img/idcheck.png'
 
@@ -60,6 +60,12 @@ function Footer() {
                 <Link to='https://www.wspay.rs/'>
                     <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
                         <img src={wspay} alt="" className='h-8 w-12 cursor-pointer' />
+                    </div>
+                </Link>
+
+                <Link to='https://rs.visa.com/'>
+                    <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
+                        <img src={ipss} alt="" className='h-8 w-10 cursor-pointer' />
                     </div>
                 </Link>
 
