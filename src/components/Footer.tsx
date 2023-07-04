@@ -36,11 +36,11 @@ function Footer() {
                 </Link>
 
                 <Link to='https://rs.visa.com/pay-with-visa/security-and-assistance/protected-everywhere.html'>
-                <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
-                    <img src={verified} alt="" className='h-10 w-10 cursor-pointer' />
-                </div>
+                    <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
+                        <img src={verified} alt="" className='h-10 w-10 cursor-pointer' />
+                    </div>
                 </Link>`
-               
+
                 <Link to='https://www.bancaintesa.rs/'>
                     <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
                         <img src={intesa} alt="" className='h-10 w-10 cursor-pointer' />
@@ -56,7 +56,7 @@ function Footer() {
                     <img src={raiffeisen} alt="" className='h-10 w-16 cursor-pointer' />
                 </div>
                 </Link>
-            
+
                 <Link to='https://www.wspay.rs/'>
                     <div className='bg-white h-8 w-16 rounded-lg flex items-center justify-center'>
                         <img src={wspay} alt="" className='h-8 w-12 cursor-pointer' />
@@ -80,11 +80,7 @@ function Footer() {
                 </div>
                 </Link>
 
-
-
             </div>
-
-
 
 
             <div className="hidden text-gray-400 md:block text-center">
