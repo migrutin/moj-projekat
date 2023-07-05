@@ -1,13 +1,14 @@
 import React from 'react';
-import './App.css';
-import Header from './components/Header';
-import Underline from './components/Underline';
-import BodyPart from './components/BodyPart';
-import Footer from './components/Footer';
-import AboveFooter from './components/AboveFooter'
-import Home from './Home';
+import './App.css'
+
+import Underline from '../components/Underline';
+import BodyPart from '../components/BodyPart';
+import Footer from '../components/Footer';
+import AboveFooter from '../components/AboveFooter'
+
 import {createBrowserRouter, createRoutesFromElements,  Route, Link, Outlet, RouterProvider, BrowserRouter, Routes} from 'react-router-dom'
-import Newsletter from './components/Newsletter';
+import Newsletter from '../components/Newsletter';
+import Header from '../components/Header';
 
 
 
@@ -16,7 +17,7 @@ function App() {
   return (
    
       <div>
-        <Header />
+        <Header/>
         <Underline />
         <BodyPart />
         <Newsletter/>
