@@ -2,7 +2,7 @@ import React from 'react'
 
 function Underline() {
   return (
-    <div className='bg-white max-w-full h-16 flex px-32 justify-between text-base'>
+    <div className='bg-white max-w-full h-16 flex px-32 justify-between text-base border-b-2'>
 
 
 

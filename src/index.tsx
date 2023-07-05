@@ -5,6 +5,7 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import Gejming from './pages/Gejming';
 
 
 const root = ReactDOM.createRoot(
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter> 
-     <App />
+     <Gejming />
      </BrowserRouter>
     
   </React.StrictMode>
