@@ -6,6 +6,7 @@ import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import ShoppingBasket from './pages/ShoppingBasket';
+import OrderStatus from './pages/OrderStatus';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -13,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter> 
-     <ShoppingBasket />
+     <App />
      </BrowserRouter>
     
   </React.StrictMode>
