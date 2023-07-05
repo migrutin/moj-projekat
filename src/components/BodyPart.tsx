@@ -201,7 +201,7 @@ function BodyPart() {
                 </div>
             </Link>
 
-            <Link to="/App.tsx">
+            <Link to="/">
                 <div className='bg-purple-950 rounded-lg h-24 w-3/4 mt-32 ml-44 
             pt-auto flex  justify-between py-1'>
                     <img src={glob} alt="" className='h-20 w-32 ml-2 mt-1' />
