@@ -9,6 +9,7 @@ import AboveFooter from '../components/AboveFooter'
 import {createBrowserRouter, createRoutesFromElements,  Route, Link, Outlet, RouterProvider, BrowserRouter, Routes} from 'react-router-dom'
 import Newsletter from '../components/Newsletter';
 import Header from '../components/Header';
+import AppRouter from '../AppRouter';
 
 
 
@@ -24,7 +25,7 @@ function App() {
         <AboveFooter />
         <Footer />
 
-       
+      
       </div>
     
   );
