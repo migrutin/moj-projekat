@@ -5,9 +5,7 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-
-import GejmingKorner from './pages/GejmingKorner';
-import Novosti from './pages/Novosti';
+import Promocije from './pages/Promocije';
 
 
 const root = ReactDOM.createRoot(
@@ -16,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter> 
-     <GejmingKorner />
+     <Promocije />
      </BrowserRouter>
     
   </React.StrictMode>
