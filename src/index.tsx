@@ -5,7 +5,7 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import Promocije from './pages/Promocije';
+import PromocijeUProdavnicama from './pages/PromocijeUProdavnicama';
 
 
 const root = ReactDOM.createRoot(
@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter> 
-     <Promocije />
+     <PromocijeUProdavnicama />
      </BrowserRouter>
     
   </React.StrictMode>
