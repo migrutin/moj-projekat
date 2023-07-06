@@ -6,6 +6,7 @@ import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 import PromocijeUProdavnicama from './pages/PromocijeUProdavnicama';
+import Kontakt from './pages/Kontakt';
 
 
 const root = ReactDOM.createRoot(
@@ -14,7 +15,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
      <BrowserRouter> 
-     <PromocijeUProdavnicama />
+     <Kontakt/>
      </BrowserRouter>
     
   </React.StrictMode>

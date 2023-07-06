@@ -11,8 +11,100 @@
     height: 600px; 
   }
 
+  .custom-height3 {
+    height: 1000px; 
+  }
+  .custom-height4{
+    height: 800px; 
+  }
+
+  .custom-width{
+    width: 1000px;
+  }
+  
+  .kontakt{
+    background-color: transparent;
+  }
+
+ .contact{
+  position: relative;
+  height: 1000px;
+ }
+ img{
+  height: 96;
+ }
+
+ .slika{
+  width: 1700px; 
+  height: 96;
+ }
+
+ .ispod-slike{
+  background-color: transparent;
+  height: 96;
+ }
+ 
+
+  .obrasci:hover{
+    text-decoration: underline;
+
+  }
+
+
+.zuto{
+  background-color: rgb(222, 180, 15);
+  height: 800px;
+  width: 330px; 
+  text-align: center;
+  padding-top: 5; 
+  padding-bottom:5;
+}
+
+.radno-vreme{
+  font-size: x-large;
+  margin-top: 1;
+  margin-bottom: 5;
+  
+}
+.pib{
+  font-weight: 500;
+  font-size: x-large;
+  margin-top: 30px;
+ 
+}
+.div-preko{
+  
+  height: 800px;
+  width: 1000px;
+  margin-top: 130px;
+  position: absolute;
+  margin-left: 300px;
+  left: 0px;
+  top: 0px;
+  z-index: 10px;
+  box-shadow: 5px 5px 5px rgb(181, 179, 179);
+}
+
+.podaci{
+  background-color: white;
+  height: 100%;
+  width: 66.666667%;
+}
+.ime{
+  border-bottom:solid gray 1px;
+  padding: 0 200px ;
+  margin-top: 10px;
+  margin-left: 10px;
+  outline-color: transparent;
+  background-color: transparent;
+  
+}
+.ime::placeholder{
+  text-align: left;
+}
 
 .box{
   height: 400px;
 }
+
 
