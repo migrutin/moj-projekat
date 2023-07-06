@@ -23,49 +23,49 @@ function GKorner() {
 
 
             <div className='bg-transparent h-screen w-full mx-5 flex-col'>
-                <h1 className='text-2xl underline'>Akcije</h1>
+                <h1 className='text-2xl underline'>Gaming korner</h1>
                 <input type="" placeholder='Unesite pojam za pretragu' className='w-full h-10 border-solid border-2 mt-5 px-2 py-2' />
 
                 <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>
                     <a href='https://gigatron.rs/akcije?strana=2' className='bg-white h-72 w-72 border-r-gray-600 cursor-pointer py-3 px-3
                     shadow-lg hover:shadow-lg'>
                         <img src={laptop} alt="" className='h-40' />
-                        <p className='text-gray-500 mt-3'>Super ponuda klima uređaja - GREE</p>
+                        <p className='text-gray-500 mt-3'>Najbolji gaming laptop računari</p>
 
 
                     </a>

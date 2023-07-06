@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
 
 import GejmingKorner from './pages/GejmingKorner';
+import Novosti from './pages/Novosti';
 
 
 const root = ReactDOM.createRoot(

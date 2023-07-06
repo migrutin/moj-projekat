@@ -24,7 +24,7 @@ function NewStuff() {
 
 
             <div className='bg-transparent h-screen w-full mx-5 flex-col'>
-                <h1 className='text-2xl underline'>Akcije</h1>
+                <h1 className='text-2xl underline'>Novosti</h1>
                 <input type="" placeholder='Unesite pojam za pretragu' className='w-full h-10 border-solid border-2 mt-5 px-2 py-2' />
 
                 <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>

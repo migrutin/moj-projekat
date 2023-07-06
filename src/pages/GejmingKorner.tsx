@@ -4,13 +4,14 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
+import GKorner from '../components/GKorner'
 
 function GejmingKorner() {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <GejmingKorner></GejmingKorner>
+        <GKorner></GKorner>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
