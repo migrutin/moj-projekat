@@ -10,6 +10,7 @@ import Karijera from './Karijera';
 import PromocijeUProdavnicama from './PromocijeUProdavnicama';
 import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
+import Globaltel from './Globaltel';
 
 
 
@@ -28,6 +29,8 @@ function App() {
     <Route path='/gaming-korner' element={<GejmingKorner/>}/>
     <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama/>}/>
     <Route path='/klime' element={<Klime/>}/>
+    <Route path='/globaltel' element={<Globaltel/>}/>
+
     
 
     

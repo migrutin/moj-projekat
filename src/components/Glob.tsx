@@ -1,25 +1,23 @@
 import React from 'react'
-import promocija from '../img/prom.jpg'
-import gigprom from '../img/gigprom.jpg'
+import globb from '../img/globb.png'
+import vivo from '../img/vivo.png'
 import gigprom2 from '../img/gigprom2.jpg'
 import masina from '../img/masina.jpg'
 import kosilica from '../img/kosilica.jpg'
 
 
-function PromotionsInStores() {
+function Glob() {
     return (
         <div className='promocije'>
-            <h1 className='promocije-naslov'>Promocije u prodavnicama</h1>
+            <h1 className='promocije-naslov'>Izaberi Globaltel tarifu u Gigatronu uz telefon</h1>
             <div className='promocije-linija'></div>
             <div className='px-10'>
-                <img src={promocija} alt="" className='mt-10 h-64 w-full' />
-                <p className='promocije-p'>Gigatron je jedna od vodećih kompanija na tržištu tehnike u Srbiji,
-                    a svoju poziciju iz godine u godinu potvrđujemo sve bogatijim asortimanom,
-                    otvaranjem novih prodavnica, uključujući Megastore prodavnice i ulaganjem u kvalitet usluge.</p>
-
-                <p className='ml-24'> U cilju da vam obezbedimo još <span className='font-bold'> bolje iskustvo kupovine i atraktivniju ponudu</span>, od sada na jednom mestu možete da saznate <span className='font-bold'>sve vezano za popuste, poklone i druge benefite</span>  koji vas čekaju samo u našim prodajnim objektima, kako biste na vreme mogli da ih iskoristite.</p>
-
-                <p className='ml-24 mt-5 mb-10'> Pogledajte aktuelnu ponudu promocija u Gigatron prodavnicama:</p>
+                <img src={globb} alt="" className='glob-slika' />
+                <p className='globaltel-p'> <span className='font-bold'>Gigatron i Globaltel</span> čine fantastičnu kombinaciju!
+                 U Gigatron prodavnicama vas očekuje mogućnost da pri kupovini novog uređaja izaberete i neku od Globaltel tarifa, čime ostvarujete posebne cene na odabrane uređaje. 
+                Ponuda se može ostvariti isključivo u Gigatron prodajnim objektima.</p>
+                <h1 className='globaltel-h'>Super cena uređaja uz svaki Globaltel postpaid paket</h1>
+                
             </div>
 
 
@@ -28,14 +26,10 @@ function PromotionsInStores() {
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4 mx-16 ">
                 {/* prvi */}
                 <div className="bg-white custom-height2 shadow-lg shadow-gray-400 py-3 px-3">
-                    <div className='bg-gray-300 h-12 w-full'>
-                        <div className='flex'>
-                            <p>15% popusta na Tesla televizore i belu tehniku u SC Stadion – </p>
-                            <h1 className='font-bold text-red-500 ml-2'>ISTEKLA PROMOCIJA</h1>
-
-                        </div>
+                             <h1 className='telefon'>VIVO Y22s 6/128GB Startlit Blue </h1>
+                      
                         <div className='flex space-x-3 mt-5 mx-5'>
-                            <img src={gigprom} alt="" className='h-48 w-56 mt-10' />
+                            <img src={vivo} alt="" className='h-48 w-56 mt-10' />
                             <div className='space-y-5 text-sm'>
                             <p>Snižene cene Tesla televizora i bele tehnike u našoj prodavnici u Stadion shopping centru.</p>
                             <p className='mb-5'>Iskoristite 15% popusta na Tesla televizore i belu tehniku, samo u prodavnicama G09 i G49. Više informacija o popustu možete da dobijete na našem pultu u prizemlju tržnog centra.</p>
@@ -52,7 +46,7 @@ function PromotionsInStores() {
                         </div>
                         <p className='text-gray-400 text-sm mt-2'>*Trajanje promocije u prodavnicama: 1.11- 30.11.2022. od 10h do 22h.</p>
 
-                    </div>
+                   
                 </div>
 
 
@@ -150,4 +144,4 @@ function PromotionsInStores() {
     )
 }
 
-export default PromotionsInStores
+export default Glob

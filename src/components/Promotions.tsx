@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import promocije from '../img/tv.jpg'
+import KomponentaZaAkciju from './KomponentaZaAkciju'
 
 function Promotions() {
-    const [linkovi, setLinkovi] = useState([
+    const linkoviPromenljiva=[
+    
         {
             to: '/klime',
             text: 'Ne propustite super promocije u radnjama',
@@ -34,7 +36,9 @@ function Promotions() {
             text: 'Ne propustite promocije u radnjama',
             image: promocije
         }
-    ])
+    ]
+
+    const [linkovi, setLinkovi] = useState(linkoviPromenljiva)
 
     const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
         if (event.key === 'Enter') {
@@ -46,7 +50,7 @@ function Promotions() {
 
     const pretraga = (term: string) => {
         
-            const filtriraniLinkovi = linkovi.filter(link =>
+            const filtriraniLinkovi = linkoviPromenljiva.filter(link =>
                 link.text.toLowerCase().includes(term.toLowerCase()));
             setLinkovi(filtriraniLinkovi)
 
@@ -65,16 +69,7 @@ function Promotions() {
                 <div className='w-40 h-px bg-gray-300'></div>
 
 
-                <Link to='/akcije' key='link-akcije' className='linkovi'>Akcije</Link>
-                <div className='linija'></div>
-                <Link to='/novosti' className='linkovi'>Novosti</Link>
-                <div className='linija'></div>
-                <Link to='/gaming-korner' className='linkovi'>Gaming korner</Link >
-                <div className='linija'></div>
-                <Link to='/promocije' className='linkovi'>Promocije</Link>
-                <div className='linija'></div>
-                <Link to='/promocije-u-prodavnicama' className='linkovi'>Promocije u prodavnicama</Link>
-                <div className='linija'></div>
+                <KomponentaZaAkciju></KomponentaZaAkciju>
             </div>
 
 
