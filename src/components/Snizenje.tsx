@@ -3,7 +3,8 @@ import klima from '../img/klima.png';
 import { Link } from 'react-router-dom';
 
 function Snizenje() {
-  const [linkovi, setLinkovi] = useState([
+
+  const linkoviPromenljiva=[
     {
       to: '/klime',
       text: 'Losa ponuda klima uređaja - GREE',
@@ -35,7 +36,9 @@ function Snizenje() {
         image: klima,
       }
     
-  ]);
+  ]
+
+  const [linkovi, setLinkovi] = useState(linkoviPromenljiva);
 
   const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
     if (event.key === 'Enter') {
@@ -47,9 +50,19 @@ function Snizenje() {
   };
 
 const pretraga = (term: string) => {
-    const filtriraniLinkovi = linkovi.filter((link)=> 
+  
+    /*Ti jednom kad filtriras, promeni ti se taj state i ne mozes da se vratis nazad, ako probas losa, on ce da ti pokaze nju, zatim probas srednja on nece nista da ti pokaze,
+    tj pokazace ti kao da nema nijedna! To je zato sto vrsi filter funkciju nad trenutnim state-om, a trenutni state je niz koji ima samo jednu [ona losa klima] zato se koristi fetch, ali okej je ovo za vezbu!
+    */
+
+    //zato cu ja ovde da vrsim filter nad pocetnim stanjem (to je sada ova promenljiva koja je konstanta i ne menja se)
+    const filtriraniLinkovi = linkoviPromenljiva.filter((link)=> 
     link.text.toLowerCase().includes(term.toLowerCase()));
+    //ako sam npr poslao prazan string, pa okej, on ce videti da svaki element niza sadrzi prazan string i opet ce te vratiti na pocetak!
+    //test
     setLinkovi(filtriraniLinkovi);
+    //
+
 }
 
   return (
@@ -82,6 +95,8 @@ const pretraga = (term: string) => {
 
         <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>
           {linkovi.map((link, index) => (
+            //Ovo izdvojis da bude jedna komponenta, onda ce to da ti izgleda ovako:
+            //<KomponentaZaAkciju/> i umesto 4 linije imas jednu.
             <Link key={index} to={link.to} className='kvadrat'>
               <img src={link.image} alt='' className='h-40' />
               <p className='kvadrat-p'>{link.text}</p>
