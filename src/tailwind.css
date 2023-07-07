@@ -284,3 +284,22 @@ img {
   text-decoration: solid;
   font-weight: 500;
 }
+.globaltel-kvadrat{
+  background-color: #fce7f3;
+  height: 600px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-radius: 25px;
+}
+.globaltel-dugme{
+  background-color: #ec4899;
+  margin-top: 100px;
+  margin-left: 175px;
+  height: 50px;
+  width: 150px;
+  border-radius: 25px;
+  
+
+}
