@@ -1,8 +1,61 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import promocije from '../img/tv.jpg'
 
 function Promotions() {
+    const [linkovi, setLinkovi] = useState([
+        {
+         to:'/klime',
+         text:'Ne propustite super promocije u radnjama',
+         image: promocije
+        },
+        {
+         to:'/klime',
+         text:'Ne propustite dobre promocije u radnjama',
+         image: promocije
+        },
+        {
+         to:'/klime',
+         text:'Ne propustite odlicne promocije u radnjama',
+         image: promocije
+        },
+        {
+         to:'/klime',
+         text:'Ne propustite ekstra promocije u radnjama',
+         image: promocije
+        },
+        {
+         to:'/klime',
+         text:'Ne propustite promocije u radnjama',
+         image: promocije
+        },
+        {
+         to:'/klime',
+         text:'Ne propustite promocije u radnjama',
+         image: promocije
+        }
+    ])
+
+    const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+        if(event.key === 'Enter') { 
+            event.preventDefault();
+            const pojam = event.currentTarget.value;
+            pretraga(pojam);
+        }
+    }
+
+    const pretraga = (term: string) => {
+        const filtriraniLinkovi = linkovi.filter(link=> 
+            link.text.toLowerCase().includes(term.toLowerCase()));
+            setLinkovi(filtriraniLinkovi)
+
+    }
+
+
+
+
+
+
     return (
         <div className='sm:w-full sm:h-200vh sm:flex ponuda'>
             <div className='div-izdvajamo-iz-ponude flex flex-col'>
@@ -25,45 +78,17 @@ function Promotions() {
 
             <div className='akcija flex-col'>
                 <h1 className='naslov'>Promocije</h1>
-                <input type="" placeholder='Unesite pojam za pretragu' className='pretraga' />
+                <input type="" placeholder='Unesite pojam za pretragu' className='pretraga'
+                onKeyDown={handleKeyDown} />
 
                 <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>
+                    {linkovi.map((link, index) => (
+                        <Link to={link.to} key={index} className='kvadrat'>
+                            <img src={link.image} alt="" className='h-40' />
+                            <p className='kvadrat-p'>{link.text}</p>
+                        </Link>
+                    ))}
 
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-                    </a>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-
-                    </a>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-
-                    </a>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-
-                    </a>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-
-                    </a>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
-                        <img src={promocije} alt="" className='kvadrat-slika' />
-                        <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
-
-
-                    </a>
 
 
 

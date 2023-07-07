@@ -6,37 +6,31 @@ function Snizenje() {
   const [linkovi, setLinkovi] = useState([
     {
       to: '/klime',
-      url: 'https://example.com/klime',
       text: 'Losa ponuda klima uređaja - GREE',
       image: klima,
     },
     {
       to: 'https://gigatron.rs/akcije?strana=2',
-      url: 'https://gigatron.rs/akcije?strana=2',
       text: 'Srednja ponuda klima uređaja - GREE',
       image: klima,
     },
     {
         to: 'https://gigatron.rs/akcije?strana=2',
-        url: 'https://gigatron.rs/akcije?strana=2',
         text: 'Super ponuda klima uređaja - GREE',
         image: klima,
       },
       {
         to: 'https://gigatron.rs/akcije?strana=2',
-        url: 'https://gigatron.rs/akcije?strana=2',
         text: 'Super ponuda klima uređaja - GREE',
         image: klima,
       },
       {
         to: 'https://gigatron.rs/akcije?strana=2',
-        url: 'https://gigatron.rs/akcije?strana=2',
         text: 'Super ponuda klima uređaja - GREE',
         image: klima,
       },
       {
         to: 'https://gigatron.rs/akcije?strana=2',
-        url: 'https://gigatron.rs/akcije?strana=2',
         text: 'Super ponuda klima uređaja - GREE',
         image: klima,
       }
@@ -78,7 +72,7 @@ const pretraga = (term: string) => {
 
       <div className='akcija flex-col'>
         <h1 className='naslov'>Akcije</h1>
-        
+
         <input
           type='text'
           placeholder='Unesite pojam za pretragu'
