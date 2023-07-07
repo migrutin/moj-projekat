@@ -5,39 +5,39 @@ import promocije from '../img/tv.jpg'
 function Promotions() {
     const [linkovi, setLinkovi] = useState([
         {
-         to:'/klime',
-         text:'Ne propustite super promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite super promocije u radnjama',
+            image: promocije
         },
         {
-         to:'/klime',
-         text:'Ne propustite dobre promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite dobre promocije u radnjama',
+            image: promocije
         },
         {
-         to:'/klime',
-         text:'Ne propustite odlicne promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite odlicne promocije u radnjama',
+            image: promocije
         },
         {
-         to:'/klime',
-         text:'Ne propustite ekstra promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite ekstra promocije u radnjama',
+            image: promocije
         },
         {
-         to:'/klime',
-         text:'Ne propustite promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite promocije u radnjama',
+            image: promocije
         },
         {
-         to:'/klime',
-         text:'Ne propustite promocije u radnjama',
-         image: promocije
+            to: '/klime',
+            text: 'Ne propustite promocije u radnjama',
+            image: promocije
         }
     ])
 
     const handleKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
-        if(event.key === 'Enter') { 
+        if (event.key === 'Enter') {
             event.preventDefault();
             const pojam = event.currentTarget.value;
             pretraga(pojam);
@@ -45,9 +45,11 @@ function Promotions() {
     }
 
     const pretraga = (term: string) => {
-        const filtriraniLinkovi = linkovi.filter(link=> 
-            link.text.toLowerCase().includes(term.toLowerCase()));
+        
+            const filtriraniLinkovi = linkovi.filter(link =>
+                link.text.toLowerCase().includes(term.toLowerCase()));
             setLinkovi(filtriraniLinkovi)
+
 
     }
 
@@ -79,7 +81,7 @@ function Promotions() {
             <div className='akcija flex-col'>
                 <h1 className='naslov'>Promocije</h1>
                 <input type="" placeholder='Unesite pojam za pretragu' className='pretraga'
-                onKeyDown={handleKeyDown} />
+                    onKeyDown={handleKeyDown} />
 
                 <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>
                     {linkovi.map((link, index) => (
