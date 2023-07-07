@@ -18,6 +18,7 @@ import Akcije from './Akcije';
 import Kontakt from './Kontakt';
 import Karijera from './Karijera';
 import PromocijeUProdavnicama from './PromocijeUProdavnicama';
+import GejmingKorner from './GejmingKorner';
 
 
 
@@ -33,7 +34,8 @@ function App() {
     <Route path='/kontakt' element={<Kontakt/>}/>
     <Route path='/karijera' element={<Karijera/>}/>
     <Route path='/novosti' element={<Novosti/>}/>
-    <Route path='/promocije-u-prodavnici' element={<PromocijeUProdavnicama/>}/>
+    <Route path='/gaming-korner' element={<GejmingKorner/>}/>
+    <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama/>}/>
 
     
   </Routes>

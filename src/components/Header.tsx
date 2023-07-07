@@ -79,7 +79,7 @@ function Header() {
                     
                 </div>
 
-                <input type="text" id="search" placeholder="Unesite pojam za pretragu"
+                <input type="text" id="searchField" placeholder="Unesite pojam za pretragu"
                     className="ml-0 h-10 w-1/2 mt-7 px-4 py-1  border border-gray-300 rounded-full"></input>
 
                 <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">
