@@ -28,12 +28,12 @@ function Snizenje() {
                 <input type="" placeholder='Unesite pojam za pretragu' className='pretraga' />
 
                 <div className='grid grid-rows-2 grid-flow-col gap-4 mt-5'>
-                    <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
+                    <Link to='/klime' className='kvadrat'>
                         <img src={klima} alt="" className='h-40' />
                         <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>
 
 
-                    </a>
+                    </Link>
                     <a href='https://gigatron.rs/akcije?strana=2' className='kvadrat'>
                         <img src={klima} alt="" className='h-40' />
                         <p className='kvadrat-p'>Super ponuda klima uređaja - GREE</p>

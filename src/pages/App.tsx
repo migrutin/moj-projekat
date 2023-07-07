@@ -1,15 +1,5 @@
-import React from 'react';
 import './App.css'
-
-import Underline from '../components/Underline';
-import BodyPart from '../components/BodyPart';
-import Footer from '../components/Footer';
-import AboveFooter from '../components/AboveFooter'
-
 import {createBrowserRouter, createRoutesFromElements,  Route, Link, Outlet, RouterProvider, BrowserRouter, Routes} from 'react-router-dom'
-import Newsletter from '../components/Newsletter';
-import Header from '../components/Header';
-import AppRouter from '../AppRouter';
 import Novosti from './Novosti';
 import Poslovanje from './Poslovanje';
 import Promocije from './Promocije';
@@ -19,6 +9,7 @@ import Kontakt from './Kontakt';
 import Karijera from './Karijera';
 import PromocijeUProdavnicama from './PromocijeUProdavnicama';
 import GejmingKorner from './GejmingKorner';
+import Klime from './Klime';
 
 
 
@@ -36,6 +27,8 @@ function App() {
     <Route path='/novosti' element={<Novosti/>}/>
     <Route path='/gaming-korner' element={<GejmingKorner/>}/>
     <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama/>}/>
+    <Route path='/klime' element={<Klime/>}/>
+    
 
     
   </Routes>
