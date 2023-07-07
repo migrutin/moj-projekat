@@ -50,9 +50,17 @@
 
   }
 
-
+.linkovi{
+  margin-bottom: 1;
+  margin-top: 2;
+  cursor: pointer;
+  
+}
+.linkovi:hover{
+  text-decoration: underline;
+}
 .zuto{
-  background-color: rgb(222, 180, 15);
+  background-color: #eab308;
   height: 800px;
   width: 330px; 
   text-align: center;

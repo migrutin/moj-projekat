@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Underline() {
   return (
@@ -18,13 +19,13 @@ function Underline() {
       </div>
 
       <div className='flex space-x-4 py-3 mr-72'>
-        <a className='text-black cursor-pointer font-semibold'>Akcije</a>
+        <Link to='/akcije' className='text-black cursor-pointer font-semibold'>Akcije</Link>
         <a href='https://gigatron.rs/prodavnice' className='text-black cursor-pointer '>Prodavnice</a>
-        <a className='text-black cursor-pointer '>Poslovanje</a>
-        <a className='text-black cursor-pointer '>Gaming</a>
-        <a className='text-black cursor-pointer '>Kontakt</a>
-        <a className='text-black cursor-pointer '>Karijera</a>
-        <a className='text-black cursor-pointer '>Globaltel</a>
+        <Link to='/poslovanje' className='text-black cursor-pointer '>Poslovanje</Link>
+        <Link to='/poslovanje' className='text-black cursor-pointer '>Gaming</Link>
+        <Link to='/kontakt' className='text-black cursor-pointer '>Kontakt</Link>
+        <Link to='/karijera'className='text-black cursor-pointer '>Karijera</Link>
+        <Link to='/globaltel' className='text-black cursor-pointer '>Globaltel</Link>
       </div>
 
 

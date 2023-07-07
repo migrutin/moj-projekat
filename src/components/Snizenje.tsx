@@ -8,17 +8,15 @@ function Snizenje() {
             <div className='bg-white w-48 h-72 px-2 flex flex-col'>
                 <h1 className='text-xl underline my-2'>Izdvajamo iz ponude</h1>
                 <div className='w-40 h-px bg-gray-300'></div>
+                <Link to='/novosti' key='link-novosti' className='linkovi'>Novosti</Link>
+                <div className='w-36 h-px bg-gray-200'></div>
+                <Link to='' key='link-gamingKorner' className='linkovi'>Gaming korner</Link >
+                <div className='w-36 h-px bg-gray-200'></div>
+                <Link to='promocije' key='link-promocije' className='linkovi'>Promocije</Link>
+                <div className='w-36 h-px bg-gray-200'></div>
+                <Link to='promocije-u-prodavnici' key='link-promocijeProdavnice' className='linkovi'>Promocije u prodavnicama</Link>
+                <div className='w-36 h-px bg-gray-200'></div>
 
-
-                {/* UBACITI LINKOVE */}
-                <Link to='/app' className='mt-2 mb-1 cursor-pointer hover:underline'>Novosti</Link>
-                <div className='w-36 h-px bg-gray-200'></div>
-                <Link to='' className='mt-2 mb-1 cursor-pointer hover:underline'>Gaming korner</Link >
-                <div className='w-36 h-px bg-gray-200'></div>
-                <Link to='' className='mt-2 mb-1 cursor-pointer hover:underline'>Promocije</Link>
-                <div className='w-36 h-px bg-gray-200'></div>
-                <Link to='' className='mt-2 mb-1 cursor-pointer hover:underline'>Promocije u prodavnicama</Link>
-                <div className='w-36 h-px bg-gray-200'></div>
             </div>
 
 

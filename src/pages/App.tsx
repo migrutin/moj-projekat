@@ -10,24 +10,34 @@ import {createBrowserRouter, createRoutesFromElements,  Route, Link, Outlet, Rou
 import Newsletter from '../components/Newsletter';
 import Header from '../components/Header';
 import AppRouter from '../AppRouter';
+import Novosti from './Novosti';
+import Poslovanje from './Poslovanje';
+import Promocije from './Promocije';
+import Home from './Home';
+import Akcije from './Akcije';
+import Kontakt from './Kontakt';
+import Karijera from './Karijera';
+import PromocijeUProdavnicama from './PromocijeUProdavnicama';
 
 
 
 function App() {
 
   return (
-   
-      <div>
-        <Header/>
-        <Underline />
-        <BodyPart />
-        <Newsletter/>
-        <AboveFooter />
-        <Footer />
+ 
+    <Routes>
+    <Route path='/' element={<Home/>}/>
+    <Route path='/akcije' element={<Akcije/>}/>
+    <Route path='/poslovanje' element={<Poslovanje/>}/>
+    <Route path='/promocije' element={<Promocije/>}/>
+    <Route path='/kontakt' element={<Kontakt/>}/>
+    <Route path='/karijera' element={<Karijera/>}/>
+    <Route path='/novosti' element={<Novosti/>}/>
+    <Route path='/promocije-u-prodavnici' element={<PromocijeUProdavnicama/>}/>
 
-      
-      </div>
     
+  </Routes>
+
   );
 }
 

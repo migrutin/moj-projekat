@@ -3,6 +3,7 @@ import React, { useState } from 'react'
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'alpinejs'
 import logo from '../img/logo.png';
+import { Link } from 'react-router-dom';
 
 
 
@@ -74,7 +75,8 @@ function Header() {
             {/* Drugi red u Headeru */}
             <div className='flex mt-0 '>
                 <div className=" invisible md:visible flex justify-between items-center h-24 px-4 ml-44 mr-5 my-0">
-                    <img src={logo} alt="Logo" className='h-28 w-40 my-2' />
+                    <Link to='/'><img src={logo} alt="Logo" className='h-28 w-40 my-2' /></Link>
+                    
                 </div>
 
                 <input type="text" id="search" placeholder="Unesite pojam za pretragu"
