@@ -2,15 +2,16 @@ import React from 'react'
 import face from '../img/face.png'
 import gmail from '../img/gmail.png'
 import cell from '../img/cell.png'
+import { Link } from 'react-router-dom'
 
-function SignUpForm() {
+function SignInForm() {
   return (
     <div className='bg-gray-100 sm:h-screen sm:w-full sm:flex sm:items-center sm:justify-center'>
         <div className='bg-white h-350px w-96 py-5 px-5 rounded-lg'>
             <h1 className='text-xl'>Vaš Gigatron nalog</h1>
             <div className='flex'>
             <h3 className='text-sm'>Nemate Gigatron nalog?</h3>
-            <a href='#' className='text-sm text-blue-700 underline ml-1'> Registrujte se brzo i lako</a>
+            <Link to='/sign-up' className='text-sm text-blue-700 underline ml-1'> Registrujte se brzo i lako</Link>
             </div>
 
             <div className='mt-3'>
@@ -55,4 +56,4 @@ function SignUpForm() {
   )
 }
 
-export default SignUpForm
+export default SignInForm

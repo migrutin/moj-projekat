@@ -3,17 +3,18 @@ import Header from '../components/Header'
 import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
+import SignInForm from '../components/SignInForm'
 
-function SignUp() {
+function SignIn() {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <SignUp></SignUp>
+        <SignInForm></SignInForm>
         <Newsletter></Newsletter>
         <Footer></Footer>
     </div>
   )
 }
 
-export default SignUp
+export default SignIn

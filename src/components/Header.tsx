@@ -84,7 +84,7 @@ function Header() {
 
                 <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">
                     <i className="fa-regular fa-user text-white"></i>
-                    <span className='text-white invisible lg:visible'>Prijava</span>
+                    <Link to='/sign-in' className='text-white invisible lg:visible'>Prijava</Link>
                 </div>
 
                 <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">

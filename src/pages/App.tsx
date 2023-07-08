@@ -13,6 +13,8 @@ import Klime from './Klime';
 import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
 import Laptops from './Laptops';
+import SignIn from './SignIn';
+
 
 
 
@@ -34,6 +36,9 @@ function App() {
     <Route path='/globaltel' element={<Globaltel/>}/>
     <Route path='/portable-pc' element={<PortablePCs/>}/>
     <Route path='/laptops' element={<Laptops/>}/>
+    <Route path='/sign-in' element={<SignIn/>}/>
+    
+    
 
 
     
