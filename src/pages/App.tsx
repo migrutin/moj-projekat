@@ -11,6 +11,7 @@ import PromocijeUProdavnicama from './PromocijeUProdavnicama';
 import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
 import Globaltel from './Globaltel';
+import PortablePCs from './PortablePCs';
 
 
 
@@ -30,6 +31,8 @@ function App() {
     <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama/>}/>
     <Route path='/klime' element={<Klime/>}/>
     <Route path='/globaltel' element={<Globaltel/>}/>
+    <Route path='/portable-pc' element={<PortablePCs/>}/>
+
 
     
 

@@ -12,7 +12,7 @@ function KomponentaZaAkciju() {
         <div className='linija'></div>
         <Link to='/promocije' key='link-promocije' className='linkovi'> Promocije </Link>
         <div className='linija'></div>
-        <Link to='/promocije-u-prodavnici' key='link-promocijeProdavnice' className='linkovi'> Promocije u prodavnicama</Link>
+        <Link to='/promocije-u-prodavnicama' key='link-promocijeProdavnice' className='linkovi'> Promocije u prodavnicama</Link>
         <div className='linija'></div>
     </div>
   )

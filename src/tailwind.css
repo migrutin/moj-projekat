@@ -303,3 +303,46 @@ img {
   
 
 }
+
+.dropdown {
+  width: 288px;
+  height: 384px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: #6b7280;
+}
+
+.dropdown-link{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  color: #4b5563;
+}
+
+.laptop{
+  background: #f3f4f6;
+  height: screen;
+  width: screen;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.laptop-square{
+  height: 900px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+
+
+}
+
+.image-laptop{
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  width: 350px;
+}
