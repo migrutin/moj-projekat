@@ -346,3 +346,73 @@ img {
   height: 300px;
   width: 350px;
 }
+
+.laptop-items{
+
+  background: #f3f4f6;
+  height: screen;
+  width: screen;
+  padding-left: 200px;
+  padding-right: 150px;
+  
+
+}
+.laptop-div-1{
+  border-bottom: solid rgb(160, 156, 156) 1px;
+  margin-bottom: 10px;
+  
+}
+
+.laptop-h{
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.laptop-item{ 
+  height: 900px;
+  width: 1000px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  margin-left: 30px;
+
+
+}
+
+.laptop-item-img{
+ 
+  height: 200px;
+  width: 200px;
+  margin-left: 50px;
+
+}
+
+.link{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  background: white;
+  flex-direction: column;
+
+}
+
+.link-h{
+  font-weight: 500;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.link-p{
+  margin-left: 30px;
+  font-size: x-large;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.link-i{
+  margin-top:50px;
+  margin-left: 100px;
+ 
+}

@@ -12,6 +12,7 @@ import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
 import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
+import Laptops from './Laptops';
 
 
 
@@ -32,6 +33,7 @@ function App() {
     <Route path='/klime' element={<Klime/>}/>
     <Route path='/globaltel' element={<Globaltel/>}/>
     <Route path='/portable-pc' element={<PortablePCs/>}/>
+    <Route path='/laptops' element={<Laptops/>}/>
 
 
     
