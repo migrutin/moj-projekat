@@ -5,8 +5,7 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
-import PromocijeUProdavnicama from './pages/PromocijeUProdavnicama';
-import Kontakt from './pages/Kontakt';
+import MyComponents from './components/MyComponents';
 
 
 const root = ReactDOM.createRoot(

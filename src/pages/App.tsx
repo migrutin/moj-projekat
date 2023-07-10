@@ -15,6 +15,7 @@ import PortablePCs from './PortablePCs';
 import Laptops from './Laptops';
 import SignIn from './SignIn';
 import NewUser from './NewUser';
+import MyComponents from '../components/MyComponents';
 
 
 
@@ -39,6 +40,7 @@ function App() {
     <Route path='/laptops' element={<Laptops/>}/>
     <Route path='/sign-in' element={<SignIn/>}/>
     <Route path='/sign-up' element={<NewUser/>}/>
+  
     
     
 

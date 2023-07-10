@@ -1,59 +1,132 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import face from '../img/face.png'
 import gmail from '../img/gmail.png'
 import cell from '../img/cell.png'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+interface RegistrationObject {
+    email: string;
+    password: string;
+}
 
 function NewUserForm() {
-  return (
-    <div className='bg-gray-100 sm:h-screen sm:w-full sm:flex sm:items-center sm:justify-center'>
-        <div className='bg-white h-350px w-96 py-5 px-5 rounded-lg'>
-            <h1 className='text-xl'>Vaš Gigatron nalog</h1>
-            <div className='flex'>
-            <h3 className='text-sm'>Već imate Gigatron nalog?</h3>
-            <Link to='/sign-in' className='text-sm text-blue-700 underline ml-1'>Prijavi se</Link>
-            </div>
 
-            <div className='mt-3'>
-                <p>Email adresa *</p>
-                <input type="" className='w-full h-10 rounded-md mt-2 border-solid border-2'/>
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const navigate = useNavigate();
 
-            </div>
+
+   
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    let registrationObject: RegistrationObject = { email, password };
+    console.log(registrationObject);
+    if (validation()) {
+      const emailExists = await checkEmail(email);
+      if (emailExists) {
+        toast.warning('Email already exists');
+      } else {
+        registerUser(registrationObject);
+      }
+    }
+  };
+
+    const registerUser = (registrationObject: RegistrationObject) => {
+        fetch('http://localhost:3600/users', {
+          method: 'POST',
+          headers: { 'content-type': 'application/json' },
+          body: JSON.stringify(registrationObject),
+        })
+          .then((res) => {
+            toast.success('Registered successfully');
+            navigate('/sign-in');
+          })
+          .catch((err) => {
+            toast.error('Failed:' + err.message);
+          });
+      };
+
+
+    const checkEmail = async (email:string) => {
+        try {
+            const respons = await fetch(`http://localhost:3600/users?email=${email}`);
+            const responsJson = await respons.json();
+            return responsJson.length > 0;
             
-            <div className='mt-3'>
-                <p>Lozinka*</p>
-                <input type="" className='w-full h-10 rounded-md mt-2 border-solid border-2'/>
-                <a href='#' className='text-sm text-blue-700 underline'>Zaboravili ste lozinku?</a>
+        } catch (error) {
+            console.error('Error', error);
+            return false;
+        }
+    }
 
-            </div>
+    const validation = () => {
+        let result = true;
+        if (email === '' || email === null) {
+            result = false;
+            toast.warning('Enter enter email')
+        }
 
-            <button className='bg-blue-500 text-white w-full h-12 font-bold mt-5 rounded-lg'> Registrujte se
+        if (password === '' || password === null) {
+            result = false;
+            toast.warning('Please enter password');
+        }
 
-            </button>
 
-            <p className='text-gray-500 text-sm text-center mt-5'>Odaberite drugu opciju za prijavu</p>
+        return result;
+    }
 
-            <div className='space-x-2 mt-2 ml-4'>
-                <button className='bg-white border-solid border-2 w-24 '>
-                    <img src={face} alt="" className='w-8 h-8 ml-6'/>
+
+    return (
+        <div className='bg-gray-100 sm:h-screen sm:w-full sm:flex sm:items-center sm:justify-center'>
+            <form className='registration-form' onSubmit={handleSubmit}>
+                <h1 className='text-xl'>Napravite svoj Gigatron nalog</h1>
+                <div className='flex'>
+                    <h3 className='text-sm'>Već imate Gigatron nalog?</h3>
+                    <Link to='/sign-in' className='forgotten-password'>Prijavi se</Link>
+                </div>
+
+                <div className='mt-3'>
+                    <label>Email adresa *</label>
+                    <input value={email} onChange={e => setEmail(e.target.value)} type="email" className='email-input' />
+
+                </div>
+
+                <div className='mt-3'>
+                    <label>Lozinka*</label>
+                    <input value={password} onChange={e => setPassword(e.target.value)} type="password" className='email-input' />
+                    <a href='#' className='forgotten-password'>Zaboravili ste lozinku?</a>
+
+                </div>
+
+                <button className='sign-in-button'> Registrujte se
+
                 </button>
-                <button className='bg-white border-solid border-2 w-24 '>
-                    <img src={gmail} alt="" className='w-8 h-8 ml-6'/>
-                </button>
-                <button className='bg-white border-solid border-2 w-24 '>
-                    <img src={cell} alt="" className='w-8 h-8 ml-6'/>
-                </button>
-                
-            </div>
 
-            <div className='rounded-lg border-solid border-2 text-center mt-4'>
-                 <p>Kupovinom kao registrovani kupac ostvarujete pravo na Gigatron bodove koji vam donose i do 50% popusta pri sledećoj kupovini.</p>
-                 </div>
+                <p className='options'>Odaberite drugu opciju za prijavu</p>
 
+                <div className='other-options space-x-2'>
+                    <button className='icon-button '>
+                        <img src={face} alt="" className='icon-img' />
+                    </button>
+                    <button className='icon-button '>
+                        <img src={gmail} alt="" className='icon-img' />
+                    </button>
+                    <button className='icon-button '>
+                        <img src={cell} alt="" className='icon-img' />
+                    </button>
+
+                </div>
+
+                <div className='bottom-square'>
+                    <p>Kupovinom kao registrovani kupac ostvarujete pravo na Gigatron bodove koji vam donose i do 50% popusta pri sledećoj kupovini.</p>
+                </div>
+
+            </form>
+            <ToastContainer />
         </div>
-
-    </div>
-  )
+    )
 }
 
 export default NewUserForm
