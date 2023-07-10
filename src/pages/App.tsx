@@ -14,6 +14,7 @@ import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
 import Laptops from './Laptops';
 import SignIn from './SignIn';
+import NewUser from './NewUser';
 
 
 
@@ -37,6 +38,7 @@ function App() {
     <Route path='/portable-pc' element={<PortablePCs/>}/>
     <Route path='/laptops' element={<Laptops/>}/>
     <Route path='/sign-in' element={<SignIn/>}/>
+    <Route path='/sign-up' element={<NewUser/>}/>
     
     
 
