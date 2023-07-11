@@ -500,3 +500,26 @@ img {
   border-radius: 8px;
 
 }
+
+.quantity-buttons{
+  background-color: #eab308;
+  border-radius: 16px;
+  height: 30px;
+  width: 30px;
+  font-weight: 500;
+}
+
+.quantity{
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.remove-button{
+  background-color: rgb(218, 64, 64);
+  border-radius: 8px;
+  height: 40px;
+  width: 70px;
+  margin-top: 3px;
+  margin-left: 3px;
+}

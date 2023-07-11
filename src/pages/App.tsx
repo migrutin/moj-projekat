@@ -1,5 +1,5 @@
 import './App.css'
-import {createBrowserRouter, createRoutesFromElements,  Route, Link, Outlet, RouterProvider, BrowserRouter, Routes} from 'react-router-dom'
+import { createBrowserRouter, createRoutesFromElements, Route, Link, Outlet, RouterProvider, BrowserRouter, Routes } from 'react-router-dom'
 import Novosti from './Novosti';
 import Poslovanje from './Poslovanje';
 import Promocije from './Promocije';
@@ -16,6 +16,8 @@ import Laptops from './Laptops';
 import SignIn from './SignIn';
 import NewUser from './NewUser';
 import MyComponents from '../components/MyComponents';
+import { ShoppingCartProvider } from '../context/ShoppingCartContext';
+import ShoppingBasket from './ShoppingBasket';
 
 
 
@@ -23,32 +25,33 @@ import MyComponents from '../components/MyComponents';
 function App() {
 
   return (
- 
-    <Routes>
-    <Route path='/' element={<Home/>}/>
-    <Route path='/akcije' element={<Akcije/>}/>
-    <Route path='/poslovanje' element={<Poslovanje/>}/>
-    <Route path='/promocije' element={<Promocije/>}/>
-    <Route path='/kontakt' element={<Kontakt/>}/>
-    <Route path='/karijera' element={<Karijera/>}/>
-    <Route path='/novosti' element={<Novosti/>}/>
-    <Route path='/gaming-korner' element={<GejmingKorner/>}/>
-    <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama/>}/>
-    <Route path='/klime' element={<Klime/>}/>
-    <Route path='/globaltel' element={<Globaltel/>}/>
-    <Route path='/portable-pc' element={<PortablePCs/>}/>
-    <Route path='/laptops' element={<Laptops/>}/>
-    <Route path='/login' element={<SignIn/>}/>
-    <Route path='/registracija' element={<NewUser/>}/>
-  
-    
-    
+
+    <ShoppingCartProvider>
+      
+      <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/akcije' element={<Akcije />} />
+      <Route path='/poslovanje' element={<Poslovanje />} />
+      <Route path='/promocije' element={<Promocije />} />
+      <Route path='/kontakt' element={<Kontakt />} />
+      <Route path='/karijera' element={<Karijera />} />
+      <Route path='/novosti' element={<Novosti />} />
+      <Route path='/gaming-korner' element={<GejmingKorner />} />
+      <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama />} />
+      <Route path='/klime' element={<Klime />} />
+      <Route path='/globaltel' element={<Globaltel />} />
+      <Route path='/portable-pc' element={<PortablePCs />} />
+      <Route path='/laptops' element={<Laptops />} />
+      <Route path='/login' element={<SignIn />} />
+      <Route path='/registracija' element={<NewUser />} />
+      <Route path='/korpa' element={<ShoppingBasket />} />
 
 
-    
 
+    </Routes>
     
-  </Routes>
+    </ShoppingCartProvider>
+
 
   );
 }

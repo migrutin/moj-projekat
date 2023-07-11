@@ -3,13 +3,23 @@ import React, { useState } from 'react'
 import '@fortawesome/fontawesome-free/css/all.css';
 import 'alpinejs'
 import logo from '../img/logo.png';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 
 
 
 
 function Header() {
     const [dropDown, setDropDown] = useState(false)
+
+    const{ totalNumberItems} = useShoppingCart()
+
+    const navigate = useNavigate();
+
+    const handleNavigation=()=> {
+        navigate('/korpa')
+    }
+
 
     return (
 
@@ -87,11 +97,11 @@ function Header() {
                     <Link to='/login' className='text-white invisible lg:visible'>Prijava</Link>
                 </div>
 
-                <button className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4 relative">
+                <button className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4 relative" onClick={handleNavigation}>
                     <i className="fa fa-shopping-cart text-white">
                         <div className='rounded-full bg-yellow-400
                         h-5 w-5 flex justify-center align-middle absolute -mt-7 -ml-3'>
-                            
+                            {totalNumberItems}
                         </div>
                     </i>
                     <span className='text-white invisible lg:visible'>Korpa</span>
