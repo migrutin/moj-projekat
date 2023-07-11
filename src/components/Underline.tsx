@@ -2,17 +2,19 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.css';
 import ProductsDropdown from './ProductsDropdown';
+import SecondDropDown from './SecondDropDown';
 
 
 function Underline() {
-  const [dropDown, setDropDown] = useState(false);
+  const [firstDropDown, setfirstDropDown] = useState(false);
+  const [secondDropDown, setsecondDropDown] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent){
       if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setDropDown(false);
-        console.log('aaaaaaaaaa')
+        setfirstDropDown(false);
+        setsecondDropDown(false);
       }
     }
 
@@ -23,24 +25,26 @@ function Underline() {
     };
   }, []);
 
-  
-
   return (
     <div className='bg-white max-w-full h-16 flex px-32 justify-between text-base border-b-2'>
-      <div className='flex space-x-2 ml-12' onClick={() => setDropDown(true)}>
-        <div className='space-x-1 py-2'>
+      <div className='flex space-x-2 ml-12'>
+        <div className='space-x-1 py-2' onClick={() => setfirstDropDown(!firstDropDown)}>
           <i className="fa-solid fa-bars"></i>
           <a className='text-black font-semibold cursor-pointer text-xl'>Proizvodi</a>
         </div>
 
-        {dropDown &&(
+        {firstDropDown && (
           <ProductsDropdown></ProductsDropdown>
         )}
 
-        <div className='space-x-1 py-2'>
+        <div className='space-x-1 py-2' onClick={() => setsecondDropDown(!secondDropDown)}>
           <i className="fa-solid fa-heart"></i>
           <a className='text-black font-semibold cursor-pointer text-xl'>Pogodnosti</a>
         </div>
+
+        {secondDropDown && (
+          <SecondDropDown></SecondDropDown>
+        )}
       </div>
 
       <div className='flex space-x-4 py-3 mr-72'>

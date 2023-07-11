@@ -38,8 +38,8 @@ function App() {
     <Route path='/globaltel' element={<Globaltel/>}/>
     <Route path='/portable-pc' element={<PortablePCs/>}/>
     <Route path='/laptops' element={<Laptops/>}/>
-    <Route path='/sign-in' element={<SignIn/>}/>
-    <Route path='/sign-up' element={<NewUser/>}/>
+    <Route path='/login' element={<SignIn/>}/>
+    <Route path='/registracija' element={<NewUser/>}/>
   
     
     

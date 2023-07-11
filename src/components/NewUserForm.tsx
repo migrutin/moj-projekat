@@ -41,7 +41,7 @@ function NewUserForm() {
         })
           .then((res) => {
             toast.success('Registered successfully');
-            navigate('/sign-in');
+            navigate('/login');
           })
           .catch((err) => {
             toast.error('Failed:' + err.message);
@@ -84,7 +84,7 @@ function NewUserForm() {
                 <h1 className='text-xl'>Napravite svoj Gigatron nalog</h1>
                 <div className='flex'>
                     <h3 className='text-sm'>Već imate Gigatron nalog?</h3>
-                    <Link to='/sign-in' className='forgotten-password'>Prijavi se</Link>
+                    <Link to='/login' className='forgotten-password'>Prijavi se</Link>
                 </div>
 
                 <div className='mt-3'>

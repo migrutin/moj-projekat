@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
 import logomajstor from '../img/logomajstor.png';
 import majstor from '../img/majstor.png'
 import glob from '../img/glob.png'
@@ -7,27 +7,50 @@ import a from  '../img/a.png'
 import samsung from  '../img/samsung.png'
 import appdevice from '../img/appdevice.png'
 import sams from '../img/sams.png'
+import klimee from '../img/klimee.jpg'
+import festival from '../img/festival.jpg'
+import philipsTv from '../img/philipsTv.jpg'
 
 function BodyPart() {
+    const [image, setImage] = useState(0);
+    const navigate = useNavigate();
+
+    const handleNavigation=()=> {
+        navigate('/akcije')
+    }
+
+    const images= [
+        klimee, festival, philipsTv
+        
+    ]
+
+    const handlePrevious = () => {
+        setImage ((prevImage) => (prevImage === 0 ? images.length-1 : prevImage -1));
+    };
+
+    const handleNext = ()=> {
+        setImage ((prevImage) => (prevImage === images.length - 1 ? 0 : prevImage +1));
+    }
 
 
     return (
         <div className='bg-gray-100 max-w-full h-full px-16'>
             <div className='flex bg-transparent h-96 w-3/4 ml-44 space-x-6 pt-10    '>
                 <div className="relative bg-green-200 w-3/4 rounded-lg z-10">
+                    <img src={images[image]} alt={`Image ${image + 1}`} className='h-full rounded-lg'/>
                     <button className="absolute bottom-2 right-2 rounded-full
-                             font-semibold bg-gray-100 h-8 w-32 hover:bg-gray-200">
+                             font-semibold bg-gray-100 h-8 w-32 hover:bg-gray-200" onClick={handleNavigation}>
                         Saznajte više
                     </button>
 
                     <div className='flex-col space-x-10'>
                         <button className="absolute rounded-full bottom-2 left-2
-                             font-semibold bg-gray-100 h-8 w-8 hover:bg-gray-200">
-
+                             font-semibold bg-gray-100 h-8 w-8 hover:bg-gray-200" onClick={handlePrevious}>
+                                <i className="fa fa-arrow-left" aria-hidden="true"></i>
                         </button>
                         <button className="absolute rounded-full bottom-2 left-1
-                             font-semibold bg-gray-100 h-8 w-8 hover:bg-gray-200">
-
+                             font-semibold bg-gray-100 h-8 w-8 hover:bg-gray-200" onClick={handleNext}>
+                             <i className="fa fa-arrow-right" aria-hidden="true"></i>
                         </button>
                     </div>
 
@@ -37,6 +60,7 @@ function BodyPart() {
                 <div className='bg-blue-200 h-88 w-1/3 rounded-lg relative'>
                     <button className="absolute rounded-full top-36 left-3
                              font-semibold bg-gray-900 h-8 w-8 hover:bg-gray-200">
+                                <i className="fa fa-arrow-circle-left" aria-hidden="true"></i>
 
                     </button>
 

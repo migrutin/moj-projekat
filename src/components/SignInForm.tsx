@@ -56,7 +56,7 @@ function SignInForm() {
         <h1 className='text-xl'>Vaš Gigatron nalog</h1>
         <div className='flex'>
           <h3 className='text-sm'>Nemate Gigatron nalog?</h3>
-          <Link to='/sign-up' className='forgotten-password ml-1'>
+          <Link to='/registracija' className='forgotten-password ml-1'>
             Registrujte se brzo i lako
           </Link>
         </div>
