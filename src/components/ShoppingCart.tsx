@@ -1,9 +1,16 @@
-import React from 'react'
+import CartItem from "../context/CartItem"
+import { useShoppingCart } from "../context/ShoppingCartContext"
 
 function ShoppingCart() {
+  const {cartItems} = useShoppingCart()
   return (
     <div>
-        <header>Korpa</header>
+        <header>
+          
+          {cartItems.map(item=>(
+            <CartItem key={item.id} {...item}/>
+          ))}
+        </header>
     </div>
   )
 }

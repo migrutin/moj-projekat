@@ -523,3 +523,12 @@ img {
   margin-top: 3px;
   margin-left: 3px;
 }
+
+.cart{
+  background-color: yellow;
+  height: 224px;
+  width: 224px;
+  margin-left: 176px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}

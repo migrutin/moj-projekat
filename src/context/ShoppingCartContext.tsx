@@ -17,7 +17,7 @@ type ShoppingCartProviderProps = {
 
 type CartItem = {
     id: number;
-    quantaty: number;
+    quantity: number;
 }
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
@@ -35,12 +35,12 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
 
 
     const totalNumberItems = cartItems.reduce(
-        (quantity, item) => item.quantaty + quantity, 0
+        (quantity, item) => item.quantity + quantity, 0
     )
 
 
     function getItemQuantity(id: number) {
-        return cartItems.find(item => item.id === id)?.quantaty || 0
+        return cartItems.find(item => item.id === id)?.quantity || 0
 
     }
 
@@ -50,11 +50,11 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
             if (currItems.find(item => item.id === id) == null) {
                 //Add a new one in array 
 
-                return [...currItems, { id, quantaty: 1 }]
+                return [...currItems, { id, quantity: 1 }]
             } else {
                 return currItems.map(item => {
                     if (item.id === id) {
-                        return { ...item, quantaty: item.quantaty + 1 }
+                        return { ...item, quantity: item.quantity + 1 }
                     } else {
                         return item
                     }
@@ -66,14 +66,14 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
     function decreaseQuantity(id: number) {
         setCartItems(currItems => {
             //if there is one
-            if (currItems.find(item => item.id === id)?.quantaty === 1) {
+            if (currItems.find(item => item.id === id)?.quantity === 1) {
                 //give me the new list with all the items except the one with this id that I have gave you
                 return currItems.filter(item => item.id !== id)
 
             } else {
                 return currItems.map(item => {
                     if (item.id === id) {
-                        return { ...item, quantaty: item.quantaty - 1 }
+                        return { ...item, quantity: item.quantity - 1 }
                     } else {
                         return item
                     }
