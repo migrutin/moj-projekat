@@ -7,9 +7,9 @@ import a from  '../img/a.png'
 import samsung from  '../img/samsung.png'
 import appdevice from '../img/appdevice.png'
 import sams from '../img/sams.png'
-import klimee from '../img/klimee.jpg'
-import festival from '../img/festival.jpg'
-import philipsTv from '../img/philipsTv.jpg'
+import i from '../img/i.jpg'
+import samsungg from '../img/samsungg.jpg'
+import xiaomi from '../img/xiaomi.jpg'
 
 function BodyPart() {
     const [image, setImage] = useState(0);
@@ -20,7 +20,7 @@ function BodyPart() {
     }
 
     const images= [
-        klimee, festival, philipsTv
+        i, samsungg, xiaomi
         
     ]
 
@@ -37,7 +37,7 @@ function BodyPart() {
         <div className='bg-gray-100 max-w-full h-full px-16'>
             <div className='flex bg-transparent h-96 w-3/4 ml-44 space-x-6 pt-10    '>
                 <div className="relative bg-green-200 w-3/4 rounded-lg z-10">
-                    <img src={images[image]} alt={`Image ${image + 1}`} className='h-full rounded-lg'/>
+                    <img src={images[image]} alt={`Image ${image + 1}`} className='h-full w-full rounded-lg'/>
                     <button className="absolute bottom-2 right-2 rounded-full
                              font-semibold bg-gray-100 h-8 w-32 hover:bg-gray-200" onClick={handleNavigation}>
                         Saznajte više
