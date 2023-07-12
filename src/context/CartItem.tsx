@@ -25,7 +25,7 @@ export default function CartItem({id, quantity}: CartItemProps) {
                <div></div>
             </div>
 
-            <button className='remove'>x</button>
+            <button className='remove' onClick={() => remove(item.id)}>X </button>
 
             <div className='div-cart-2'>
                 <div className='flex flex-ol'>
