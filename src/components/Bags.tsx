@@ -17,7 +17,7 @@ function Bags() {
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch("http://localhost:3001/bags");
+      const response=await fetch("http://localhost:3000/bags");
       const result=await response.json() as BagFetchType;
       console.log(result);
       setData(result);
