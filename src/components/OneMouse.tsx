@@ -9,29 +9,29 @@ type OneMouseProps ={
     price: number;
 }
 
-const OneMouse = ({id, name, imgUrl, price} : OneMouseProps) => {
+const OneMouse = (mouse : OneMouseProps) => {
     const {increaseQuantity, decreaseQuantity, remove, getItemQuantity} = useShoppingCart()
-    const numberOfItems: number = getItemQuantity(id)
+    const numberOfItems: number = getItemQuantity(mouse.id)
 
     console.log(numberOfItems)
   return (
-    <Link to='/mice' className='link' key={id}>
-    <img src={imgUrl} alt="aaaa" className='laptop-item-img' />
-    <h1 className='link-h'>{name}</h1>
+    <Link to='/mice' className='link' key={mouse.id}>
+    <img src={mouse.imgUrl} alt="aaaa" className='laptop-item-img' />
+    <h1 className='link-h'>{mouse.name}</h1>
     <div className='flex'>
-      <p className='link-p'>{price} RSD</p>
+      <p className='link-p'>{mouse.price} RSD</p>
       {(numberOfItems) === 0 ? (
-        <i className="fa fa-shopping-cart fa-2xl link-i" onClick={() =>increaseQuantity(id)} aria-hidden="true"></i>
+        <i className="fa fa-shopping-cart fa-2xl link-i" onClick={() =>increaseQuantity(mouse)} aria-hidden="true"></i>
       ) : (
         <div className='link-i flex-col'>
           <div className='flex'>
-          <button className='quantity-buttons' onClick={() =>decreaseQuantity(id)}> - </button>
+          <button className='quantity-buttons' onClick={() =>decreaseQuantity(mouse.id)}> - </button>
           <div className='quantity'>{numberOfItems}</div>
-          <button className='quantity-buttons'onClick={() =>increaseQuantity(id)} > + </button>
+          <button className='quantity-buttons'onClick={() =>increaseQuantity(mouse)} > + </button>
           </div>
 
           <div>
-            <button className='remove-button' onClick={()=>remove(id)}>remove</button>
+            <button className='remove-button' onClick={()=>remove(mouse.id)}>remove</button>
           </div>
         </div>
 

@@ -29,7 +29,7 @@ interface TypeProps{
          
         {arrayLaptops.map(oneLaptop=>
           <OneLaptop
-           id={oneLaptop.id} 
+          id={oneLaptop.id} 
           imgUrl={oneLaptop.imgUrl} 
           name={oneLaptop.name} 
           price={oneLaptop.price}
