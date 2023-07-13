@@ -12,14 +12,13 @@ import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
 import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
-import Laptops from './Laptops';
 import SignIn from './SignIn';
 import NewUser from './NewUser';
-import MyComponents from '../components/MyComponents';
 import { ShoppingCartProvider } from '../context/ShoppingCartContext';
 import ShoppingBasket from './ShoppingBasket';
 import L from './L';
 import M from './M';
+import B from './B';
 
 
 
@@ -45,6 +44,9 @@ function App() {
       <Route path='/portable-pc' element={<PortablePCs />} />
       <Route path='/laptops' element={<L />} />
       <Route path='/mice' element={<M/>} />
+      <Route path='/bags' element={<B/>} />
+      
+
 
       <Route path='/login' element={<SignIn />} />
       <Route path='/registracija' element={<NewUser />} />

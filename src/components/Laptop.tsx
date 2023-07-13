@@ -1,7 +1,3 @@
-import React, { useContext, useState } from 'react'
-import { Link } from 'react-router-dom'
-import slika from '../img/apple.png'
-import { useShoppingCart } from '../context/ShoppingCartContext';
 import OneLaptop from './OneLaptop'
 
 interface TypeOneLaptop{

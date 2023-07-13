@@ -1,9 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header'
-import Underline from '../components/Underline'
-import Newsletter from '../components/Newsletter'
-import AboveFooter from '../components/AboveFooter'
-import Footer from '../components/Footer'
 import Laptop from '../components/Laptop'
 
 type OneProduct = {

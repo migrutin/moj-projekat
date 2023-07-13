@@ -1,6 +1,5 @@
-import React from 'react'
 import mapa from '../img/mapa.jpg'
-import Laptops from '../pages/Laptops'
+
 
 
 function Contact() {
