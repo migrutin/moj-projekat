@@ -32,7 +32,7 @@ const JedanLaptop=({id,name,imgUrl,price}:OneLaptopProps)=>{
           </div>
 
           <div>
-            <button className='remove-button'>remove</button>
+            <button className='remove-button' onClick={()=>remove(id)}>remove</button>
           </div>
         </div>
 
