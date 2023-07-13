@@ -23,13 +23,13 @@ function Mouse({arrayMice}: TypeProps) {
           <div className='laptop'>
             <div className='laptop-item'>
              
-            {arrayMice.map(oneMouse=>
+            {arrayMice.map(mouse=>
               <OneMouse
-               id={oneMouse.id} 
-              imgUrl={oneMouse.imgUrl} 
-              name={oneMouse.name} 
-              price={oneMouse.price}
-              key={oneMouse.id}
+               id={mouse.id} 
+              imgUrl={mouse.imgUrl} 
+              name={mouse.name} 
+              price={mouse.price}
+              key={mouse.id}
               />)}
     
             </div>

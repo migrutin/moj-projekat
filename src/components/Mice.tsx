@@ -1,10 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import Header from '../components/Header'
-import Underline from '../components/Underline'
-import Newsletter from '../components/Newsletter'
-import AboveFooter from '../components/AboveFooter'
-import Footer from '../components/Footer'
-import Laptop from '../components/Laptop'
 import Mouse from './Mouse'
 
 type OneProduct = {
@@ -32,11 +26,12 @@ function Mice() {
       
     }, [])
 
-    if(data==null){
-      return <div>Ovde ide neki login spiner</div>
-    }else{
-      return <Mouse arrayMice={data}/>
-    }
+
+    return (
+      <>{data ? <Mouse arrayMice={data} /> : <div>Ovde ide neki login spiner</div>}</>
+      
+    )
+   
   
 }
 

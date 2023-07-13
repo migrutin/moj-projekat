@@ -1,0 +1,40 @@
+{
+    "dockers": [
+        {
+            "id": 1,
+            "name": "VENTION USB-C 12u1 Docking Station",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 15.999
+        },
+        {
+            "id": 2,
+            "name": "ATEN 2 port Thunderbolt 2 US7220 KVM Docking Station",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 89.999
+        },
+        {
+            "id": 3,
+            "name": "D-LINK USB-C DUB-2334 Docking station",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 8.999
+        },
+        {
+            "id": 4,
+            "name": "DELL WD19S Dock stanica",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 46.999
+        },
+        {
+            "id": 5,
+            "name": "MCDODO 6 u 1 USB-C Docking Station",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 5.999
+        },
+        {
+            "id": 6,
+            "name": "ATEN USB-C Multiport Dock, Punjač 60W - UH3234",
+            "imgUrl": "../img/laptop.jpg",
+            "price": 36.999
+        }
+    ]
+}

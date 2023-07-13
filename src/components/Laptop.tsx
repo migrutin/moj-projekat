@@ -15,10 +15,7 @@ interface TypeProps{
 
 
  function Laptop({arrayLaptops}:TypeProps){
-  if (!Array.isArray(arrayLaptops)) {
-    // Ako arrayLaptops nije niz, možete vratiti poruku o grešci ili prazan sadržaj
-    return <div>Nema dostupnih laptopova.</div>;
-  }
+
 
 
   return (
