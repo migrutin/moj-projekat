@@ -18,6 +18,7 @@ import NewUser from './NewUser';
 import MyComponents from '../components/MyComponents';
 import { ShoppingCartProvider } from '../context/ShoppingCartContext';
 import ShoppingBasket from './ShoppingBasket';
+import L from './L';
 
 
 
@@ -41,7 +42,7 @@ function App() {
       <Route path='/klime' element={<Klime />} />
       <Route path='/globaltel' element={<Globaltel />} />
       <Route path='/portable-pc' element={<PortablePCs />} />
-      <Route path='/laptops' element={<Laptops />} />
+      <Route path='/laptops' element={<L />} />
       <Route path='/login' element={<SignIn />} />
       <Route path='/registracija' element={<NewUser />} />
       <Route path='/korpa' element={<ShoppingBasket />} />

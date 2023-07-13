@@ -18,6 +18,7 @@ export default function CartItem({id, quantity}: CartItemProps) {
             <div className='cart'>
                 <img src={item.imgUrl} alt="" className='w-56 h-56' />
             </div>
+            
 
             <div className='shopping-cart-text'>
                 <h1 className='cart-name'>{item.name} {quantity > 1 && <div className='text-gray-700 my-2'>x{quantity}</div>}</h1>

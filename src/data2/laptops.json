@@ -11,31 +11,31 @@
             "id": 2,
             "name": "HP ProBook 440 G9 i5/16/512 6A2H4EA",
             "imgUrl": "../img/laptop.jpg",
-            "price": 69.999
+            "price": 13.999
         },
         {
             "id": 3,
             "name": "HP ProBook 470 G9 i5/8/512 6S7D3E",
             "imgUrl": "../img/laptop.jpg",
-            "price": 69.999
+            "price": 100.999
         },
         {
             "id": 4,
             "name": "HP 15s-eq3009nm R7/16/512 65C50E",
             "imgUrl": "../img/laptop.jpg",
-            "price": 69.999
+            "price": 75.999
         },
         {
             "id": 5,
             "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
             "imgUrl": "../img/laptop.jpg",
-            "price": 69.999
+            "price": 49.999
         },
         {
             "id": 6,
             "name": "HP Pavilion 13-bb0027nm i3/8/512 634D8EA",
             "imgUrl": "../img/laptop.jpg",
-            "price": 69.999
+            "price": 129.999
         }
     ]
 }
