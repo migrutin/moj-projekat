@@ -14,7 +14,7 @@ const OneBag = ({id, name, imgUrl, price} : OneBagProps) => {
     const numberOfItems: number = getItemQuantity(id)
   return (
     <Link to='/bags' className='link' key={id}>
-    <img src={imgUrl} alt="ABRAKADABRA" className='laptop-item-img' />
+    <img src={imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{name}</h1>
     <div className='flex'>
       <p className='link-p'>{price} RSD</p>

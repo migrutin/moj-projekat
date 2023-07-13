@@ -17,7 +17,7 @@ const OneLaptop=({id,name,imgUrl,price}:OneLaptopProps)=>{
 
     return (
     <Link to='/laptops' className='link' key={id}>
-    <img src={imgUrl} alt="ABRAKADABRA" className='laptop-item-img' />
+    <img src={imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{name}</h1>
     <div className='flex'>
       <p className='link-p'>{price} RSD</p>
