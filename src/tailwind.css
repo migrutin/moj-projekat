@@ -23,6 +23,53 @@
   width: 1000px;
 }
 
+.home{
+  background-color: #f3f4f6;
+  padding-left: 64px;
+  padding-right: 64px;
+  height: screen;
+}
+
+.home-slide{
+  margin-left: 176px;
+  padding-top: 40px;
+  height: 384px;
+  width: 75%;
+  
+}
+
+.small-img-slide{
+ border-radius: 8px;
+ height: 250px;
+ width: 250px;
+ margin-left: 30px;
+}
+.small-img-h{
+  font-weight: 500;
+  font-size: large;
+  text-align: center;
+ 
+}
+.small-slide-bg{
+  background-color: #d1d5db;
+  border-radius: 8px;
+  position: relative;
+  height: 352px;
+  width: 33%; 
+}
+
+
+.button-img{ 
+  border-radius: 25%;
+  position: absolute;
+  height: 32px;
+  width: 32px;
+  font-weight: 400;
+
+}
+.button-img:hover{
+  background-color: #e5e7eb;
+}
 .kontakt {
   background-color: transparent;
 }
