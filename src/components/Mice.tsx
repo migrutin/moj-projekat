@@ -5,6 +5,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Laptop from '../components/Laptop'
+import Mouse from './Mouse'
 
 type OneProduct = {
   id:number,
@@ -16,13 +17,13 @@ type OneProduct = {
 type MyFetchType = Array<OneProduct>
 
 
-function Laptops() {
-  const tt = require('../data2/laptops.json');
+function Mice() {
+  const tt = require('../data2/mice.json');
   const [data,setData]=useState<OneProduct[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/laptops");
+      const response=await fetch(" http://localhost:3000/mice");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -34,9 +35,9 @@ function Laptops() {
     if(data==null){
       return <div>Ovde ide neki login spiner</div>
     }else{
-      return <Laptop arrayLaptops={data}/>
+      return <Mouse arrayMice={data}/>
     }
   
 }
 
-export default Laptops
+export default Mice

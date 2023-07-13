@@ -1,22 +1,19 @@
-import { Link } from "react-router-dom";
-import { useShoppingCart } from "../context/ShoppingCartContext";
+import React from 'react'
+import { Link } from 'react-router-dom';
+import { useShoppingCart } from '../context/ShoppingCartContext';
 
-
-type OneLaptopProps={
-    id:number;
-    name:string;
-    imgUrl:string;
-    price:number;
+type OneMouseProps ={
+    id: number; 
+    name: string;
+    imgUrl: string;
+    price: number;
 }
 
-
-const OneLaptop=({id,name,imgUrl,price}:OneLaptopProps)=>{
-
-    const {increaseQuantity, getItemQuantity, decreaseQuantity, remove} = useShoppingCart()
-    const numberOfItems:number = getItemQuantity(id)
-
-    return (
-    <Link to='/laptops' className='link' key={id}>
+const OneMouse = ({id, name, imgUrl, price} : OneMouseProps) => {
+    const {increaseQuantity, decreaseQuantity, remove, getItemQuantity} = useShoppingCart()
+    const numberOfItems: number = getItemQuantity(id)
+  return (
+    <Link to='/mice' className='link' key={id}>
     <img src={imgUrl} alt="ABRAKADABRA" className='laptop-item-img' />
     <h1 className='link-h'>{name}</h1>
     <div className='flex'>
@@ -41,7 +38,7 @@ const OneLaptop=({id,name,imgUrl,price}:OneLaptopProps)=>{
 
     </div>
   </Link>
-    )
+  )
 }
 
-export default OneLaptop;
+export default OneMouse

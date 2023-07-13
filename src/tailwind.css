@@ -360,7 +360,7 @@ img {
 .laptop-items {
 
   background: #f3f4f6;
-  height: screen;
+  height: 200%;
   width: screen;
   padding-left: 200px;
   padding-right: 150px;
@@ -371,6 +371,7 @@ img {
 .laptop-div-1 {
   border-bottom: solid rgb(160, 156, 156) 1px;
   margin-bottom: 10px;
+  
 
 }
 
@@ -381,7 +382,7 @@ img {
 }
 
 .laptop-item {
-  height: 900px;
+  height: screen;
   width: 1000px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

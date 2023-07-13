@@ -15,7 +15,7 @@ function PortablePC() {
     <div className='laptop'>
         <div className='laptop-square'>
            <Link to='/laptops'> <img src={laptopp} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={mouse} alt="" className='image-laptop' /></Link>
+           <Link to='/mice'> <img src={mouse} alt="" className='image-laptop' /></Link>
            <Link to='/laptops'> <img src={bag} alt="" className='image-laptop' /></Link>
            <Link to='/laptops'> <img src={docker} alt="" className='image-laptop' /></Link>
            <Link to='/laptops'> <img src={charger} alt="" className='image-laptop' /></Link>
