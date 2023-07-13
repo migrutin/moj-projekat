@@ -3,80 +3,29 @@ import { Link, useNavigate } from 'react-router-dom'
 import logomajstor from '../img/logomajstor.png';
 import majstor from '../img/majstor.png'
 import glob from '../img/glob.png'
-import a from  '../img/a.png'
-import samsung from  '../img/samsung.png'
+import a from '../img/a.png'
+import samsung from '../img/samsung.png'
 import appdevice from '../img/appdevice.png'
 import sams from '../img/sams.png'
-import i from '../img/i.jpg'
-import samsungg from '../img/samsungg.jpg'
-import xiaomi from '../img/xiaomi.jpg'
 import ImageSlideComponent from './ImageSlideComponent';
 import SmallImgSlide from './SmallImgSlide';
+import BodyLabel from './BodyLabel';
 
 function BodyPart() {
-   
+
 
 
     return (
         <div className=' max-w-full home'>
             <div className='flex  home-slide space-x-6'>
-               <ImageSlideComponent></ImageSlideComponent>
+                {/* Image slide */}
+                <ImageSlideComponent></ImageSlideComponent>
                 <SmallImgSlide></SmallImgSlide>
             </div>
 
 
             {/* Akicije, popusti, isporuka - section */}
-
-            <div className='bg-white rounded-lg h-28 w-3/4 mt-10 ml-44 
-            pt-auto flex  justify-between px-10 py-2'>
-
-
-                <div className="h-24 w-1/4 justify-between flex items-center">
-                    <i className="fas fa-tag fa-2xl"></i>
-                    <div className="flex flex-col ml-4">
-                        <h2 className="font-semibold">Najnovije akcije</h2>
-                        <Link to='/akcije' className="underline ml-2">Saznajte više</Link>
-                    </div>
-                    <div className="w-0.5 h-1/2 bg-gray-200 mx-4 mt-2"></div>
-
-                </div>
-
-                <div className=" h-24 w-1/4 justify-between flex items-center ">
-                    <i className="fa-solid fa-database fa-2xl"></i>
-                    <div className="flex flex-col ml-4">
-                        <h2 className="font-semibold">Osvojite popuste</h2>
-                        <Link to='' className="underline  ml-2">Saznajte više</Link>
-                    </div>
-                    <div className="w-0.5 h-1/2 bg-gray-200 mx-4 mt-2"></div>
-
-                </div>
-
-                <div className="h-24 w-1/4 justify-between flex items-center ">
-                    <i className="fa-solid fa-money-check-dollar fa-2xl"></i>
-                    <div className="flex flex-col ml-4 ">
-                        <h2 className="font-semibold ">Kupovina na rate</h2>
-                        <Link to ='' className="underline ml-2">Saznajte više</Link>
-                    </div>
-                    <div className="w-0.5 h-1/2 bg-gray-200 mx-4 mt-2"></div>
-
-                </div>
-
-                <div className="h-24 w-1/4 justify-between flex items-center  ">
-                    <i className="fa-solid fa-truck fa-2xl"></i>
-                    <div className="flex flex-col mr-2">
-                        <h2 className="font-semibold ml-2">Isporuka</h2>
-                        <Link to='' className="underline ml-2">Saznajte više</Link>
-                    </div>
-                    <div className="w-0.5 h-1/2 bg-transparent mx-4 mt-2"></div>
-
-
-                </div>
-
-
-
-
-            </div>
-
+            <BodyLabel></BodyLabel>
 
             {/* Najtrazeniji proizvodi */}
             <div className='bg-transparent rounded-lg h-56 w-3/4 mt-10 ml-44 
@@ -197,20 +146,20 @@ function BodyPart() {
 
             <div className='custom-height w-3/4 ml-44 mt-10 flex justify-between space-x-3'>
                 <div className='rounded-lg w-1/2  bg-gray-200 flex-col flex items-center justify-top '>
-                    <img src={samsung} alt="" className='w-1/3 '/>
+                    <img src={samsung} alt="" className='w-1/3 ' />
                     <h1 className='font-bold text-3xl text-center'>Zakorači u Samsung <br></br>e-svet</h1>
                     <button className='h-10 w-32 rounded-full mt-5 bg-white'>Saznajte više</button>
-                    <img src={sams} alt="samsung uredjaji" className='h-56 mt-10'/>
-                </div>  
-               
+                    <img src={sams} alt="samsung uredjaji" className='h-56 mt-10' />
+                </div>
+
                 <div className='rounded-lg w-1/2  bg-green-200 flex-col flex items-center justify-top '>
-                    <img src={a} alt="" className='w-1/3 mt-3'/>
+                    <img src={a} alt="" className='w-1/3 mt-3' />
                     <h1 className='font-bold text-3xl text-center mt-5'>Besprekorno iskustvo  u <br></br>svakom uređaju</h1>
                     <button className='h-10 w-32 rounded-full mt-5 bg-white'>Saznajte više</button>
-                    <img src={appdevice} alt="apple uredjaji" className='h-44 w-96 mt-16'/>
-                    
-                </div> 
-                
+                    <img src={appdevice} alt="apple uredjaji" className='h-44 w-96 mt-16' />
+
+                </div>
+
 
             </div>
 

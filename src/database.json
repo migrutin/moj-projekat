@@ -3,74 +3,74 @@
       {
           "id": 1,
           "name": "LENOVO ThinkBook 14 G2 ITL i5/8/256 20VD0096YA",
-          "imgUrl": "/img/laptop3.jpg",
+          "imgUrl": "/img/laptopp.png",
           "price": 69999
       },
       {
           "id": 2,
           "name": "HP ProBook 440 G9 i5/16/512 6A2H4EA",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 13999
+          "imgUrl": "/img/laptopp.png",
+          "price": 43999
       },
       {
           "id": 3,
           "name": "HP ProBook 470 G9 i5/8/512 6S7D3E",
-          "imgUrl": "/img/laptop3.jpg",
+          "imgUrl": "/img/laptopp.png",
           "price": 100999
       },
       {
           "id": 4,
           "name": "HP 15s-eq3009nm R7/16/512 65C50E",
-          "imgUrl": "/img/laptop3.jpg",
+          "imgUrl": "/img/laptopp.png",
           "price": 75999
       },
       {
           "id": 5,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
+          "imgUrl": "/img/laptopp.png",
           "price": 49999
       },
       {
           "id": 6,
           "name": "HP Pavilion 13-bb0027nm i3/8/512 634D8EA",
-          "imgUrl": "/img/laptop3.jpg",
+          "imgUrl": "/img/laptopp.png",
           "price": 129999
       },
       {
           "id": 7,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "imgUrl": "/img/laptopp.png",
+          "price": 87999
       },
       {
           "id": 8,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "imgUrl": "/img/laptopp.png",
+          "price": 54999
       },
       {
           "id": 9,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "imgUrl": "/img/laptopp.png",
+          "price": 27899
       },
       {
           "id": 10,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "imgUrl": "/img/laptopp.png",
+          "price": 123999
       },
       {
           "id": 11,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-          "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "imgUrl": "/img/laptopp.png",
+          "price": 64500
       },
       {
           "id": 12,
           "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
           "imgUrl": "/img/laptop3.jpg",
-          "price": 49999
+          "price": 78500
       }
   ],
 
@@ -78,73 +78,73 @@
       {
           "id": 13,
           "name": "LOGITECH Bežični miš M330 SILENT PLUS (Crni) 910-0049",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 4.999
       },
       {
           "id": 14,
           "name": "RAPOO M200 Plus - Bežični miš",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 2.799
       },
       {
           "id": 15,
           "name": "HAMA Bežični miš MW-500 (Crni)",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 1.799
       },
       {
           "id": 16,
           "name": "MARVO Gejmerski miš SCORPION M312 (Crni)",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 1.999
       },
       {
           "id": 17,
           "name": "LOGITECH M240 BT 910-0007121 Miš",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 3.599
       },
       {
           "id": 18,
           "name": "ASUS Gejmerski miš ROG Keris 90MP01R0-B0UA00",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 6.999
       },
       {
           "id": 19,
           "name": "ESHARK Gejmerski miš ESL-M4 NAGINATA (Crni)",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 8.999
       },
       {
           "id": 20,
           "name": "DELL Bežični miš Mobile (Crni) MS3320W",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 3.999
       },
       {
           "id": 21,
           "name": "REDRAGON Žični miš M987-K RGB (Crna)",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 2.999
       },
       {
           "id": 22,
           "name": "AULA F805 RGB - Žični gejmerski miš",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 1.399
       },
       {
           "id": 23,
           "name": "GEMBIRD Bežični miš ERGO-01",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 1.499
       },
       {
           "id": 24,
           "name": "TRUST Gejmeski miš GXT 101D Gav (Zeleni)",
-          "imgUrl": "/img/mouse.png",
+          "imgUrl": "/img/omen.png",
           "price": 5.999
       }
   ],
@@ -152,7 +152,7 @@
     {
         "id": 25,
         "name": "VENTION USB-C 12u1 Docking Station",
-        "imgUrl": "/img/laptop.jpg",
+        "imgUrl": "/img/omen.png",
         "price": 15.999
     },
     {
@@ -192,7 +192,7 @@
     {
         "id": 31,
         "name": "GUESS Saffiano Script Torba za laptop 15''",
-        "imgUrl": "/img/laptop.jpg",
+        "imgUrl": "/img/omen.png",
         "price": 11.999
     },
     {

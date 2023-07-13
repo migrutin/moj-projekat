@@ -298,6 +298,7 @@ img {
 
 .promocije-naslov {
   font-size: 30px;
+  font-weight: 500
 }
 
 .promocije-linija {
@@ -312,6 +313,19 @@ img {
   margin-bottom: 20px;
   margin-left: 96px;
 
+}
+.bonus-button{
+  height: 40px;
+  width: 200px;
+  border-radius:8px;
+  border: #4b5563;
+  border-width: 2px;
+  border-style: solid;
+  margin-top: 20px;
+}
+.bonus-button:hover{
+  background: #4b5563;
+  color: #e5e7eb;
 }
 
 .globaltel-p {

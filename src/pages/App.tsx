@@ -19,6 +19,8 @@ import ShoppingBasket from './ShoppingBasket';
 import LaptopPage from './LaptopPage';
 import MicePage from './MicePage';
 import BagsPage from './BagsPage';
+import DockerPage from './DockerPage';
+import BonusPage from './BonusPage';
 
 
 
@@ -45,6 +47,9 @@ function App() {
       <Route path='/laptops' element={<LaptopPage />} />
       <Route path='/mice' element={<MicePage/>} />
       <Route path='/bags' element={<BagsPage/>} />
+      <Route path='/dockers' element={<DockerPage/>} />
+      <Route path='/bonus' element={<BonusPage/>} />
+
       
 
 
