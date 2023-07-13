@@ -1,5 +1,5 @@
 import './App.css'
-import { createBrowserRouter, createRoutesFromElements, Route, Link, Outlet, RouterProvider, BrowserRouter, Routes } from 'react-router-dom'
+import {Route, Routes } from 'react-router-dom'
 import Novosti from './Novosti';
 import Poslovanje from './Poslovanje';
 import Promocije from './Promocije';
@@ -16,9 +16,9 @@ import SignIn from './SignIn';
 import NewUser from './NewUser';
 import { ShoppingCartProvider } from '../context/ShoppingCartContext';
 import ShoppingBasket from './ShoppingBasket';
-import L from './L';
-import M from './M';
-import B from './B';
+import LaptopPage from './LaptopPage';
+import MicePage from './MicePage';
+import BagsPage from './BagsPage';
 
 
 
@@ -42,9 +42,9 @@ function App() {
       <Route path='/klime' element={<Klime />} />
       <Route path='/globaltel' element={<Globaltel />} />
       <Route path='/portable-pc' element={<PortablePCs />} />
-      <Route path='/laptops' element={<L />} />
-      <Route path='/mice' element={<M/>} />
-      <Route path='/bags' element={<B/>} />
+      <Route path='/laptops' element={<LaptopPage />} />
+      <Route path='/mice' element={<MicePage/>} />
+      <Route path='/bags' element={<BagsPage/>} />
       
 
 

@@ -17,12 +17,12 @@ function PortablePC() {
            <Link to='/laptops'> <img src={laptopp} alt="" className='image-laptop' /></Link>
            <Link to='/mice'> <img src={mouse} alt="" className='image-laptop' /></Link>
            <Link to='/bags'> <img src={bag} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={docker} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={charger} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={hub} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={cooler} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={os} alt="" className='image-laptop' /></Link>
-           <Link to='/laptops'> <img src={software} alt="" className='image-laptop' /></Link>
+           <Link to='/dockers'> <img src={docker} alt="" className='image-laptop' /></Link>
+           <Link to='/chargers'> <img src={charger} alt="" className='image-laptop' /></Link>
+           <Link to='/hubs'> <img src={hub} alt="" className='image-laptop' /></Link>
+           <Link to='/coolers'> <img src={cooler} alt="" className='image-laptop' /></Link>
+           <Link to='/os'> <img src={os} alt="" className='image-laptop' /></Link>
+           <Link to='/software'> <img src={software} alt="" className='image-laptop' /></Link>
           
            
         </div>

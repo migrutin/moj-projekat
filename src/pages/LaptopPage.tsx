@@ -7,7 +7,7 @@ import Laptops from '../components/Laptops'
 
 
 
-function L() {
+function LaptopPage() {
   return (
     <div>
     <Header></Header>
@@ -21,4 +21,4 @@ function L() {
   )
 }
 
-export default L
+export default LaptopPage
