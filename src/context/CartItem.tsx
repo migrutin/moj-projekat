@@ -1,6 +1,6 @@
 import React from 'react'
 import { useShoppingCart } from './ShoppingCartContext'
-import laptopsJson from '../data2/laptops.json'
+import laptopsJson from '../database.json'
 import { Link } from 'react-router-dom'
 
 type CartItemProps={

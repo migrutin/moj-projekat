@@ -12,7 +12,6 @@ type MyFetchType = Array<OneProduct>
 
 
 function Mice() {
-  const tt = require('../data2/mice.json');
   const [data,setData]=useState<OneProduct[]>();
   useEffect(()=>{
 
@@ -28,7 +27,7 @@ function Mice() {
 
 
     return (
-      <>{data ? <Mouse arrayMice={data} /> : <div>Ovde ide neki login spiner</div>}</>
+      <>{data ? <Mouse arrayMice={data} /> : <div></div>}</>
       
     )
    

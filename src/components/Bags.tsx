@@ -12,7 +12,7 @@ type BagFetchType = Array<OneBagProduct>
 
 
 function Bags() {
-  const tt = require('../data2/bags.json');
+ 
   const [data,setData]=useState<OneBagProduct[]>();
   useEffect(()=>{
 

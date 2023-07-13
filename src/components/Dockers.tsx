@@ -12,7 +12,7 @@ type OneDocker = {
 type MyDockerFetch = Array<OneDocker>
 
 function Dockers() {
-    const tt = require('../data2/dockers.json');
+    
     const [data, setData] = useState<OneDocker[]>()
   
     useEffect(()=>{

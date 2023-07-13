@@ -12,7 +12,7 @@ type MyFetchType = Array<OneProduct>
 
 
 function Laptops() {
-  const tt = require('../data2/laptops.json');
+  
   const [data,setData]=useState<OneProduct[]>();
   useEffect(()=>{
 
