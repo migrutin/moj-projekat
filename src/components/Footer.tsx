@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import visa from '../img/visa.png'
 import master from '../img/master.png'

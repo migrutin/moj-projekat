@@ -12,7 +12,6 @@ const Akcije = () => {
       <Header></Header>
       <Underline></Underline>
       <Snizenje></Snizenje>
-
       <Newsletter></Newsletter>
       <AboveFooter></AboveFooter>
       <Footer></Footer>

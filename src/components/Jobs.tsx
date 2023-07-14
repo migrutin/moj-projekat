@@ -1,4 +1,3 @@
-import React from 'react'
 import komp from '../img/komp.png'
 import ugovor from '../img/ugovor.png'
 import pp from '../img/pp.png'

@@ -1,4 +1,3 @@
-import React from 'react'
 import promocija from '../img/prom.jpg'
 import PromotionSection from './PromotionSection'
 

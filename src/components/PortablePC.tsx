@@ -1,4 +1,3 @@
-import React from 'react'
 import laptopp from '../img/laptopp.png'
 import mouse from '../img/mouse.png'
 import bag from '../img/bag.png'

@@ -1,4 +1,3 @@
-import React from 'react'
 import placanje from '../img/placanje.jpg'
 import placanjeProdavnica from '../img/placanjeprodavnica.png'
 import pouzecem from '../img/pouzecem.png'

@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+
+import { Link} from 'react-router-dom'
 import logomajstor from '../img/logomajstor.png';
 import majstor from '../img/majstor.png'
 import glob from '../img/glob.png'
@@ -18,13 +18,13 @@ const BodyPart = () => {
     return (
         <div className=' max-w-full home'>
             <div className='flex  home-slide space-x-6'>
-                {/* Image slide */}
+              
                 <ImageSlideComponent></ImageSlideComponent>
                 <SmallImgSlide></SmallImgSlide>
             </div>
 
 
-            {/* Akicije, popusti, isporuka - section */}
+           
             <BodyLabel></BodyLabel>
 
             {/* Najtrazeniji proizvodi */}

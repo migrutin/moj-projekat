@@ -1,4 +1,3 @@
-import React from 'react'
 import vivo from '../img/vivo.png'
 import tarifa from '../img/tarife.png'
 

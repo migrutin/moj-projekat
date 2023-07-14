@@ -1,4 +1,3 @@
-import React from 'react'
 import gigprom from '../img/gigprom.jpg'
 import gigprom2 from '../img/gigprom2.jpg'
 import masina from '../img/masina.jpg'
