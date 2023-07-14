@@ -7,15 +7,15 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Docker from '../components/Docker'
 
-function DockerPage() {
+const DockerPage = () => {
   return (
     <div>
-        <Header></Header>
-        <Underline></Underline>
-        <Docker arrayDockers={[]}></Docker>
-        <Newsletter></Newsletter>
-        <AboveFooter></AboveFooter>
-        <Footer></Footer>
+      <Header></Header>
+      <Underline></Underline>
+      <Docker arrayDockers={[]}></Docker>
+      <Newsletter></Newsletter>
+      <AboveFooter></AboveFooter>
+      <Footer></Footer>
     </div>
   )
 }
