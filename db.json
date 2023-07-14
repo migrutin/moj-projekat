@@ -1,19 +1,265 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
+  "laptops": [
+      {
+          "id": 1,
+          "name": "LENOVO ThinkBook 14 G2 ITL i5/8/256 20VD0096YA",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 69999
+      },
+      {
+          "id": 2,
+          "name": "HP ProBook 440 G9 i5/16/512 6A2H4EA",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 13999
+      },
+      {
+          "id": 3,
+          "name": "HP ProBook 470 G9 i5/8/512 6S7D3E",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 100999
+      },
+      {
+          "id": 4,
+          "name": "HP 15s-eq3009nm R7/16/512 65C50E",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 75999
+      },
+      {
+          "id": 5,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 6,
+          "name": "HP Pavilion 13-bb0027nm i3/8/512 634D8EA",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 129999
+      },
+      {
+          "id": 7,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 8,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 9,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 10,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 11,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      },
+      {
+          "id": 12,
+          "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 49999
+      }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
+
+  "mice": [
+      {
+          "id": 13,
+          "name": "LOGITECH Bežični miš M330 SILENT PLUS (Crni) 910-0049",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 4.999
+      },
+      {
+          "id": 14,
+          "name": "RAPOO M200 Plus - Bežični miš",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 2.799
+      },
+      {
+          "id": 15,
+          "name": "HAMA Bežični miš MW-500 (Crni)",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 1.799
+      },
+      {
+          "id": 16,
+          "name": "MARVO Gejmerski miš SCORPION M312 (Crni)",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 1.999
+      },
+      {
+          "id": 17,
+          "name": "LOGITECH M240 BT 910-0007121 Miš",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 3.599
+      },
+      {
+          "id": 18,
+          "name": "ASUS Gejmerski miš ROG Keris 90MP01R0-B0UA00",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 6.999
+      },
+      {
+          "id": 19,
+          "name": "ESHARK Gejmerski miš ESL-M4 NAGINATA (Crni)",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 8.999
+      },
+      {
+          "id": 20,
+          "name": "DELL Bežični miš Mobile (Crni) MS3320W",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 3.999
+      },
+      {
+          "id": 21,
+          "name": "REDRAGON Žični miš M987-K RGB (Crna)",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 2.999
+      },
+      {
+          "id": 22,
+          "name": "AULA F805 RGB - Žični gejmerski miš",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 1.399
+      },
+      {
+          "id": 23,
+          "name": "GEMBIRD Bežični miš ERGO-01",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 1.499
+      },
+      {
+          "id": 24,
+          "name": "TRUST Gejmeski miš GXT 101D Gav (Zeleni)",
+          "imgUrl": "../img/laptop.jpg",
+          "price": 5.999
+      }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "dockers": [
+    {
+        "id": 25,
+        "name": "VENTION USB-C 12u1 Docking Station",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 15.999
+    },
+    {
+        "id": 26,
+        "name": "ATEN 2 port Thunderbolt 2 US7220 KVM Docking Station",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 89.999
+    },
+    {
+        "id": 27,
+        "name": "D-LINK USB-C DUB-2334 Docking station",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 8.999
+    },
+    {
+        "id": 28,
+        "name": "DELL WD19S Dock stanica",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 46.999
+    },
+    {
+        "id": 29,
+        "name": "MCDODO 6 u 1 USB-C Docking Station",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 5.999
+    },
+    {
+        "id": 30,
+        "name": "ATEN USB-C Multiport Dock, Punjač 60W - UH3234",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 36.999
+    }
+],
+
+
+  "bags": [
+    {
+        "id": 31,
+        "name": "GUESS Saffiano Script Torba za laptop 15''",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 11.999
+    },
+    {
+        "id": 32,
+        "name": "LENOVO ThinkPad Essential Plus Eco Torba za laptop",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 4.999
+    },
+    {
+        "id": 33,
+        "name": "HAMA Torba za laptop Sportsline I - 26916",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 20.999
+    },
+    {
+        "id": 34,
+        "name": "THULE Torba Spira Vertical (Crvena) - T3203784",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 19.999
+    },
+    {
+        "id": 35,
+        "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 49.999
+    },
+    {
+        "id": 36,
+        "name": "PULSE poslovna torba SATURN X20255 do 14",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 8.999
+    },
+    {
+        "id": 37,
+        "name": "THULE Torba Spira Vertical (Crvena) - T320378 ",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 5.999
+    },
+    {
+        "id": 38,
+        "name": "MS Note D100 Notebook torba",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 1.999
+    },
+    {
+        "id": 39,
+        "name": "THULE torba za laptop Crossover 2 13.3",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 19.999
+    },
+    {
+        "id": 40,
+        "name": "TARGUS Torba za notebook Clamshell - CN415EU1",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 4.999
+    },
+    {
+        "id": 41,
+        "name": "HAMA Torba za laptop Florencell 13.3 (Petrolej/Siva)",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 3.499
+    },
+    {
+        "id": 42,
+        "name": "PULSE Torba za laptop VENUS - 120697",
+        "imgUrl": "../img/laptop.jpg",
+        "price": 4.999
+    }
+]
 }

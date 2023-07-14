@@ -27,7 +27,7 @@ interface TypeProps{
       <div className='laptop'>
         <div className='laptop-item'>
          
-        {arrayLaptops.map(oneLaptop=>
+        {Array.isArray(arrayLaptops) &&  arrayLaptops.map(oneLaptop=>
           <OneLaptop
           id={oneLaptop.id} 
           imgUrl={oneLaptop.imgUrl} 
