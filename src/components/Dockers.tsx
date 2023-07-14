@@ -25,7 +25,7 @@ const Dockers = () => {
     }, [])
 
     if(data==null) {
-        <div>Login spiner</div>
+        <div></div>
     } else {
         return <Docker arrayDockers={data} />
     }

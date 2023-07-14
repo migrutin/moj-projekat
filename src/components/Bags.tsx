@@ -28,7 +28,7 @@ const Bags = () => {
   }, [])
 
   if (data == null) {
-    return <div>Ovde ide neki login spiner</div>
+    return <div></div>
   } else {
     return <Bag arrayBags={data} />
   }

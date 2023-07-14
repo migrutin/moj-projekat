@@ -27,7 +27,7 @@ const Laptops = () => {
     }, [])
 
     if(data==null){
-      return <div>Ovde ide neki login spiner</div>
+      return <div></div>
     }else{
       return <Laptop arrayLaptops={data}/>
     }
