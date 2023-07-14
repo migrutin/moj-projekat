@@ -5,7 +5,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-function Karijera() {
+const Karijera = () => {
   return (
    <div>
     <Header></Header>

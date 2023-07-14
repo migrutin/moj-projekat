@@ -11,7 +11,7 @@ type OneProduct = {
 type MyFetchType = Array<OneProduct>
 
 
-function Laptops() {
+const Laptops = () => {
   
   const [data,setData]=useState<OneProduct[]>();
   useEffect(()=>{

@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import PortablePC from '../components/PortablePC'
 
-function PortablePCs() {
+const PortablePCs = () => {
   return (
     <div>
         <Header></Header>

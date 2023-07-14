@@ -5,7 +5,7 @@ import ProductsDropdown from './ProductsDropdown';
 import SecondDropDown from './SecondDropDown';
 
 
-function Underline() {
+const Underline = () => {
   const [firstDropDown, setfirstDropDown] = useState(false);
   const [secondDropDown, setsecondDropDown] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);

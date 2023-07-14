@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function KomponentaZaAkciju() {
+const KomponentaZaAkciju = () => {
   return (
     <div>
         <Link to='/akcije' key='link-akcije' className='linkovi'> Akcije </Link>

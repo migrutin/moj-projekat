@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Klima from '../components/Klima'
 
-function Klime() {
+const Klime = () => {
   return (
     <div>
         <Header></Header>

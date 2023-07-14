@@ -7,7 +7,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-function Promocije() {
+const Promocije = () => {
   return (
     <div>
         <Header></Header>

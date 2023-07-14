@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom'
 import globb from '../img/bonus.jpg'
 
-function Bonus() {
+const Bonus = () => {
 
   const navigate = useNavigate()
 

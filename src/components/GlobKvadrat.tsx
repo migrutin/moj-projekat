@@ -2,7 +2,7 @@ import React from 'react'
 import vivo from '../img/vivo.png'
 import tarifa from '../img/tarife.png'
 
-function GlobKvadrat() {
+const GlobKvadrat = () => {
   return (
     <div className="globaltel-kvadrat">
                     <h1 className='telefon'>VIVO Y22s 6/128GB Startlit Blue </h1>

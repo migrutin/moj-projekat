@@ -6,7 +6,7 @@ import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import NewUserForm from '../components/NewUserForm'
 
-function NewUser() {
+const NewUser = () => {
   return (
     <div>
          <Header></Header>

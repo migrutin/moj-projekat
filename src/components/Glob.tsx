@@ -4,7 +4,7 @@ import GlobKvadrat from './GlobKvadrat'
 import GlobTekst from './GlobTekst'
 
 
-function Glob() {
+const Glob = () => {
     return (
         <div className='promocije'>
             <h1 className='promocije-naslov'>Izaberi Globaltel tarifu u Gigatronu uz telefon</h1>

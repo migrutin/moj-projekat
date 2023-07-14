@@ -6,7 +6,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-function SignInForm() {
+const SignInForm =() => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 

@@ -3,7 +3,7 @@ import promocija from '../img/prom.jpg'
 import PromotionSection from './PromotionSection'
 
 
-function PromotionsInStores() {
+const PromotionsInStores = () => {
     return (
         <div className='promocije'>
             <h1 className='promocije-naslov'>Promocije u prodavnicama</h1>

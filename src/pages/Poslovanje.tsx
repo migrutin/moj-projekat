@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Jobs from '../components/Jobs'
 
-function Poslovanje() {
+const Poslovanje = () => {
   return (
     <div>
         <Header></Header>

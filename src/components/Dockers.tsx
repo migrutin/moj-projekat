@@ -11,7 +11,7 @@ type OneDocker = {
 
 type MyDockerFetch = Array<OneDocker>
 
-function Dockers() {
+const Dockers = () => {
     
     const [data, setData] = useState<OneDocker[]>()
   

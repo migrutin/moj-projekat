@@ -13,7 +13,7 @@ interface TypeProps {
     arrayMice : TypeOneMouse[]
 }
 
-function Mouse({arrayMice}: TypeProps) {
+const Mouse = ({arrayMice}: TypeProps) => {
   return (
         <div className='laptop-items'>
           <div className='laptop-div-1'>

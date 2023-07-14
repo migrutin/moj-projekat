@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Snizenje from '../components/Snizenje'
 
-function Akcije() {
+const Akcije = () => {
   return (
     <div>
       <Header></Header>

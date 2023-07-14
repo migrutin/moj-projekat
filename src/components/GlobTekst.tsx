@@ -1,6 +1,6 @@
 import React from 'react'
 
-function GlobTekst() {
+const GlobTekst = () => {
   return (
     <div>
         <p className='globaltel-p'> <span className='font-bold'>Gigatron i Globaltel</span> čine fantastičnu kombinaciju!

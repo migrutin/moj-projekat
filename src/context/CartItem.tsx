@@ -13,11 +13,7 @@ type CartItemProps={
 
 export default function CartItem(item: CartItemProps) {
     const {remove} = useShoppingCart()
-    //Ovo ne sme da postoji nikako
-    // const item = laptopsJson.laptops.find(i => i.id === id)
-    // if(item== null) return null
-
-    // evo ti link kako da sredis slike: https://stackoverflow.com/questions/73361987/how-to-use-an-image-from-a-path-in-react-typescript-without-import-or-require
+    
     return (
         <div className='flex bg-gray-100'>
             <div className='cart'>

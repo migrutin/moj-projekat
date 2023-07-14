@@ -14,7 +14,7 @@ interface TypeProps{
 
 
 
- function Laptop({arrayLaptops}:TypeProps){
+ const Laptop = ({arrayLaptops}:TypeProps) => {
 
 
 

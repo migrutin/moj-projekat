@@ -1,7 +1,7 @@
 import CartItem from "../context/CartItem"
 import { useShoppingCart } from "../context/ShoppingCartContext"
 
-function ShoppingCart() {
+const ShoppingCart = () => {
   const {cartItems} = useShoppingCart()
   console.log(cartItems);
   return (

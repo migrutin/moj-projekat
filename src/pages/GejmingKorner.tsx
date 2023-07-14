@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import GKorner from '../components/GKorner'
 
-function GejmingKorner() {
+const GejmingKorner = () => {
   return (
     <div>
         <Header></Header>

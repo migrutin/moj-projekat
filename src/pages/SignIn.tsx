@@ -5,7 +5,7 @@ import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import SignInForm from '../components/SignInForm'
 
-function SignIn() {
+const SignIn = () => {
   return (
     <div>
         <Header></Header>

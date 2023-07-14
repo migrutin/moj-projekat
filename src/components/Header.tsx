@@ -9,7 +9,7 @@ import { useShoppingCart } from '../context/ShoppingCartContext';
 
 
 
-function Header() {
+const Header = () => {
     const [dropDown, setDropDown] = useState(false)
 
     const{ totalNumberItems} = useShoppingCart()

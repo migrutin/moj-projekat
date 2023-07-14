@@ -7,7 +7,7 @@ import Laptops from '../components/Laptops'
 
 
 
-function LaptopPage() {
+const LaptopPage = () => {
   return (
     <div>
     <Header></Header>

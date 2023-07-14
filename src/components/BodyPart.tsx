@@ -11,7 +11,7 @@ import ImageSlideComponent from './ImageSlideComponent';
 import SmallImgSlide from './SmallImgSlide';
 import BodyLabel from './BodyLabel';
 
-function BodyPart() {
+const BodyPart = () => {
 
 
 

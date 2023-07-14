@@ -4,7 +4,7 @@ import ugovor from '../img/ugovor.png'
 import pp from '../img/pp.png'
 import yellow from '../img/yellow.jpg'
 
-function Jobs() {
+const Jobs = () => {
   return (
     <div className='bg-transparent h-full w-full flex flex-col px-44 py-10 space-y-5'>
         <h1 className='text-3xl mb-10'>Poslovanje</h1>

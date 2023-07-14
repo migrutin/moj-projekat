@@ -5,7 +5,7 @@ import Footer from '../components/Footer'
 import AboveFooter from '../components/AboveFooter'
 import ShoppingCart from '../components/ShoppingCart'
 
-function ShoppingBasket() {
+const ShoppingBasket = () => {
   return (
     <div>
         <Header></Header>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Newsletter() {
+const Newsletter = () => {
   return (
     <div className='bg-transparent flex h-24 w-full '>
         <div className='py-5 pl-44 space-y-2'>

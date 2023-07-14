@@ -7,7 +7,7 @@ import klimaa from '../img/klimaa.jpg'
 import { Link } from 'react-router-dom'
 
 
-function Klima() {
+const Klima = () => {
     return (
         <div className='h-full w-full bg-white px-44 py-10'>
             <h1 className='text-2xl'>Promocije u prodavnicama</h1>

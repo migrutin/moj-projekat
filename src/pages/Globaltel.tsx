@@ -6,7 +6,7 @@ import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Glob from '../components/Glob'
 
-function Globaltel() {
+const Globaltel = () => {
   return (
     <div>
          <Header></Header>

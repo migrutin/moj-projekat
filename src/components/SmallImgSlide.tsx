@@ -3,7 +3,7 @@ import airpods from '../img/airpods.jpg'
 import zvucnik from '../img/zvucnik.jpg'
 import { useState } from 'react'
 
-function SmallImgSlide() {
+const SmallImgSlide = () => {
 
   const [image, setImage] = useState(0)
 

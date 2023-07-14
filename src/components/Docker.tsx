@@ -11,7 +11,7 @@ interface TypeOneDock{
 interface TypeProps {
     arrayDockers: TypeOneDock[]
 }
-function Docker({arrayDockers}: TypeProps) {
+const Docker = ({arrayDockers}: TypeProps) => {
     return (
         <div className='laptop-items'>
           <div className='laptop-div-1'>

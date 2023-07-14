@@ -9,7 +9,7 @@ interface OneDockerProps {
     price: number;
 }
 
-function OneDocker(docker: OneDockerProps) {
+const OneDocker = (docker: OneDockerProps) => {
 
     const {increaseQuantity, decreaseQuantity, remove, getItemQuantity} = useShoppingCart()
     const numberOfItems: number = getItemQuantity(docker.id)

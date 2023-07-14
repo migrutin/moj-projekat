@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-function ProductsDropdown() {
+const ProductsDropdown = () => {
   return (
     <div className="fixed inset-5 flex mt-44 pl-36 justify-normal z-50"    >
       <div className="dropdown flex flex-col">

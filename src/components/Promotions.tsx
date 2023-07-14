@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import promocije from '../img/tv.jpg'
 import KomponentaZaAkciju from './KomponentaZaAkciju'
 
-function Promotions() {
+const Promotions = () => {
     const linkoviPromenljiva=[
     
         {

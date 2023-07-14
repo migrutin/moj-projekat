@@ -10,7 +10,7 @@ import os from '../img/os.png'
 import software from '../img/software.png'
 import { Link } from 'react-router-dom'
 
-function PortablePC() {
+const PortablePC = () => {
   return (
     <div className='laptop'>
         <div className='laptop-square'>

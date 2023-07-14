@@ -6,7 +6,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-function MicePage() {
+const MicePage = () => {
   return (
     <div>
     <Header></Header>

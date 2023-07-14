@@ -8,7 +8,7 @@ import yt from '../img/yt.jpg'
 
 
 
-function AboveFooter() {
+const AboveFooter = () =>{
     return (
         <div className='bg-sky-900 custom-height w-full px-48 py-2 flex-col space-y-1'>
 

@@ -4,7 +4,7 @@ import i from '../img/i.jpg'
 import samsungg from '../img/samsungg.jpg'
 import xiaomi from '../img/xiaomi.jpg'
 
-function ImageSlideComponent() {
+const ImageSlideComponent = () => {
     const [image, setImage] = useState(0);
     const navigate = useNavigate();
 

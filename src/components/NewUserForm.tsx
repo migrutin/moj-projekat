@@ -11,7 +11,7 @@ interface RegistrationObject {
     password: string;
 }
 
-function NewUserForm() {
+const NewUserForm = () => {
 
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');

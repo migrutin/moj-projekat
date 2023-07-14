@@ -13,7 +13,7 @@ import visasecure from '../img/visasecure.png'
 import idcheck from '../img/idcheck.png'
 
 
-function Footer() {
+const Footer = () => {
     return (
         <div className='bg-blue-950 flex-col h-28 w-full p-5 justify-center'>
             <div className='flex space-x-1 justify-between px-72 mb-5'>

@@ -3,7 +3,7 @@ import philips from '../img/philips.jpg';
 import { Link } from 'react-router-dom';
 import KomponentaZaAkciju from './KomponentaZaAkciju';
 
-function Snizenje() {
+const Snizenje = () => {
  const linkoviPromenljiva=[
     {
       to: '/klime',

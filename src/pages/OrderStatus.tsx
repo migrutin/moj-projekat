@@ -6,7 +6,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-function OrderStatus() {
+const OrderStatus = () => {
   return (
     <div> <div>
     <Header></Header>

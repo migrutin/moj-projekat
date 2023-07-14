@@ -2,7 +2,7 @@ import mapa from '../img/mapa.jpg'
 
 
 
-function Contact() {
+const Contact = () => {
     return (
         <div className="contact">
             <div className="img">
@@ -49,9 +49,9 @@ function Contact() {
                 </div>
 
             </div>
-            
+
         </div>
-        
+
 
     )
 }

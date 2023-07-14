@@ -3,7 +3,7 @@ import laptop from '../img/laptop.jpg'
 import { Link } from 'react-router-dom'
 import KomponentaZaAkciju from './KomponentaZaAkciju'
 
-function GKorner() {
+const GKorner = () => {
     
     const linkoviPromenljiva = [
         {

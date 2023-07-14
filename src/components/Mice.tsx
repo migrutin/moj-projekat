@@ -11,7 +11,7 @@ type OneProduct = {
 type MyFetchType = Array<OneProduct>
 
 
-function Mice() {
+const Mice = () => {
   const [data,setData]=useState<OneProduct[]>();
   useEffect(()=>{
 

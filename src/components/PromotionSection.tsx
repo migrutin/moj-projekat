@@ -4,7 +4,7 @@ import gigprom2 from '../img/gigprom2.jpg'
 import masina from '../img/masina.jpg'
 import kosilica from '../img/kosilica.jpg'
 
-function PromotionSection() {
+const PromotionSection = () => {
   return (
     <div>
          {/* KVADRATI */}

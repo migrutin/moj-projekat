@@ -6,7 +6,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-function Kontakt() {
+const Kontakt = () => {
   return (
   <div>
     <Header></Header>

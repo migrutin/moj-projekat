@@ -3,7 +3,7 @@ import klima from '../img/klima.png';
 import { Link } from 'react-router-dom';
 import KomponentaZaAkciju from './KomponentaZaAkciju';
 
-function Snizenje() {
+const Snizenje = () => {
   const linkoviPromenljiva =[
     {
       to: '/klime',

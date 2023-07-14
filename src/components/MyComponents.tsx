@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Item } from '../types';
 import axios from 'axios';
 
-function MyComponents() {
+const MyComponents = () => {
  const [data, setData] = useState<Item[]>([]);
 
  useEffect(()=>{

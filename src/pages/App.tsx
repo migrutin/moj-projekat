@@ -26,7 +26,7 @@ import KupovinaNaRate from './KupovinaNaRate';
 
 
 
-function App() {
+const App = () => {
 
   return (
 
@@ -51,6 +51,7 @@ function App() {
       <Route path='/dockers' element={<DockerPage/>} />
       <Route path='/bonus' element={<BonusPage/>} />
       <Route path='/kupovina-na-rate' element={<KupovinaNaRate/>} />
+      <Route path='/isporuka' element={<BonusPage/>} />
 
 
       
