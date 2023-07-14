@@ -632,9 +632,14 @@ img {
   margin-top: 3px;
   margin-left: 3px;
 }
+.flex-cart{
+  background: #f3f4f6;
+  width: 50%;
+  margin-left: 144px;
 
+}
 .cart{
-  background-color: yellow;
+  
   height: 224px;
   width: 224px;
   margin-left: 176px;
@@ -669,6 +674,7 @@ img {
   border-radius: 8px;
   border-color: gray;
   border-width: 2px;
+  justify-self: end;
 }
 .div-cart-2{
   background-color: white;

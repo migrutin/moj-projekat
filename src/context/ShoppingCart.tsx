@@ -17,7 +17,9 @@ export default function ShoppingCart() {
           quantity={item.quantity}
         />
       ))}
-  <div><CartTotal cartItems={cartItems} /></div>
+
+      
+  <CartTotal cartItems={cartItems} />
       
     </div>
   )
