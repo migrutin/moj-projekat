@@ -3,53 +3,54 @@ import placanje from '../img/placanje.jpg'
 import placanjeProdavnica from '../img/placanjeprodavnica.png'
 import pouzecem from '../img/pouzecem.png'
 
-function NacinPlacanja() {
+const NacinPlacanja = () => {
     return (
-        <div className='bg-transparent h-full w-full flex flex-col px-44 py-10 space-y-5'>
-            <h1 className='text-3xl mb-10'>Načini plaćanja</h1>
-    
-    
-            <div className='bg-gray-100 h-72 w-full flex px-10'>
-                <img src={placanje} alt="" className='h-64 w-96 ml-10 mt-3'/>
-                <div className='ml-72 mt-16 text-center'>
-                    <h1 className='font-semibold text-5xl'>ZAPOSLENJE</h1>
-                    <p className='mt-5'>Postanite deo Gigatron tima.</p>
-                    <button className='bg-yellow-400 h-10 w-36 rounded-lg mt-5 hover:bg-yellow-600'>Saznaj više</button>
+        <div className='background-page space-y-5'>
+            <h1 className='h'>Načini plaćanja</h1>
+
+
+            <div className='div-section flex'>
+                <img src={placanje} alt="" className='slika-2' />
+                <div className='div-sec'>
+                    <h1 className='div-h'>ONLINE PLAĆANJE</h1>
+                    <p>Gigatron internet prodavnica vam nudi mogućnost bezbednog online plaćanja.</p>
+                    <p className='mt-5'>Mogućnost online plaćanja imaju svi korisnici <span className='font-bold'>Visa, MasterCard i Maestro platnih kartica</span> . Ukoliko plaćate Visa ili MasterCard kreditnom platnom karticom koju je izdala Komercijalna banka ili Banca Intesa, moguća je i kupovina na rate (do 12 rata).</p>
+
                 </div>
-                
+
             </div>
-    
-            <div className='bg-gray-100 h-72 w-full flex px-10 '>
-                <div className='mt-10 mr-32 text-center'>
-                    <h1 className='font-semibold text-5xl'>USLOVI KORIŠĆENJA</h1>
-                    <p className='mt-5'>Opšti uslovi korišćenja Gigatron sajta</p>
-                    <button className='bg-yellow-400 h-10 w-36 rounded-lg mt-5 hover:bg-yellow-600'>Saznaj više</button>
+
+            <div className='div-section flex'>
+                <img src={placanjeProdavnica} alt="" className='slika-2' />
+                <div className='div-sec'>
+                    <h1 className='div-h'>ONLINE PLAĆANJE</h1>
+                    <p>Gigatron internet prodavnica vam nudi mogućnost bezbednog online plaćanja.</p>
+                    <p className='mt-5'>Mogućnost online plaćanja imaju svi korisnici <span className='font-bold'>Visa, MasterCard i Maestro platnih kartica</span> . Ukoliko plaćate Visa ili MasterCard kreditnom platnom karticom koju je izdala Komercijalna banka ili Banca Intesa, moguća je i kupovina na rate (do 12 rata).</p>
+
                 </div>
-                <img src={placanjeProdavnica} alt="" className='h-60 w-80 ml-10 mt-3'/>
-                
+
             </div>
-    
-            <div className='bg-gray-100 h-72 w-full flex px-10'>
-                <img src={pouzecem} alt="" className='h-56 w-72 ml-10 mt-5'/>
-                <div className='ml-72 mt-16 text-center'>
-                    <h1 className='font-semibold text-5xl'>POLITIKA PRIVATNOSTI</h1>
-                    <p className='mt-5'>Sve o načinu prikupljanja i obrade podataka o ličnosti.</p>
-                    <button className='bg-yellow-400 h-10 w-36 rounded-lg mt-5 hover:bg-yellow-600'>Saznaj više</button>
+
+            <div className='div-section flex'>
+                <img src={pouzecem} alt="" className='slika-2' />
+                <div className='h-full'>
+                    <h1 className='div-h'>PLAĆANJE POUZEĆEM  I PLAĆANJE OPŠTOM UPLATNICOM </h1>
+                    <p>Ukoliko želite, artikle koje ste poručili putem Gigatron internet prodavnice, telefonskim putem ili u nekom od naših prodajnih objekata, možete platiti i pouzećem, to jest prilikom dostave.</p>
+                    <p className='mt-5'>Takođe, svoju narudžbinu možete platiti direktnom uplatom na tekući račun kompanije Gigatron, tako što ćete prilikom naručivanja, u koraku „Način plaćanja“ odabrati opciju „Uplata na tekući račun“. Nakon što završite proces naručivanja, na vašu e mail adresu će stići uplatnica sa unapred unetim podacima za uplatu. Uplatu možete izvršiti u svim bankama i poštama u Srbiji ili putem e banking servisa banke kod koje imate tekući račun.</p>
+
                 </div>
-                
+
             </div>
-            <div>
-                <h1 className='text-2xl text-center my-10'>Ukoliko nijedna od ponuđenih opcija ne odgovara razlogu vaše posete ovoj stranici, kontaktirajte nas.</h1>
-            </div>
-    
-            
-            
-    
-    
-    
-    
+
+
+
+
+
+
+
+
         </div>
-      )
+    )
 }
 
 export default NacinPlacanja

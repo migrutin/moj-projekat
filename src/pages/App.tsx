@@ -21,6 +21,7 @@ import MicePage from './MicePage';
 import BagsPage from './BagsPage';
 import DockerPage from './DockerPage';
 import BonusPage from './BonusPage';
+import KupovinaNaRate from './KupovinaNaRate';
 
 
 
@@ -49,6 +50,8 @@ function App() {
       <Route path='/bags' element={<BagsPage/>} />
       <Route path='/dockers' element={<DockerPage/>} />
       <Route path='/bonus' element={<BonusPage/>} />
+      <Route path='/kupovina-na-rate' element={<KupovinaNaRate/>} />
+
 
       
 
