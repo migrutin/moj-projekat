@@ -13,10 +13,10 @@ export default function CartItem(item: CartItemProps) {
   const { remove } = useShoppingCart()
 
   return (
-    <div className='flex-cart'>
+    <div className=''>
       <div className='flex'>
       <div className='cart'>
-        <img src={item.imgUrl} alt="" className='' />
+        <img src={item.imgUrl} alt="" className='cart-img' />
       </div>
 
       <div className='shopping-cart-text'>

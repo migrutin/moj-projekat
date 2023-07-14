@@ -6,7 +6,7 @@ const ShoppingCart = () => {
   const {cartItems} = useShoppingCart()
   console.log(cartItems);
   return (
-    <div>
+    <div className="flex bg-gray-100">
         <header>
           {cartItems.map(item=>(
             <CartItem 

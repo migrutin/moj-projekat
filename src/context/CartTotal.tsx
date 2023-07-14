@@ -20,15 +20,16 @@ type CartSummaryProps = {
   console.log(totalPrice)
 
   return (
-    <div className='div-cart-2'>
+    <div className='div-cart-3'>
       <div className='flex flex-col'>
-        <h1>Iznos kupovine je: </h1>
-        <div className='h-96 w-96'>{totalPrice}</div>
-      </div>
-      <div className='cart-link'>
+        <h1 className='h'>Iznos kupovine je: </h1>
+        <div className='total'>RSD: {totalPrice}</div>
+        <div className='cart-link'>
         <Link to='/registracija' className='underline'>Napravite novi nalog ili se ulogujte</Link>
       </div>
       <button className='cart-button'>Nastavite</button>
+      </div>
+     
     </div>
   )
 }

@@ -447,9 +447,17 @@ img {
 }
 
 .total{
-  margin-left: 160px;
+  margin-left: 250px;
   font-size: xx-large;
   font-weight: 500;
+}
+
+.div-cart-3{
+  border-radius: 0.375rem;
+  border-style: solid;
+  border-width: 2px;
+  width: 30%;
+  margin-top: 10px;
 }
 
 .image-laptop {
@@ -642,7 +650,7 @@ img {
   display: flex;
   align-items: center;
 }
-.cart img {
+.cart-img {
   flex-shrink: 0;
   width: 200px;
   height: 200px;
