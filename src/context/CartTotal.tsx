@@ -13,7 +13,7 @@ type CartSummaryProps = {
   cartItems: CartItem[]
 }
 
-export function CartTotal({ cartItems }: CartSummaryProps) {
+ const CartTotal = ({ cartItems }: CartSummaryProps) =>{
   const totalPrice = cartItems.reduce((total, cartItem) => {
     return total + cartItem.price * cartItem.quantity
   }, 0)
@@ -32,3 +32,5 @@ export function CartTotal({ cartItems }: CartSummaryProps) {
     </div>
   )
 }
+
+export default CartTotal

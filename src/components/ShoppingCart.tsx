@@ -1,4 +1,5 @@
 import CartItem from "../context/CartItem"
+import CartTotal from "../context/CartTotal";
 import { useShoppingCart } from "../context/ShoppingCartContext"
 
 const ShoppingCart = () => {
@@ -17,6 +18,8 @@ const ShoppingCart = () => {
             key={item.id}/>
           ))}
         </header>
+
+        <CartTotal cartItems={cartItems} />
     </div>
   )
 }

@@ -1,5 +1,4 @@
-import React, { ReactNode, createContext, useContext, useState } from 'react'
-import ShoppingCart from '../components/ShoppingCart'
+import React, { ReactNode, createContext, useContext} from 'react'
 import useLocalStorage from '../hooks/useLocalStorage'
 
 type ShoppingCartContext = {
@@ -9,7 +8,7 @@ type ShoppingCartContext = {
   remove: (id: number) => void
   totalNumberItems: number
   cartItems: CartItem[]
-  totalPrice: number // Added totalPrice field
+  totalPrice: number
 }
 
 type ShoppingCartProviderProps = {
@@ -87,7 +86,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
       remove,
       totalNumberItems,
       cartItems,
-      totalPrice // Include totalPrice in the context value
+      totalPrice 
     }}>
       {children}
     </ShoppingCartContext.Provider>
