@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import Laptop from '../components/Laptop'
 import Bag from './Bag';
 
 type OneBagProduct = {
