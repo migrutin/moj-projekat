@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import Laptop from '../components/Laptop'
+import Bag from './Bag';
 
 type OneBagProduct = {
   id: number,
@@ -29,7 +30,7 @@ const Bags = () => {
   if (data == null) {
     return <div>Ovde ide neki login spiner</div>
   } else {
-    return <Laptop arrayLaptops={data} />
+    return <Bag arrayBags={data} />
   }
 
 }
