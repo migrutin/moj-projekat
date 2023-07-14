@@ -6,6 +6,7 @@ interface TypeOneLaptop{
   imgUrl: string;
   price: number; 
 
+
 }
 
 interface TypeProps{
@@ -33,6 +34,7 @@ interface TypeProps{
           imgUrl={oneLaptop.imgUrl} 
           name={oneLaptop.name} 
           price={oneLaptop.price}
+          
           key={oneLaptop.id}
           />)}
 
