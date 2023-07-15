@@ -1,7 +1,3 @@
-import React from 'react'
-
-import gigprom from '../img/gigprom.jpg'
-import gigprom2 from '../img/gigprom2.jpg'
 import klime from '../img/klime.jpg'
 import klimaa from '../img/klimaa.jpg'
 import { Link } from 'react-router-dom'
