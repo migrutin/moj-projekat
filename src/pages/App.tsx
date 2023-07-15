@@ -21,12 +21,12 @@ import MicePage from './MicePage';
 import BagsPage from './BagsPage';
 import DockerPage from './DockerPage';
 import BonusPage from './BonusPage';
-import KupovinaNaRate from './KupovinaNaRate';
 import ChargerPage from './ChargerPage';
 import HubPage from './HubPage';
 import CoolerPage from './CoolerPage';
 import OperatingSystemsPag from './OperatingSystemsPage';
 import SoftwarePage from './SoftwarePage';
+import NacinPlacanjaPage from './NacinPlacanjaPage';
 
 
 
@@ -55,7 +55,7 @@ const App = () => {
       <Route path='/bags' element={<BagsPage/>} />
       <Route path='/dockers' element={<DockerPage/>} />
       <Route path='/bonus' element={<BonusPage/>} />
-      <Route path='/kupovina-na-rate' element={<KupovinaNaRate/>} />
+      <Route path='/nacin-placanja' element={<NacinPlacanjaPage/>} />
       <Route path='/isporuka' element={<BonusPage/>} />
       <Route path='/chargers' element={<ChargerPage/>} />
       <Route path='/hub' element={<HubPage/>} />

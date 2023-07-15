@@ -6,7 +6,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 
-const KupovinaNaRate = () => {
+const NacinPlacanjaPage = () => {
     return (
         <div>
             <Header></Header>
@@ -19,4 +19,4 @@ const KupovinaNaRate = () => {
     )
 }
 
-export default KupovinaNaRate
+export default NacinPlacanjaPage
