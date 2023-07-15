@@ -66,7 +66,7 @@ const App = () => {
       <Route path='/os' element={<OperatingSystemsPag/>} />
       <Route path='/software' element={<SoftwarePage/>} />
       <Route path='/racunari' element={<RacunariPage/>} />
-      <Route path='/desktop' element={<DesktopPage/>} />
+      <Route path='/desktop-racunari' element={<DesktopPage/>} />
       
 
       <Route path='/login' element={<SignIn />} />

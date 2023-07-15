@@ -4,6 +4,7 @@ import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
 import Laptops from '../components/Laptops'
+import Desktops from '../components/Desktops'
 
 
 
@@ -12,7 +13,7 @@ const DesktopPage = () => {
     <div>
     <Header></Header>
     <Underline></Underline>
-    <Laptops></Laptops>
+    <Desktops></Desktops>
     <Newsletter></Newsletter>
     <AboveFooter></AboveFooter>
     <Footer></Footer>

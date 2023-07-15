@@ -1,9 +1,29 @@
-import React from 'react'
 
-function OneDesktop() {
-  return (
-    <div>OneDesktop</div>
-  )
+import { useShoppingCart } from "../context/ShoppingCartContext";
+
+type OneDesktopProps={
+    id:number;
+    name:string;
+    imgUrl:string;
+    price:number;
 }
 
-export default OneDesktop
+
+const OneDesktop=(oneDesktop:OneDesktopProps)=>{
+
+    const {increaseQuantity } = useShoppingCart()
+     
+    return (
+    < div key={oneDesktop.id}>
+    <img src={oneDesktop.imgUrl} alt="aaaa" className='laptop-item-img' />
+    <h1 className='link-h'>{oneDesktop.name}</h1>
+    <div className='flex justify-between'>
+      <p className='link-p'>{oneDesktop.price} RSD</p>
+      
+      <i className="fa fa-cart-shopping fa-2xl shopping-cart-icon"  onClick={() =>increaseQuantity(oneDesktop)}></i> 
+    </div>
+  </div>
+    )
+}
+
+export default OneDesktop;
