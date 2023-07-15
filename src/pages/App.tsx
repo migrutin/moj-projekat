@@ -27,6 +27,8 @@ import CoolerPage from './CoolerPage';
 import OperatingSystemsPag from './OperatingSystemsPage';
 import SoftwarePage from './SoftwarePage';
 import NacinPlacanjaPage from './NacinPlacanjaPage';
+import RacunariPage from './RacunariPage';
+
 
 
 
@@ -62,13 +64,8 @@ const App = () => {
       <Route path='/coolers' element={<CoolerPage/>} />
       <Route path='/os' element={<OperatingSystemsPag/>} />
       <Route path='/software' element={<SoftwarePage/>} />
+      <Route path='/racunari' element={<RacunariPage/>} />
       
-
-
-
-
-      
-
 
       <Route path='/login' element={<SignIn />} />
       <Route path='/registracija' element={<NewUser />} />

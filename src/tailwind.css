@@ -427,7 +427,7 @@ img {
 }
 
 .laptop {
-  background: #f3f4f6;
+ 
   height: screen;
   width: screen;
   align-content: center;
@@ -741,4 +741,9 @@ img {
   height: 50px;
   text-align: center;
   padding-top: 5px;
+}
+
+.image-racunari{
+  height: 200px;
+  width: 200px;
 }

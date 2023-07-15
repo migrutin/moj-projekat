@@ -12,10 +12,11 @@ import { Link } from 'react-router-dom'
 
 const PortablePC = () => {
   return (
-    <div className='laptop flex flex-col'>
-      <img src={slika} alt="" className='h-60 mr-12' />
-        <div className='laptop-square'>
-           <Link to='/laptops'> <img src={laptopp} alt="" className='image-laptop' /></Link>
+    <div className='laptop flex flex-col bg-gray-100'>
+      <div>
+      <img src={slika} alt="" className='h-60 w-full mr-1' />
+        <div className='laptop-square bg-white items-center justify-center'>
+           <Link to='/laptops' className='justify-center items-center'> <img src={laptopp} alt="" className='image-laptop' /> </Link>
            <Link to='/mice'> <img src={mouse} alt="" className='image-laptop' /></Link>
            <Link to='/bags'> <img src={bag} alt="" className='image-laptop' /></Link>
            <Link to='/dockers'> <img src={docker} alt="" className='image-laptop' /></Link>
@@ -27,6 +28,8 @@ const PortablePC = () => {
           
            
         </div>
+      </div>
+    
     </div>
   )
 }

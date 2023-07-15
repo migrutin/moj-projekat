@@ -6,8 +6,7 @@ const SecondDropDown = () => {
     <div className="fixed inset-5 flex mt-44  pl-36 justify-normal z-50"    >
       <div className="dropdown flex flex-col">
         <Link to="/nacin-placanja" className="dropdown-link">Način plaćanja</Link>
-        <Link to="/akcije" className="dropdown-link">Isporuka</Link>
-        <Link to="/akcije" className="dropdown-link">Loyaly program</Link>
+        <Link to="/bonus" className="dropdown-link">Loyaly program</Link>
         <Link to="/akcije" className="dropdown-link">Giga preporuka bele tehnike</Link>
         <Link to="/akcije" className="dropdown-link">Giga preporuka malih kućnih aparata</Link>
         <Link to="/akcije" className="dropdown-link">Uslužna montaža televizora</Link>
