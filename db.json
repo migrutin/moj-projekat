@@ -354,5 +354,88 @@
             "imgUrl": "/images/cooler6.png",
             "price": 5999
         }
+    ],
+    "os": [
+        {
+            "id": 61,
+            "name": "MICROSOFT Windows Server 2019 Standard 64bit",
+            "imgUrl": "/images/os1.png",
+            "price": 126999
+        },
+        {
+            "id": 62,
+            "name": "MICROSOFT Windows 11 Home OEM 64bit English KW9-00632",
+            "imgUrl": "/images/os2.png",
+            "price": 19999
+        },
+        {
+            "id": 63,
+            "name": "MICROSOFT Windows 11 Pro FPP 64bit - HAV",
+            "imgUrl": "/images/os3.png",
+            "price": 13999
+        },
+        {
+            "id": 64,
+            "name": "MICROSOFT Windows 11 Home GGK 64bit",
+            "imgUrl": "/images/os4.jpg",
+            "price": 24999
+        },
+        {
+            "id": 65,
+            "name": "MICROSOFT Windows 11 Pro GGK 64bit",
+            "imgUrl": "/images/os5.jpg",
+            "price": 25999
+        },
+        {
+            "id": 66,
+            "name": "MOYE Frost X - 44316 Postolje za laptop sa ventilatorima",
+            "imgUrl": "/images/os6.png",
+            "price": 18999
+        },
+        {
+            "id": 66,
+            "name": "MOYE Frost X - 44316 Postolje za laptop sa ventilatorima",
+            "imgUrl": "/images/os7.png",
+            "price": 22999
+        },
+        {
+            "id": 66,
+            "name": "MOYE Frost X - 44316 Postolje za laptop sa ventilatorima",
+            "imgUrl": "/images/os8.jpg",
+            "price": 5999
+        }
+    ],
+    "software": [
+        {
+            "id": 67,
+            "name": "MICROSOFT 365 Personal QQ2-01404",
+            "imgUrl": "/images/soft1.jpg",
+            "price": 4499
+        },
+        {
+            "id": 68,
+            "name": "BITDEFENDER Internet Security 5 licenci",
+            "imgUrl": "/images/soft2.png",
+            "price": 7999
+        },
+        {
+            "id": 69,
+            "name": "KASPERSKY Total Security - Obnova tri licence (Pravna lica)",
+            "imgUrl": "/images/soft3.png",
+            "price": 13999
+        },
+        {
+            "id": 70,
+            "name": "MICROSOFT Windows Server 2019 Standard 64bit",
+            "imgUrl": "/images/soft4.png",
+            "price": 14999
+        },
+        {
+            "id": 71,
+            "name": "BITDEFENDER Internet",
+            "imgUrl": "/images/soft5.png",
+            "price": 3999
+        }
+        
     ]
 }

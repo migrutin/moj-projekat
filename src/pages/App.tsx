@@ -25,6 +25,8 @@ import KupovinaNaRate from './KupovinaNaRate';
 import ChargerPage from './ChargerPage';
 import HubPage from './HubPage';
 import CoolerPage from './CoolerPage';
+import OperatingSystemsPag from './OperatingSystemsPage';
+import SoftwarePage from './SoftwarePage';
 
 
 
@@ -58,6 +60,8 @@ const App = () => {
       <Route path='/chargers' element={<ChargerPage/>} />
       <Route path='/hub' element={<HubPage/>} />
       <Route path='/coolers' element={<CoolerPage/>} />
+      <Route path='/os' element={<OperatingSystemsPag/>} />
+      <Route path='/software' element={<SoftwarePage/>} />
       
 
 

@@ -1,5 +1,5 @@
-import laptopp from '../img/laptopp.png'
-import mouse from '../img/mouse.png'
+import laptopp from '../img/omen.png'
+import mouse from '../img/mousee.png'
 import bag from '../img/bag.png'
 import docker from '../img/docker.png'
 import hub from '../img/hub.png'
