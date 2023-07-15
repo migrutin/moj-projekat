@@ -1,3 +1,4 @@
+import OneCooler from "./OneCooler";
 import OneHub from "./OneHub";
 
 interface TypeOneHub{ 
@@ -22,7 +23,7 @@ const Cooler = ({arrayCoolers}: TypeProps) => {
             <div className='laptop-item'>
              
             {arrayCoolers.map(cooler=>
-              <OneHub
+              <OneCooler
                id={cooler.id} 
               imgUrl={cooler.imgUrl} 
               name={cooler.name} 

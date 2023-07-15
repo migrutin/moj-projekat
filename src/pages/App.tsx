@@ -28,6 +28,7 @@ import OperatingSystemsPag from './OperatingSystemsPage';
 import SoftwarePage from './SoftwarePage';
 import NacinPlacanjaPage from './NacinPlacanjaPage';
 import RacunariPage from './RacunariPage';
+import DesktopPage from './DesktopPage';
 
 
 
@@ -65,6 +66,7 @@ const App = () => {
       <Route path='/os' element={<OperatingSystemsPag/>} />
       <Route path='/software' element={<SoftwarePage/>} />
       <Route path='/racunari' element={<RacunariPage/>} />
+      <Route path='/desktop' element={<DesktopPage/>} />
       
 
       <Route path='/login' element={<SignIn />} />

@@ -437,5 +437,50 @@
             "price": 3999
         }
         
+    ],
+    "desktops": [
+        {
+            "id": 72,
+            "name": "GIGATRON Prime Lider Compact",
+            "imgUrl": "/images/desktop1.jpg",
+            "price": 41499
+        },
+        {
+            "id": 73,
+            "name": "GIGATRON Prime Lider Centaur Računar",
+            "imgUrl": "/images/desktop2.jpg",
+            "price": 54999
+        },
+        {
+            "id": 74,
+            "name": "GIGATRON Prime Pro Pulse Računar",
+            "imgUrl": "/images/desktop3.jpg",
+            "price": 85999
+        },
+        {
+            "id": 75,
+            "name": "GIGATRON Prime Lider Titan Računar",
+            "imgUrl": "/images/desktop4.jpg",
+            "price": 59999
+        },
+        {
+            "id": 76,
+            "name": "GIGATRON Prime Lider Operator Računar",
+            "imgUrl": "/images/desktop5.jpg",
+            "price": 89999
+        },
+        {
+            "id": 77,
+            "name": "GIGATRON Prime Pro Sabre Računar",
+            "imgUrl": "/images/desktop6.jpg",
+            "price": 105999
+        },
+        {
+            "id": 78,
+            "name": "GIGATRON Prime Pro Renegade Računar OUTLET",
+            "imgUrl": "/images/desktop7.jpg",
+            "price": 94999
+        }
+        
     ]
 }
