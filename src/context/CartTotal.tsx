@@ -20,7 +20,7 @@ type CartSummaryProps = {
   console.log(totalPrice)
 
   return (
-    <div className='div-cart-3'>
+    <div className='div-total'>
       <div className='flex flex-col'>
         <h1 className='h'>Iznos kupovine je: </h1>
         <div className='total'>RSD: {totalPrice}</div>
