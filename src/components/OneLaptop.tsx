@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 type OneLaptopProps={
@@ -11,19 +11,18 @@ type OneLaptopProps={
 
 const OneLaptop=(oneLaptop:OneLaptopProps)=>{
 
-    const {increaseQuantity, getItemQuantity, decreaseQuantity, remove} = useShoppingCart()
-    const numberOfItems:number = getItemQuantity(oneLaptop.id)
-    
+    const {increaseQuantity } = useShoppingCart()
+     
     return (
-    <Link to='/laptops' className='link' key={oneLaptop.id}>
+    < div key={oneLaptop.id}>
     <img src={oneLaptop.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{oneLaptop.name}</h1>
     <div className='flex justify-between'>
       <p className='link-p'>{oneLaptop.price} RSD</p>
       
-      <i className="fa fa-cart-shopping fa-2xl mt-5 mr-2"  onClick={() =>increaseQuantity(oneLaptop)}></i> 
+      <i className="fa fa-cart-shopping fa-2xl shopping-cart-icon"  onClick={() =>increaseQuantity(oneLaptop)}></i> 
     </div>
-  </Link>
+  </div>
     )
 }
 

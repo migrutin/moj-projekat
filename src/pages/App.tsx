@@ -22,6 +22,8 @@ import BagsPage from './BagsPage';
 import DockerPage from './DockerPage';
 import BonusPage from './BonusPage';
 import KupovinaNaRate from './KupovinaNaRate';
+import ChargerPage from './ChargerPage';
+import HubPage from './HubPage';
 
 
 
@@ -52,6 +54,11 @@ const App = () => {
       <Route path='/bonus' element={<BonusPage/>} />
       <Route path='/kupovina-na-rate' element={<KupovinaNaRate/>} />
       <Route path='/isporuka' element={<BonusPage/>} />
+      <Route path='/chargers' element={<ChargerPage/>} />
+      <Route path='/hub' element={<HubPage/>} />
+      
+
+
 
 
       

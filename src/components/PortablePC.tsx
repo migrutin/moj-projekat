@@ -18,7 +18,7 @@ const PortablePC = () => {
            <Link to='/bags'> <img src={bag} alt="" className='image-laptop' /></Link>
            <Link to='/dockers'> <img src={docker} alt="" className='image-laptop' /></Link>
            <Link to='/chargers'> <img src={charger} alt="" className='image-laptop' /></Link>
-           <Link to='/hubs'> <img src={hub} alt="" className='image-laptop' /></Link>
+           <Link to='/hub'> <img src={hub} alt="" className='image-laptop' /></Link>
            <Link to='/coolers'> <img src={cooler} alt="" className='image-laptop' /></Link>
            <Link to='/os'> <img src={os} alt="" className='image-laptop' /></Link>
            <Link to='/software'> <img src={software} alt="" className='image-laptop' /></Link>

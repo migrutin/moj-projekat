@@ -1,247 +1,320 @@
 {
-  "laptops": [
-      {
-          "id": 1,
-          "name": "LENOVO ThinkBook 14 G2 ITL i5/8/256 20VD0096YA",
-          "imgUrl": "/images/lenovo.jpg",
-          "price": 69999
-      },
-      {
-          "id": 2,
-          "name": "HP ProBook 440 G9 i5/16/512 6A2H4EA Space gray",
-          "imgUrl": "/images/hp.jpg",
-          "price": 13999
-      },
-      {
-          "id": 3,
-          "name": "ACER Nitro 5 AN515-58 i9/32/512 NHQFMEX010/32",
-          "imgUrl": "/images/acer.jpg",
-          "price": 100999
-      },
-      {
-          "id": 4,
-          "name": "HUAWEI MateBook D15 i5/8/512 BOHRD-WDH9DL ",
-          "imgUrl": "/images/huawei.png",
-          "price": 75999
-      },
-      {
-          "id": 5,
-          "name": "HP Envy x360 13-bf0011nn i7/16/512 6M4Q5EA",
-          "imgUrl": "/images/hpEnvy.jpg",
-          "price": 149999
-      },
-      {
-          "id": 6,
-          "name": "HP Pavilion 13-bb0027nm i3/8/512 634D8EA",
-          "imgUrl": "/images/hpPavilion.png",
-          "price": 129999
-      },
-      {
-          "id": 7,
-          "name": "APPLE MacBook Pro M2 Space Grey 8/256GB - MNEH3ZE/A",
-          "imgUrl": "/images/apple.jpg",
-          "price": 213699
-      },
-      {
-          "id": 8,
-          "name": "APPLE MacBook Air 153 M2 8/256GB Space Grey",
-          "imgUrl": "/images/apple11.jpg",
-          "price": 201999
-      },
-      {
-          "id": 9,
-          "name": "APPLE MacBook Pro 14 M2 Max 64GB/1TB Space Grey",
-          "imgUrl": "/images/apple22.jpg",
-          "price": 565999
-      }
-  ],
-
-  "mice": [
-      {
-          "id": 13,
-          "name": "LOGITECH Bežični miš M330 SILENT PLUS (Crni) 910-0049",
-          "imgUrl": "/images/mis1.png",
-          "price": 4999
-      },
-      {
-          "id": 14,
-          "name": "RAPOO M200 Plus - Bežični miš",
-          "imgUrl": "/images/mis2.png",
-          "price": 2799
-      },
-      {
-          "id": 15,
-          "name": "HAMA Bežični miš MW-500 (Crni)",
-          "imgUrl": "/images/mis3.png",
-          "price": 1799
-      },
-      {
-          "id": 16,
-          "name": "MARVO Gejmerski miš SCORPION M312 (Crni)",
-          "imgUrl": "/images/mis4.png",
-          "price": 1999
-      },
-      {
-          "id": 17,
-          "name": "LOGITECH M240 BT 910-0007121 Miš",
-          "imgUrl": "/images/mis5.png",
-          "price": 3599
-      },
-      {
-          "id": 18,
-          "name": "ASUS Gejmerski miš ROG Keris 90MP01R0-B0UA00",
-          "imgUrl": "/images/mis6.png",
-          "price": 6999
-      },
-      {
-          "id": 19,
-          "name": "ESHARK Gejmerski miš ESL-M4 NAGINATA (Crni)",
-          "imgUrl": "/images/",
-          "price": 8999
-      },
-      {
-          "id": 20,
-          "name": "DELL Bežični miš Mobile (Crni) MS3320W",
-          "imgUrl": "/images/",
-          "price": 3999
-      },
-      {
-          "id": 21,
-          "name": "REDRAGON Žični miš M987-K RGB (Crna)",
-          "imgUrl": "/images/",
-          "price": 2999
-      },
-      {
-          "id": 22,
-          "name": "AULA F805 RGB - Žični gejmerski miš",
-          "imgUrl": "/images/",
-          "price": 1399
-      },
-      {
-          "id": 23,
-          "name": "GEMBIRD Bežični miš ERGO-01",
-          "imgUrl": "/images/",
-          "price": 1499
-      },
-      {
-          "id": 24,
-          "name": "TRUST Gejmeski miš GXT 101D Gav (Zeleni)",
-          "imgUrl": "/images/",
-          "price": 5999
-      }
-  ],
-  "dockers": [
-    {
-        "id": 25,
-        "name": "VENTION USB-C 12u1 Docking Station",
-        "imgUrl": "/images/",
-        "price": 15999
-    },
-    {
-        "id": 26,
-        "name": "ATEN 2 port Thunderbolt 2 US7220 KVM Docking Station",
-        "imgUrl": "/images/",
-        "price": 89999
-    },
-    {
-        "id": 27,
-        "name": "D-LINK USB-C DUB-2334 Docking station",
-        "imgUrl": "/images/",
-        "price": 8999
-    },
-    {
-        "id": 28,
-        "name": "DELL WD19S Dock stanica",
-        "imgUrl": "/images/",
-        "price": 46999
-    },
-    {
-        "id": 29,
-        "name": "MCDODO 6 u 1 USB-C Docking Station",
-        "imgUrl": "/images/",
-        "price": 5999
-    },
-    {
-        "id": 30,
-        "name": "ATEN USB-C Multiport Dock, Punjač 60W - UH3234",
-        "imgUrl": "/images/",
-        "price": 36999
-    }
-],
-
-
-  "bags": [
-    {
-        "id": 31,
-        "name": "GUESS Saffiano Script Torba za laptop 15''",
-        "imgUrl": "/images/",
-        "price": 11999
-    },
-    {
-        "id": 32,
-        "name": "LENOVO ThinkPad Essential Plus Eco Torba za laptop",
-        "imgUrl": "/images/",
-        "price": 4999
-    },
-    {
-        "id": 33,
-        "name": "HAMA Torba za laptop Sportsline I - 26916",
-        "imgUrl": "/images/",
-        "price": 20999
-    },
-    {
-        "id": 34,
-        "name": "THULE Torba Spira Vertical (Crvena) - T3203784",
-        "imgUrl": "/images/",
-        "price": 19999
-    },
-    {
-        "id": 35,
-        "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
-        "imgUrl": "/images/",
-        "price": 49999
-    },
-    {
-        "id": 36,
-        "name": "PULSE poslovna torba SATURN X20255 do 14",
-        "imgUrl": "/images/",
-        "price": 8999
-    },
-    {
-        "id": 37,
-        "name": "THULE Torba Spira Vertical (Crvena) - T320378 ",
-        "imgUrl": "/images/",
-        "price": 5999
-    },
-    {
-        "id": 38,
-        "name": "MS Note D100 Notebook torba",
-        "imgUrl": "/images/",
-        "price": 1999
-    },
-    {
-        "id": 39,
-        "name": "THULE torba za laptop Crossover 2 133",
-        "imgUrl": "/images/",
-        "price": 19999
-    },
-    {
-        "id": 40,
-        "name": "TARGUS Torba za notebook Clamshell - CN415EU1",
-        "imgUrl": "/images/",
-        "price": 4999
-    },
-    {
-        "id": 41,
-        "name": "HAMA Torba za laptop Florencell 133 (Petrolej/Siva)",
-        "imgUrl": "/images/",
-        "price": 3499
-    },
-    {
-        "id": 42,
-        "name": "PULSE Torba za laptop VENUS - 120697",
-        "imgUrl": "/images/",
-        "price": 4999
-    }
-]
+    "laptops": [
+        {
+            "id": 1,
+            "name": "LENOVO ThinkBook 14 G2 ITL i5/8/256 20VD0096YA",
+            "imgUrl": "/images/lenovo.jpg",
+            "price": 69999
+        },
+        {
+            "id": 2,
+            "name": "HP ProBook 440 G9 i5/16/512 6A2H4EA Space gray",
+            "imgUrl": "/images/hp.jpg",
+            "price": 13999
+        },
+        {
+            "id": 3,
+            "name": "ACER Nitro 5 AN515-58 i9/32/512 NHQFMEX010/32",
+            "imgUrl": "/images/acer.jpg",
+            "price": 100999
+        },
+        {
+            "id": 4,
+            "name": "HUAWEI MateBook D15 i5/8/512 BOHRD-WDH9DL ",
+            "imgUrl": "/images/huawei.png",
+            "price": 75999
+        },
+        {
+            "id": 5,
+            "name": "HP Envy x360 13-bf0011nn i7/16/512 6M4Q5EA",
+            "imgUrl": "/images/hpEnvy.jpg",
+            "price": 149999
+        },
+        {
+            "id": 6,
+            "name": "HP Pavilion 13-bb0027nm i3/8/512 634D8EA",
+            "imgUrl": "/images/hpPavilion.png",
+            "price": 129999
+        },
+        {
+            "id": 7,
+            "name": "APPLE MacBook Pro M2 Space Grey 8/256GB - MNEH3ZE/A",
+            "imgUrl": "/images/apple.jpg",
+            "price": 213699
+        },
+        {
+            "id": 8,
+            "name": "APPLE MacBook Air 153 M2 8/256GB Space Grey",
+            "imgUrl": "/images/apple11.jpg",
+            "price": 201999
+        },
+        {
+            "id": 9,
+            "name": "APPLE MacBook Pro 14 M2 Max 64GB/1TB Space Grey",
+            "imgUrl": "/images/apple22.jpg",
+            "price": 565999
+        }
+    ],
+    "mice": [
+        {
+            "id": 13,
+            "name": "LOGITECH Bežični miš M330 SILENT PLUS (Crni) 910-0049",
+            "imgUrl": "/images/mis1.png",
+            "price": 4999
+        },
+        {
+            "id": 14,
+            "name": "RAPOO M200 Plus - Bežični miš",
+            "imgUrl": "/images/mis2.png",
+            "price": 2799
+        },
+        {
+            "id": 15,
+            "name": "HAMA Bežični miš MW-500 (Crni)",
+            "imgUrl": "/images/mis3.png",
+            "price": 1799
+        },
+        {
+            "id": 16,
+            "name": "MARVO Gejmerski miš SCORPION M312 (Crni)",
+            "imgUrl": "/images/mis4.png",
+            "price": 1999
+        },
+        {
+            "id": 17,
+            "name": "LOGITECH M240 BT 910-0007121 Miš",
+            "imgUrl": "/images/mis5.png",
+            "price": 3599
+        },
+        {
+            "id": 18,
+            "name": "ASUS Gejmerski miš ROG Keris 90MP01R0-B0UA00",
+            "imgUrl": "/images/mis6.png",
+            "price": 6999
+        },
+        {
+            "id": 19,
+            "name": "ESHARK Gejmerski miš ESL-M4 NAGINATA (Crni)",
+            "imgUrl": "/images/mis7.png",
+            "price": 8999
+        },
+        {
+            "id": 20,
+            "name": "DELL Bežični miš Mobile (Crni) MS3320W",
+            "imgUrl": "/images/mis8.png",
+            "price": 3999
+        },
+        {
+            "id": 21,
+            "name": "REDRAGON Žični miš M987-K RGB (Crna)",
+            "imgUrl": "/images/mis9.png",
+            "price": 2999
+        },
+        {
+            "id": 22,
+            "name": "AULA F805 RGB - Žični gejmerski miš",
+            "imgUrl": "/images/mis10.png",
+            "price": 1399
+        },
+        {
+            "id": 23,
+            "name": "GEMBIRD Bežični miš ERGO-01",
+            "imgUrl": "/images/mis11.png",
+            "price": 1499
+        },
+        {
+            "id": 24,
+            "name": "TRUST Gejmeski miš GXT 101D Gav (Zeleni)",
+            "imgUrl": "/images/mis12.png",
+            "price": 5999
+        }
+    ],
+    "dockers": [
+        {
+            "id": 25,
+            "name": "VENTION USB-C 12u1 Docking Station",
+            "imgUrl": "/images/dock1.png",
+            "price": 8999
+        },
+        {
+            "id": 26,
+            "name": "ATEN 2 port Thunderbolt 2 US7220 KVM Docking Station",
+            "imgUrl": "/images/dock2.png",
+            "price": 12999
+        },
+        {
+            "id": 27,
+            "name": "D-LINK USB-C DUB-2334 Docking station",
+            "imgUrl": "/images/dock3.png",
+            "price": 15999
+        },
+        {
+            "id": 28,
+            "name": "DELL WD19S Dock stanica",
+            "imgUrl": "/images/dock4.png",
+            "price": 18999
+        },
+        {
+            "id": 29,
+            "name": "MCDODO 6 u 1 USB-C Docking Station",
+            "imgUrl": "/images/dock5.png",
+            "price": 11999
+        },
+        {
+            "id": 30,
+            "name": "ATEN USB-C Multiport Dock, Punjač 60W - UH3234",
+            "imgUrl": "/images/dock6.png",
+            "price": 8999
+        }
+    ],
+    "bags": [
+        {
+            "id": 31,
+            "name": "GUESS Saffiano Script Torba za laptop 15''",
+            "imgUrl": "/images/bag1.png",
+            "price": 11999
+        },
+        {
+            "id": 32,
+            "name": "LENOVO ThinkPad Essential Plus Eco Torba za laptop",
+            "imgUrl": "/images/bag2.png",
+            "price": 4999
+        },
+        {
+            "id": 33,
+            "name": "HAMA Torba za laptop Sportsline I - 26916",
+            "imgUrl": "/images/bag3.png",
+            "price": 20999
+        },
+        {
+            "id": 34,
+            "name": "THULE Torba Spira Vertical (Crvena) - T3203784",
+            "imgUrl": "/images/bag4.png",
+            "price": 19999
+        },
+        {
+            "id": 35,
+            "name": "LaptoHP 255 G9 R7/8/512 5Y3X1EAp1",
+            "imgUrl": "/images/bag5.png",
+            "price": 49999
+        },
+        {
+            "id": 36,
+            "name": "PULSE poslovna torba SATURN X20255 do 14",
+            "imgUrl": "/images/bag6.png",
+            "price": 8999
+        },
+        {
+            "id": 37,
+            "name": "THULE Torba Spira Vertical (Crvena) - T320378 ",
+            "imgUrl": "/images/bag7.png",
+            "price": 5999
+        },
+        {
+            "id": 38,
+            "name": "MS Note D100 Notebook torba",
+            "imgUrl": "/images/bag8.png",
+            "price": 1999
+        },
+        {
+            "id": 39,
+            "name": "THULE torba za laptop Crossover 2 133",
+            "imgUrl": "/images/bag9.png",
+            "price": 19999
+        }
+    ],
+    "chargers": [
+        {
+            "id": 40,
+            "name": "APPLE MagSafe 2 Power Adapter - md592z/a -",
+            "imgUrl": "/images/ch1.png",
+            "price": 11999
+        },
+        {
+            "id": 41,
+            "name": "KFD Punjač za laptop KFD-HP",
+            "imgUrl": "/images/ch2.png",
+            "price": 1999
+        },
+        {
+            "id": 42,
+            "name": "KFD 5152 Q90 A159 USB-C - Punjač za laptop",
+            "imgUrl": "/images/ch3.jpg",
+            "price": 6599
+        },
+        {
+            "id": 43,
+            "name": "KFD Q46 Punjač za laptop sa 9 nastavaka",
+            "imgUrl": "/images/ch.png",
+            "price": 3999
+        },
+        {
+            "id": 44,
+            "name": "KFD Univerzalni punjač za laptop sa 8 nastavka - 3473",
+            "imgUrl": "/images/ch5.png",
+            "price": 49999
+        },
+        {
+            "id": 45,
+            "name": "HAMA Punjač za laptop 200003 OUTLET",
+            "imgUrl": "/images/ch6.png",
+            "price": 8999
+        },
+        {
+            "id": 46,
+            "name": "S-BOX Punjač za Macbook AP-85W (Beli)",
+            "imgUrl": "/images/ch7.png",
+            "price": 5999
+        },
+        {
+            "id": 47,
+            "name": "KFD NB Punjač za laptop 3727 Q66 Multi Type-C",
+            "imgUrl": "/images/ch8.png",
+            "price": 1999
+        },
+        {
+            "id": 48,
+            "name": "KFDAuto Auto Punjač CAR-65W",
+            "imgUrl": "/images/ch9.png",
+            "price": 19999
+        }
+    ],
+    "hubs": [
+        {
+            "id": 49,
+            "name": "MOYE Multiport hub USB-C X11 (Srebrna)",
+            "imgUrl": "/images/hub1.png",
+            "price": 12999
+        },
+        {
+            "id": 50,
+            "name": "MOYE Multiport hub USB-C X8 (Srebrna)",
+            "imgUrl": "/images/hub2.png",
+            "price": 6999
+        },
+        {
+            "id": 51,
+            "name": "MCDODO HU-7420 10 u 1 - Multiport hub",
+            "imgUrl": "/images/hub3.png",
+            "price": 4999
+        },
+        {
+            "id": 52,
+            "name": "READY TO GAMING USB Hub PS5",
+            "imgUrl": "/images/hub4.png",
+            "price": 2999
+        },
+        {
+            "id": 53,
+            "name": "LC-POWER LC-HUB-C-MULTI-6-RGB USB Hub",
+            "imgUrl": "/images/hub5.jpg",
+            "price": 5999
+        },
+        {
+            "id": 54,
+            "name": "D-LINK USB hub USB 2.0 sa 7 porta - DUB-H7",
+            "imgUrl": "/images/hub6.png",
+            "price": 3999
+        }
+    ]
 }

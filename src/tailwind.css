@@ -542,11 +542,17 @@ img {
   margin-left: 30px;
 }
 .shopping-cart-icon{
-  background-color: red;
-  height: 40px;
-  width: 40px;
-  border-radius: 100%;
+  margin-top: 20px;
+  margin-right: 8px;
+
 }
+.shopping-cart-icon:hover{
+  cursor: pointer;
+}
+
+
+
+
 
 
 
