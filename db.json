@@ -316,5 +316,43 @@
             "imgUrl": "/images/hub6.png",
             "price": 3999
         }
+    ],
+    "coolers": [
+        {
+            "id": 55,
+            "name": "COOLER MASTER NotePal U2 Plus V2 - MNX SWUK 20FNN R1",
+            "imgUrl": "/images/cooler1.png",
+            "price": 4999
+        },
+        {
+            "id": 56,
+            "name": "ORICO SE-SC31-SV-BP Postolje za laptop",
+            "imgUrl": "/images/cooler2.png",
+            "price": 5999
+        },
+        {
+            "id": 57,
+            "name": "ORICO PFB-A2-SV-BP Postolje za laptop",
+            "imgUrl": "/images/cooler3.png",
+            "price": 1999
+        },
+        {
+            "id": 58,
+            "name": "NOTEPAL U3 Plus - R9-NBC-U3PK-GP",
+            "imgUrl": "/images/cooler4.png",
+            "price": 2999
+        },
+        {
+            "id": 59,
+            "name": "MS D105 Postolje za hlađenje laptopa",
+            "imgUrl": "/images/cooler5.png",
+            "price": 1999
+        },
+        {
+            "id": 60,
+            "name": "MOYE Frost X - 44316 Postolje za laptop sa ventilatorima",
+            "imgUrl": "/images/cooler6.png",
+            "price": 5999
+        }
     ]
 }

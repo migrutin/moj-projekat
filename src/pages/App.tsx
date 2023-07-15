@@ -1,5 +1,6 @@
 import './App.css'
 import {Route, Routes } from 'react-router-dom'
+import { ShoppingCartProvider } from '../context/ShoppingCartContext';
 import Novosti from './Novosti';
 import Poslovanje from './Poslovanje';
 import Promocije from './Promocije';
@@ -14,7 +15,6 @@ import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
 import SignIn from './SignIn';
 import NewUser from './NewUser';
-import { ShoppingCartProvider } from '../context/ShoppingCartContext';
 import ShoppingBasket from './ShoppingBasket';
 import LaptopPage from './LaptopPage';
 import MicePage from './MicePage';
@@ -24,6 +24,7 @@ import BonusPage from './BonusPage';
 import KupovinaNaRate from './KupovinaNaRate';
 import ChargerPage from './ChargerPage';
 import HubPage from './HubPage';
+import CoolerPage from './CoolerPage';
 
 
 
@@ -56,6 +57,7 @@ const App = () => {
       <Route path='/isporuka' element={<BonusPage/>} />
       <Route path='/chargers' element={<ChargerPage/>} />
       <Route path='/hub' element={<HubPage/>} />
+      <Route path='/coolers' element={<CoolerPage/>} />
       
 
 

@@ -3,14 +3,15 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Hubs from '../components/Hubs'
+import Chargers from '../components/Chargers'
+import Coolers from '../components/Coolers'
 
-const HubPage = () => {
+const CoolerPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Hubs></Hubs>
+        <Coolers></Coolers>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -18,4 +19,4 @@ const HubPage = () => {
   )
 }
 
-export default HubPage
+export default CoolerPage
