@@ -4,6 +4,7 @@ import bag from '../img/bag.png'
 import docker from '../img/docker.png'
 import hub from '../img/hub.png'
 import charger from '../img/charger.png'
+import slika from '../img/slika.jpg'
 import cooler from '../img/cooler.png'
 import os from '../img/os.png'
 import software from '../img/software.png'
@@ -11,7 +12,8 @@ import { Link } from 'react-router-dom'
 
 const PortablePC = () => {
   return (
-    <div className='laptop'>
+    <div className='laptop flex flex-col'>
+      <img src={slika} alt="" className='h-60 mr-12' />
         <div className='laptop-square'>
            <Link to='/laptops'> <img src={laptopp} alt="" className='image-laptop' /></Link>
            <Link to='/mice'> <img src={mouse} alt="" className='image-laptop' /></Link>
