@@ -39,6 +39,7 @@ import OpremaPage from './OpremaPage';
 import KeyboardPage from './KeyboardPage';
 import BasePage from './BasePage';
 import PrinterPage from './PrinterPage';
+import SpeakerPage from './SpeakerPage';
 
 
 
@@ -84,7 +85,8 @@ const App = () => {
       <Route path='/igre' element={<GamePage/>} />
       <Route path='/oprema' element={<OpremaPage/>} />
       <Route path='/podloge' element={<BasePage/>} />
-      <Route path='/stampaci' element={<PrinterPage/>} />
+      <Route path='/stampaci' element={<PrinterPage/>}/>
+      <Route path='/zvucnici' element={<SpeakerPage/>}/>
 
 
 

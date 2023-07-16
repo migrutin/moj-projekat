@@ -1,22 +1,22 @@
 import { useEffect, useState } from 'react'
-import Printer from './Printer';
+import Speaker from './Speaker';
 
-type OnePrinter = {
+type OneSpeaker = {
   id:number,
   name: string;
   imgUrl : string;
   price: number;
 }
 
-type MyFetchType = Array<OnePrinter>
+type MyFetchType = Array<OneSpeaker>
 
 
-const Printers = () => {
-  const [data,setData]=useState<OnePrinter[]>();
+const Speakers = () => {
+  const [data,setData]=useState<OneSpeaker[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/printers");
+      const response=await fetch(" http://localhost:3000/speakers");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -27,11 +27,11 @@ const Printers = () => {
 
 
     return (
-      <>{data ? <Printer arrayPrinter={data} /> : <div></div>}</>
+      <>{data ? <Speaker arraySpeaker={data} /> : <div></div>}</>
       
     )
    
   
 }
 
-export default  Printers
+export default  Speakers

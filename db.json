@@ -868,5 +868,43 @@
             "imgUrl": "/images/base8.png",
             "price": 95799
         }
+    ],
+    "speakers": [
+        {
+            "id": 141,
+            "name": "EDIFIER Zvučnici za računar R1700BT Black-Brown",
+            "imgUrl": "/images/speak1.png",
+            "price": 18999
+        },
+        {
+            "id": 142,
+            "name": "LOGITECH Z906 5.1 zvučnici - 980-000468",
+            "imgUrl": "/images/speak2.png",
+            "price": 41299
+        },
+        {
+            "id": 143,
+            "name": "LOGITECH Z200 2.0 zvučnici - Black - 980-000810",
+            "imgUrl": "/images/speak3.png",
+            "price": 4199
+        },
+        {
+            "id": 144,
+            "name": "LOGITECH zvučnici G560 - 980-001303 Black color",
+            "imgUrl": "/images/speak4.png",
+            "price": 29999
+        },
+        {
+            "id": 145,
+            "name": "LOGITECH Z200 2.0 zvučnici (Beli) - 980-000811",
+            "imgUrl": "/images/speak5.png",
+            "price": 4499
+        },
+        {
+            "id": 146,
+            "name": "LOGITECH Multimedia Speaker System Z333 - 980-001202",
+            "imgUrl": "/images/speak6.png",
+            "price": 7999
+        }
     ]
 }

@@ -1,17 +1,17 @@
 import OnePrinter from './OnePrinter';
 
-interface TypeOnePrinter {
+interface TypeOneSpeaker {
   id: number;
   name: string;
   imgUrl: string;
   price: number;
 }
 
-interface TypePrinterProps {
-    arrayPrinter: TypeOnePrinter[]
+interface TypeSpeakerProps {
+    arraySpeaker: TypeOneSpeaker[]
 }
 
-const Printer = ({ arrayPrinter }: TypePrinterProps) => {
+const Speaker = ({ arraySpeaker }: TypeSpeakerProps) => {
   return (
     <div className='laptop-items'>
       <div className='laptop-div-1'>
@@ -19,13 +19,13 @@ const Printer = ({ arrayPrinter }: TypePrinterProps) => {
       </div>
       <div className='laptop'>
         <div className='laptop-item'>
-          {arrayPrinter.map(printer =>
+          {arraySpeaker.map(speaker =>
             <OnePrinter
-              id={printer.id}
-              imgUrl={printer.imgUrl}
-              name={printer.name}
-              price={printer.price}
-              key={printer.id}
+              id={speaker.id}
+              imgUrl={speaker.imgUrl}
+              name={speaker.name}
+              price={speaker.price}
+              key={speaker.id}
             />)}
 
 
@@ -38,4 +38,4 @@ const Printer = ({ arrayPrinter }: TypePrinterProps) => {
   )
 }
 
-export default Printer
+export default Speaker
