@@ -718,5 +718,61 @@
             "imgUrl": "/images/igra8.png",
             "price": 299
         }
+    ],
+    "keyboards": [
+        {
+            "id": 117,
+            "name": "LOGITECH Bežična tastatura K400 PLUS US (Bela) 920-007146n",
+            "imgUrl": "/images/tast1.png",
+            "price": 4999
+        },
+        {
+            "id": 118,
+            "name": "Logitech MX Keys S Plus US 920-011589 Tastatura",
+            "imgUrl": "/images/tast2.jpg",
+            "price": 16999
+        },
+        {
+            "id": 119,
+            "name": "LOGITECH G713 Linear 920-010670 US - Žična gejmerska tastatura9",
+            "imgUrl": "/images/tast3.png",
+            "price": 22999
+        },
+        {
+            "id": 120,
+            "name": "LOGITECH Bežična tastatura MX Keys Mini US (Roze) 920-010474",
+            "imgUrl": "/images/tast4.png",
+            "price": 9999
+        },
+        {
+            "id": 121,
+            "name": "LOGITECH Bežična tastatura i miš MK470 SLIM WIRELESS COMBO US (Bela) 920-009205",
+            "imgUrl": "/images/tast5.png",
+            "price": 6499
+        },
+        {
+            "id": 122,
+            "name": "LOGITECH Bežična tastatura K860 ERGO US",
+            "imgUrl": "/images/tast6.png",
+            "price": 12499
+        },
+        {
+            "id": 123,
+            "name": "LOGITECH MX Keys S US 920-011588 Tastatura",
+            "imgUrl": "/images/tast7.jpg",
+            "price": 15799
+        },
+        {
+            "id": 124,
+            "name": "LOGITECH Bežična tastatura Pop Keys Daydream (Bela/Ljubičasta) 920-010736",
+            "imgUrl": "/images/tast8.png",
+            "price": 10999
+        },
+        {
+            "id": 125,
+            "name": "LOGITECH Bežična tastatura K380 US (Crna) 920-007582",
+            "imgUrl": "/images/tast9.png",
+            "price": 6299
+        }
     ]
 }

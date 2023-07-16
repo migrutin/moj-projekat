@@ -36,6 +36,7 @@ import Components from '../components/Components';
 import ComponentPage from './ComponentPage';
 import GamePage from './GamePage';
 import OpremaPage from './OpremaPage';
+import KeyboardPage from './KeyboardPage';
 
 
 
@@ -80,6 +81,7 @@ const App = () => {
       <Route path='/komponente' element={<ComponentPage/>} />
       <Route path='/igre' element={<GamePage/>} />
       <Route path='/oprema' element={<OpremaPage/>} />
+      <Route path='/tastature' element={<KeyboardPage/>} />
 
 
       
