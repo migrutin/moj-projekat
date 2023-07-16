@@ -35,6 +35,7 @@ import MonitorPage from './MonitorPage';
 import Components from '../components/Components';
 import ComponentPage from './ComponentPage';
 import GamePage from './GamePage';
+import OpremaPage from './OpremaPage';
 
 
 
@@ -78,6 +79,7 @@ const App = () => {
       <Route path='/monitori' element={<MonitorPage/>} />
       <Route path='/komponente' element={<ComponentPage/>} />
       <Route path='/igre' element={<GamePage/>} />
+      <Route path='/oprema' element={<OpremaPage/>} />
 
 
       

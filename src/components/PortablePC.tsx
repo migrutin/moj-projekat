@@ -14,7 +14,7 @@ const PortablePC = () => {
   return (
     <div className='laptop flex flex-col bg-gray-100'>
       <div>
-      <img src={slika} alt="" className='h-60 w-full mr-1' />
+      <img src={slika} alt="" className='image-stranica' />
         <div className='laptop-square bg-white items-center justify-center'>
            <Link to='/laptops' className='justify-center items-center'> <img src={laptopp} alt="" className='image-laptop' /> </Link>
            <Link to='/mice'> <img src={mouse} alt="" className='image-laptop' /></Link>

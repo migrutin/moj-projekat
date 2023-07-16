@@ -15,7 +15,7 @@ const RacunariStranica = () => {
 
     <div className='laptop flex flex-col bg-gray-100'>
       <div>
-        <img src={racunari} alt="" className='h-60 w-full ' />
+        <img src={racunari} alt="" className='image-stranica' />
         <div className='laptop-square bg-white items-center justify-center'>
           <Link to='/desktop-racunari'> <img src={desktop} alt="" className='image-laptop' /></Link>
           <Link to='/brand-name-racunari'> <img src={brand} alt="" className='image-laptop' /></Link>
