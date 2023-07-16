@@ -906,5 +906,50 @@
             "imgUrl": "/images/speak6.png",
             "price": 7999
         }
+    ],
+    
+    "mikes": [
+        {
+            "id": 147,
+            "name": "LOGITECH Rally Mic Pod Graphite Mikrofon",
+            "imgUrl": "/images/mike1.jpg",
+            "price": 65999
+        },
+        {
+            "id": 148,
+            "name": "GENESIS Mikrofon Radium 600 NGM-1241",
+            "imgUrl": "/images/mike2.png",
+            "price": 13299
+        },
+        {
+            "id": 149,
+            "name": "SONY ECM-G1Z 256 - Mikrofon - Black color",
+            "imgUrl": "/images/mike3.jpg",
+            "price": 4199
+        },
+        {
+            "id": 150,
+            "name": "BOYA Mikrofon BY-PM300 USB",
+            "imgUrl": "/images/mike4.png",
+            "price": 8999
+        },
+        {
+            "id": 151,
+            "name": "NZXT Mikrofon AP-WUMIC-B1",
+            "imgUrl": "/images/mike5.png",
+            "price": 18499
+        },
+        {
+            "id": 152,
+            "name": "NZXT Mikrofon AP-WUMIC-W1",
+            "imgUrl": "/images/mike6.png",
+            "price": 17999
+        },
+        {
+            "id": 153,
+            "name": "RAZER Seiren X mikrofon Quartz Pink",
+            "imgUrl": "/images/mike7.png",
+            "price": 19999
+        }
     ]
 }

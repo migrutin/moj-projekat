@@ -40,6 +40,7 @@ import KeyboardPage from './KeyboardPage';
 import BasePage from './BasePage';
 import PrinterPage from './PrinterPage';
 import SpeakerPage from './SpeakerPage';
+import MikePage from './MikePage';
 
 
 
@@ -87,6 +88,7 @@ const App = () => {
       <Route path='/podloge' element={<BasePage/>} />
       <Route path='/stampaci' element={<PrinterPage/>}/>
       <Route path='/zvucnici' element={<SpeakerPage/>}/>
+      <Route path='/mikrofoni' element={<MikePage/>}/>
 
 
 
