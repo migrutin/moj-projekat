@@ -14,7 +14,7 @@ const OneLaptop=(oneLaptop:OneLaptopProps)=>{
     const {increaseQuantity } = useShoppingCart()
      
     return (
-    < div key={oneLaptop.id}>
+    < div key={oneLaptop.id} className="bg-white">
     <img src={oneLaptop.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{oneLaptop.name}</h1>
     <div className='flex justify-between'>

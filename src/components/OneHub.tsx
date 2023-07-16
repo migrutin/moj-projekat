@@ -14,7 +14,7 @@ const OneHub=(oneHub:OneHubProps)=>{
     const {increaseQuantity } = useShoppingCart()
      
     return (
-    < div key={oneHub.id}>
+    < div key={oneHub.id} className="bg-white">
     <img src={oneHub.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{oneHub.name}</h1>
     <div className='flex justify-between'>

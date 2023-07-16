@@ -14,7 +14,7 @@ const OneCooler=(oneCooler:OneCoolerProps)=>{
     const {increaseQuantity } = useShoppingCart()
      
     return (
-    < div key={oneCooler.id}>
+    < div key={oneCooler.id} className="bg-white">
     <img src={oneCooler.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{oneCooler.name}</h1>
     <div className='flex justify-between'>

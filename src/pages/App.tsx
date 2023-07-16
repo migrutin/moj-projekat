@@ -29,6 +29,12 @@ import SoftwarePage from './SoftwarePage';
 import NacinPlacanjaPage from './NacinPlacanjaPage';
 import RacunariPage from './RacunariPage';
 import DesktopPage from './DesktopPage';
+import BrandNameRacunariPage from './BrandNameRacunariPage';
+import AllInPage from './AllInPage';
+import MonitorPage from './MonitorPage';
+import Components from '../components/Components';
+import ComponentPage from './ComponentPage';
+import GamePage from './GamePage';
 
 
 
@@ -67,6 +73,13 @@ const App = () => {
       <Route path='/software' element={<SoftwarePage/>} />
       <Route path='/racunari' element={<RacunariPage/>} />
       <Route path='/desktop-racunari' element={<DesktopPage/>} />
+      <Route path='/brand-name-racunari' element={<BrandNameRacunariPage/>} />
+      <Route path='/all-in-one' element={<AllInPage/>} />
+      <Route path='/monitori' element={<MonitorPage/>} />
+      <Route path='/komponente' element={<ComponentPage/>} />
+      <Route path='/igre' element={<GamePage/>} />
+
+
       
 
       <Route path='/login' element={<SignIn />} />

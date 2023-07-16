@@ -436,13 +436,12 @@
             "imgUrl": "/images/soft5.png",
             "price": 3999
         }
-        
     ],
     "desktops": [
         {
             "id": 72,
             "name": "GIGATRON Prime Lider Compact",
-            "imgUrl": "/images/desktop1.jpg",
+            "imgUrl": "/images/desktop1.png",
             "price": 41499
         },
         {
@@ -481,6 +480,243 @@
             "imgUrl": "/images/desktop7.jpg",
             "price": 94999
         }
-        
+    ],
+    "brandNameRacunari": [
+        {
+            "id": 79,
+            "name": "INTEL BXNUC10I3FNKN2",
+            "imgUrl": "/images/brand1.png",
+            "price": 35499
+        },
+        {
+            "id": 80,
+            "name": "GIGABYTE BRIX GB-BMPD-6005",
+            "imgUrl": "/images/brand2.png",
+            "price": 36999
+        },
+        {
+            "id": 81,
+            "name": "DELL Vostro 3910 MT - G74004G1TW11P Računar",
+            "imgUrl": "/images/brand4.png",
+            "price": 79999
+        },
+        {
+            "id": 82,
+            "name": "GIGABYTE BRIX GB-BRI3-10110",
+            "imgUrl": "/images/brand3.png",
+            "price": 60999
+        },
+        {
+            "id": 83,
+            "name": "INTEL BXNUC10I5FNKN2",
+            "imgUrl": "/images/brand5.png",
+            "price": 44999
+        },
+        {
+            "id": 84,
+            "name": "DELL OptiPlex 5000 MT - I78G256SW11P Računar",
+            "imgUrl": "/images/brand6.png",
+            "price": 166999
+        },
+        {
+            "id": 85,
+            "name": "ZEUS MPI10-i523 8GB/512GB Računar",
+            "imgUrl": "/images/brand7.jpg",
+            "price": 56999
+        }
+    ],
+    "allInOne": [
+        {
+            "id": 86,
+            "name": "HP 24-cb0050ny 58X42EA All-In-One Računar",
+            "imgUrl": "/images/all1.jpg",
+            "price": 75499
+        },
+        {
+            "id": 87,
+            "name": "LENOVO IdeaCentre 3 27ALC6 F0FY00F6RI All-In-One Računar",
+            "imgUrl": "/images/all2.jpg",
+            "price": 119999
+        },
+        {
+            "id": 88,
+            "name": "LENOVO IdeaCentre AIO 3 24ALC6 F0G100L2RI All-In-One Računar",
+            "imgUrl": "/images/all3.jpg",
+            "price": 87999
+        },
+        {
+            "id": 89,
+            "name": "APPLE iMac 24 Green (Zelena) MJV83CR/A",
+            "imgUrl": "/images/all4.png",
+            "price": 199999
+        },
+        {
+            "id": 90,
+            "name": "HP 24-cb1004ny - 65D32EA All-In-One računar",
+            "imgUrl": "/images/all5.png",
+            "price": 97999
+        },
+        {
+            "id": 91,
+            "name": "HP 24-cb1005ny - 65D33EA All-In-One računar",
+            "imgUrl": "/images/all6.png",
+            "price": 72999
+        },
+        {
+            "id": 92,
+            "name": "ACER Veriton VZ2594 All-In-One Računar",
+            "imgUrl": "/images/all7.jpg",
+            "price": 75999
+        }
+    ],
+    "monitors": [
+        {
+            "id": 93,
+            "name": "DELL Monitor 24",
+            "imgUrl": "/images/monitor1.png",
+            "price": 19999
+        },
+        {
+            "id": 94,
+            "name": "LG 49' IPS 49WL95C-WE UltraWide zakrivljen monitor",
+            "imgUrl": "/images/monitor2.png",
+            "price": 179999
+        },
+        {
+            "id": 95,
+            "name": "LG 48' 48GQ900-B UltraGear Gaming monitor",
+            "imgUrl": "/images/monitor3.png",
+            "price": 169999
+        },
+        {
+            "id": 96,
+            "name": "LG 28'  28MQ780-B Dual monitor sa ergo postoljem",
+            "imgUrl": "/images/monitor4.png",
+            "price": 89999
+        },
+        {
+            "id": 97,
+            "name": "LG UltraGear 31.5' QHD - 32GQ850-B Gaming monitor",
+            "imgUrl": "/images/monitor5.png",
+            "price": 109999
+        },
+        {
+            "id": 98,
+            "name": "LG 26' 26WQ500-B Ultrawide monitor",
+            "imgUrl": "/images/monitor6.png",
+            "price": 19499
+        },
+        {
+            "id": 99,
+            "name": "LG 27' 27MP400P-B Monitor",
+            "imgUrl": "/images/monitor7.jpg",
+            "price": 17999
+        },
+        {
+            "id": 100,
+            "name": "PHILIPS Gaming Monitor 27' 272E1GAEZ/00",
+            "imgUrl": "/images/monitor8.png",
+            "price": 28999
+        }
+    ],
+    "components": [
+        {
+            "id": 101,
+            "name": "INTEL Core i5-12600 3.30 GHz (4.80 GHz) Strix",
+            "imgUrl": "/images/comp1.png",
+            "price": 38999
+        },
+        {
+            "id": 102,
+            "name": "ASUS PRIME H770-PLUS D4 Matična ploča",
+            "imgUrl": "/images/comp2.jpg",
+            "price": 25999
+        },
+        {
+            "id": 103,
+            "name": "DEEPCOOL AS500 PLUS Kuler - Black color",
+            "imgUrl": "/images/comp3.jpg",
+            "price": 10999
+        },
+        {
+            "id": 104,
+            "name": "MSI MPG B550 GAMING PLUS 650W - HPT",
+            "imgUrl": "/images/comp4.png",
+            "price": 18999
+        },
+        {
+            "id": 105,
+            "name": "ASUS TUF GAMING B760M-PLUS D4 Matična ploča",
+            "imgUrl": "/images/comp5.jpg",
+            "price": 26999
+        },
+        {
+            "id": 106,
+            "name": "HP FX900 Plus 256GB NVMe M.2 2280 35M32AA SSD",
+            "imgUrl": "/images/comp6.jpg",
+            "price": 3499
+        },
+        {
+            "id": 107,
+            "name": "WD Red Plus NAS SATA 2TB WD20EFZX - HDD",
+            "imgUrl": "/images/comp7.png",
+            "price": 10999
+        },
+        {
+            "id": 108,
+            "name": "LG GP60NS60 DWD-RW - Optički uređaj (Siva boja)",
+            "imgUrl": "/images/comp8.png",
+            "price": 3999
+        }
+    ],
+    "games": [
+        {
+            "id": 109,
+            "name": "PC Frostpunk - On the Edge Signature Edition",
+            "imgUrl": "/images/igra1.png",
+            "price": 1999
+        },
+        {
+            "id": 110,
+            "name": "PC The Sims 4 Bundle - Season 2022",
+            "imgUrl": "/images/igra2.png",
+            "price": 4999
+        },
+        {
+            "id": 111,
+            "name": "PC Pro Cycling Manager - Season 2019",
+            "imgUrl": "/images/igra3.png",
+            "price": 2999
+        },
+        {
+            "id": 112,
+            "name": "PC Marvel's Avengers Special Ediition",
+            "imgUrl": "/images/igra4.png",
+            "price": 3999
+        },
+        {
+            "id": 113,
+            "name": "PC LEGO Harry Potter Years 1-4",
+            "imgUrl": "/images/igra5.png",
+            "price": 799
+        },
+        {
+            "id": 114,
+            "name": "PC Kingdom Come Deliverance",
+            "imgUrl": "/images/igra6.png",
+            "price": 6499
+        },
+        {
+            "id": 115,
+            "name": "PC F1 2019 Anniversary Edition",
+            "imgUrl": "/images/igra7.png",
+            "price": 6499
+        },
+        {
+            "id": 116,
+            "name": "PC Broken Sword 3 The Sleeping Dragon",
+            "imgUrl": "/images/igra8.png",
+            "price": 299
+        }
     ]
 }

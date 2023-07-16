@@ -13,7 +13,7 @@ const OneSoftware = (soft : OneSoftProps) => {
  
 
   return (
-    <div key={soft.id}>
+    <div key={soft.id} className="bg-white">
     <img src={soft.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{soft.name}</h1>
     <div className='flex justify-between'>

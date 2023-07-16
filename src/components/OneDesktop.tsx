@@ -14,7 +14,7 @@ const OneDesktop=(oneDesktop:OneDesktopProps)=>{
     const {increaseQuantity } = useShoppingCart()
      
     return (
-    < div key={oneDesktop.id}>
+    < div key={oneDesktop.id} className="bg-white">
     <img src={oneDesktop.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{oneDesktop.name}</h1>
     <div className='flex justify-between'>

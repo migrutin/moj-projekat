@@ -13,7 +13,7 @@ const OneOS = (os : OneOSProps) => {
  
 
   return (
-    <div key={os.id}>
+    <div key={os.id} className="bg-white">
     <img src={os.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{os.name}</h1>
     <div className='flex justify-between'>

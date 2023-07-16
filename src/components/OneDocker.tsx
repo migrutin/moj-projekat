@@ -13,7 +13,7 @@ const OneDocker = (docker: OneDockerProps) => {
     const {increaseQuantity} = useShoppingCart()
     
   return (
-    <div key={docker.id}>
+    <div key={docker.id} className="bg-white">
     <img src={docker.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{docker.name}</h1>
     <div className='flex justify-between'>

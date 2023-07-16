@@ -13,7 +13,7 @@ const OneMouse = (mouse : OneMouseProps) => {
  
 
   return (
-    <div key={mouse.id}>
+    <div key={mouse.id} className="bg-white">
     <img src={mouse.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{mouse.name}</h1>
     <div className='flex justify-between'>

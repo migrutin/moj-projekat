@@ -11,7 +11,7 @@ const OneBag = (bag : OneBagProps) => {
     const {increaseQuantity} = useShoppingCart()
   
   return (
-    <div key={bag.id}>
+    <div key={bag.id} className="bg-white">
     <img src={bag.imgUrl} alt="aaaa" className='laptop-item-img' />
     <h1 className='link-h'>{bag.name}</h1>
     <div className='flex justify-between'>
