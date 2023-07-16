@@ -818,5 +818,55 @@
             "imgUrl": "/images/base7.png",
             "price": 1799
         }
+    ],
+    "printers": [
+        {
+            "id": 133,
+            "name": "BROTHER Štampač etiketa P-touch Cube Plus",
+            "imgUrl": "/images/stam1.png",
+            "price": 18999
+        },
+        {
+            "id": 134,
+            "name": "ANYCUBIC Mašina za pranje i očvršćavanje 3D printova Wash and Cure Plus",
+            "imgUrl": "/images/stam2.png",
+            "price": 31299
+        },
+        {
+            "id": 135,
+            "name": "CREALITY Halot One Plus",
+            "imgUrl": "/images/stam3.jpg",
+            "price": 69199
+        },
+        {
+            "id": 136,
+            "name": "WANHAO 3D Štampač DUPLICATOR 6 Plus",
+            "imgUrl": "/images/stam4.png",
+            "price": 94299
+        },
+        {
+            "id": 137,
+            "name": "BROTHER Multifunkcijski štampač DCPT520WYJ1",
+            "imgUrl": "/images/stam5.png",
+            "price": 30999
+        },
+        {
+            "id": 138,
+            "name": "HP Štampač LaserJet M111a",
+            "imgUrl": "/images/stam6.png",
+            "price": 12999
+        },
+        {
+            "id": 139,
+            "name": "BROTHER Štampač DCPT720DWYJ1",
+            "imgUrl": "/images/base7.png",
+            "price": 39799
+        },
+        {
+            "id": 140,
+            "name": "EPSON Matrični štampač Dot Matrix FX-890II",
+            "imgUrl": "/images/base8.png",
+            "price": 95799
+        }
     ]
 }
