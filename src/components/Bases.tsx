@@ -1,23 +1,24 @@
 import { useEffect, useState } from 'react'
 import Keyboard from './Keyboard';
+import Base from './Base';
 
-type OneKeyboard = {
+type OneBase = {
   id:number,
   name: string;
   imgUrl : string;
   price: number;
 }
 
-type MyFetchType = Array<OneKeyboard>
+type MyFetchType = Array<OneBase>
 
 
-const Keyboards = () => {
+const Bases = () => {
   
-  const [data,setData]=useState<OneKeyboard[]>();
+  const [data,setData]=useState<OneBase[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/keyboards");
+      const response=await fetch(" http://localhost:3000/bases");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -29,9 +30,9 @@ const Keyboards = () => {
     if(data==null){
       return <div></div>
     }else{
-      return <Keyboard arrayKeyboard={data}/>
+      return <Base arrayBase={data}/>
     }
   
 }
 
-export default Keyboards
+export default Bases

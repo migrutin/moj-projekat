@@ -774,5 +774,49 @@
             "imgUrl": "/images/tast9.png",
             "price": 6299
         }
+    ],
+    "bases": [
+        {
+            "id": 126,
+            "name": "LOGITECH G440 943-000791 - Podloga za miš",
+            "imgUrl": "/images/base1.png",
+            "price": 2999
+        },
+        {
+            "id": 127,
+            "name": "LOGITECH Podloga za miša Studio (Plava) 956-00005",
+            "imgUrl": "/images/base2.png",
+            "price": 1299
+        },
+        {
+            "id": 128,
+            "name": "LOGITECH Podloga za miša Desk mat Studio",
+            "imgUrl": "/images/base3.png",
+            "price": 2199
+        },
+        {
+            "id": 129,
+            "name": "LOGITECH Podloga za miša Studio Series (Roze) 956-000050",
+            "imgUrl": "/images/base4.png",
+            "price": 1299
+        },
+        {
+            "id": 130,
+            "name": "GENIUS Gejmerska podloga za miša GX-Pad 500S RGB",
+            "imgUrl": "/images/base5.png",
+            "price": 2499
+        },
+        {
+            "id": 131,
+            "name": "SPAWN Play Mat 2 - Podloga za miš",
+            "imgUrl": "/images/base6.jpg",
+            "price": 2999
+        },
+        {
+            "id": 132,
+            "name": "ASUS gejmerska podloga za miša TUF GAMING P3 - 90MP01C0-B0UA00a",
+            "imgUrl": "/images/base7.png",
+            "price": 1799
+        }
     ]
 }
