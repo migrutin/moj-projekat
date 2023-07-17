@@ -7,7 +7,6 @@ import Promocije from './Promocije';
 import Home from './Home';
 import Akcije from './Akcije';
 import Kontakt from './Kontakt';
-import Karijera from './Karijera';
 import PromocijeUProdavnicama from './PromocijeUProdavnicama';
 import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
@@ -59,6 +58,7 @@ import PowerBankPage from './PowerBankPage';
 import AirCondPage from './AirCondPage';
 import HomeAppPage from './HomePage';
 import KitchenAppPage from './KitchenAppPage';
+import GamingPage from './GamingPage';
 
 
 
@@ -76,7 +76,6 @@ const App = () => {
       <Route path='/poslovanje' element={<Poslovanje />} />
       <Route path='/promocije' element={<Promocije />} />
       <Route path='/kontakt' element={<Kontakt />} />
-      <Route path='/karijera' element={<Karijera />} />
       <Route path='/novosti' element={<Novosti />} />
       <Route path='/gaming-korner' element={<GejmingKorner />} />
       <Route path='/promocije-u-prodavnicama' element={<PromocijeUProdavnicama />} />
@@ -127,6 +126,7 @@ const App = () => {
       <Route path='/klima-uredjaji' element={<AirCondPage/>}/>
       <Route path='/mali-kucni-aparati' element={<HomeAppPage/>}/>
       <Route path='/mali-kuhinjski-aparati' element={<KitchenAppPage/>}/>
+      <Route path='/gaming' element={<GamingPage/>}/>
       
 
 

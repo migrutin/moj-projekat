@@ -9,8 +9,8 @@ const Contact = () => {
                 <img src={mapa} alt="" className='slika' />
             </div>
             <div className="ispod-slike"></div>
-            <div className=" div-preko flex">
-                <div className='zuto'>
+            <div className=" flex">
+                <div className='zuto '>
                     <h1 className='text-2xl'>Kontakt</h1>
                     <h2 className='text-lg mt-5'>Call centar</h2>
                     <p className='mt-3 text-sm'>Fizička lica</p>
@@ -41,13 +41,7 @@ const Contact = () => {
 
 
                 </div>
-                <div className=''>
-                    <div className="podaci">
-                        <input type="" placeholder="Ime*" name="" id="" className="ime" />
-                    </div>
-
-                </div>
-
+                
             </div>
 
         </div>
