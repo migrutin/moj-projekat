@@ -115,7 +115,7 @@ const App = () => {
       <Route path='/elektro-zastita' element={<ElectroProtectionPage/>}/>
       <Route path='/mobilni-telefoni' element={<MobilniOpremaPage/>}/>
       <Route path='/mobilni' element={<MobilePage/>}/>
-      <Route path='/tablet-raunari' element={<TabletPage/>}/>
+      <Route path='/tablet-racunari' element={<TabletPage/>}/>
       <Route path='/pametni-satovi' element={<WatchesPage/>}/>
       <Route path='/slusalice' element={<HeadphonesPage/>}/>
       <Route path='/bezicni-zvucnici' element={<BSpeakerPage/>}/>

@@ -1312,19 +1312,19 @@
         {
             "id": 209,
             "name": "REALME 11 Pro 5G 8/256GB Astral Black",
-            "imgUrl": "/images/phone5.png",
+            "imgUrl": "/images/phone5.jpg",
             "price": 44999
         },
         {
             "id": 210,
             "name": "NOTHING Phone 1 5G 12/256GB White",
-            "imgUrl": "/images/phone6.png",
+            "imgUrl": "/images/phone6.jpg",
             "price": 64999
         },
         {
             "id": 211,
             "name": "HONOR Magic5 PRO 12/512GB Black",
-            "imgUrl": "/images/phone7.png",
+            "imgUrl": "/images/phone7.jpg",
             "price": 137399
         },
         {
@@ -1430,9 +1430,9 @@
     "headphones": [
         {
             "id": 228,
-            "name": "SENNHEISER Žične slušalice HD 25 PLUS",
+            "name": "SENNHEISER Žične slušalice HD 25 PLUS Black",
             "imgUrl": "/images/sl1.png",
-            "price": 24799
+            "price": 2799
         },
         {
             "id": 229,
