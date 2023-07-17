@@ -1,5 +1,4 @@
 import OneElectroProtection from './OneElectroProtection';
-import OneRadioStation from './OneRadioStation';
 
 interface TypeOneElectroProtection {
   id: number;

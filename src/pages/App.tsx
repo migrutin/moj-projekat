@@ -48,6 +48,14 @@ import AudioVideoPage from './AudioVideoPage';
 import BatteryPage from './BatteryPage';
 import RadioStationPage from './RadioStationPage';
 import ElectroProtectionPage from './ElectroProtectionPage';
+import MobilniOpremaPage from './MobliniOpremaPage';
+import MobilePage from './MobilePage';
+import TabletPage from './TabletPage';
+import WatchesPage from './WatchesPage';
+import HeadphonesPage from './HeadphonesPage';
+import BSpeakerPage from './BSpeakerPage';
+import MemoryCardPage from './MemoryCardPage';
+import PowerBankPage from './PowerBankPage';
 
 
 
@@ -103,7 +111,17 @@ const App = () => {
       <Route path='/audio-video-oprema' element={<AudioVideoPage/>}/>
       <Route path='/baterije' element={<BatteryPage/>}/>
       <Route path='/radio-stanice' element={<RadioStationPage/>}/>
+      <Route path='/projektori' element={<ProjectorPage/>}/>
       <Route path='/elektro-zastita' element={<ElectroProtectionPage/>}/>
+      <Route path='/mobilni-telefoni' element={<MobilniOpremaPage/>}/>
+      <Route path='/mobilni' element={<MobilePage/>}/>
+      <Route path='/tablet-raunari' element={<TabletPage/>}/>
+      <Route path='/pametni-satovi' element={<WatchesPage/>}/>
+      <Route path='/slusalice' element={<HeadphonesPage/>}/>
+      <Route path='/bezicni-zvucnici' element={<BSpeakerPage/>}/>
+      <Route path='/memorijske-kartice' element={<MemoryCardPage/>}/>
+      <Route path='/eksterne-baterije' element={<PowerBankPage/>}/>
+      
 
 
 

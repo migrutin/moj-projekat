@@ -1,4 +1,3 @@
-import OneDocker from "./OneDocker";
 import OneGame from "./OneGame";
 
 interface TypeOneGame{ 

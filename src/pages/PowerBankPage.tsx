@@ -3,15 +3,15 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Mikes from '../components/Mikes'
+import PowerBanks from '../components/PowerBanks'
 
 
-const MikePage = () => {
+const PowerBankPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Mikes></Mikes>
+        <PowerBanks></PowerBanks>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -19,4 +19,4 @@ const MikePage = () => {
   )
 }
 
-export default MikePage
+export default PowerBankPage

@@ -3,15 +3,16 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Mikes from '../components/Mikes'
+import Speakers from '../components/Speakers'
+import Headphones from '../components/Headphones'
 
 
-const MikePage = () => {
+const HeadphonesPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Mikes></Mikes>
+        <Headphones></Headphones>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -19,4 +20,4 @@ const MikePage = () => {
   )
 }
 
-export default MikePage
+export default HeadphonesPage

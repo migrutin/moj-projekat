@@ -1270,17 +1270,322 @@
             "price": 3599
         },
         {
-            "id": 198,
+            "id": 203,
             "name": "ARMAC O/3000I/PF1 UPS",
             "imgUrl": "/images/ep.jpg",
             "price":  91999
         },
         {
-            "id": 199,
+            "id": 204,
             "name": "POWERWALKER 1000VA Korektor napona",
             "imgUrl": "/images/ep5.png",
             "price": 7399
         }
         
+    ],
+    
+    "phones": [
+        {
+            "id": 205,
+            "name": "APPLE iPhone 14 Plus 6/256GB Yellow MR6D3SX/A",
+            "imgUrl": "/images/phone1.jpg",
+            "price": 105999
+        },
+        {
+            "id": 206,
+            "name": "NOKIA G11 Plus 4/64GB Blue",
+            "imgUrl": "/images/phone2.jpg",
+            "price": 23499
+        },
+        {
+            "id": 207,
+            "name": "APPLE iPhone 14 Plus 6/128GB Blue MQ523SX/A6",
+            "imgUrl": "/images/phone3.jpg",
+            "price": 133599
+        },
+        {
+            "id": 208,
+            "name": "XIAOMI Redmi 12C 4/128GB Black",
+            "imgUrl": "/images/phone4.jpg",
+            "price":  16999
+        },
+        {
+            "id": 209,
+            "name": "REALME 11 Pro 5G 8/256GB Astral Black",
+            "imgUrl": "/images/phone5.png",
+            "price": 44999
+        },
+        {
+            "id": 210,
+            "name": "NOTHING Phone 1 5G 12/256GB White",
+            "imgUrl": "/images/phone6.png",
+            "price": 64999
+        },
+        {
+            "id": 211,
+            "name": "HONOR Magic5 PRO 12/512GB Black",
+            "imgUrl": "/images/phone7.png",
+            "price": 137399
+        },
+        {
+            "id": 212,
+            "name": "APPLE iPhone 14 Pro 6/256GB Deep Purple MQ1F3SX/A",
+            "imgUrl": "/images/phone8.jpg",
+            "price": 177399
+        },
+        {
+            "id": 213,
+            "name": "XIAOMI Redmi Note 12S 8/256GB Ice Blue",
+            "imgUrl": "/images/phone9.jpg",
+            "price": 27399
+        }
+        
+    ],
+    
+    "watches": [
+        {
+            "id": 214,
+            "name": "GARMIN Pametni sat Venu 2 Plus 43mm Black (Crna)",
+            "imgUrl": "/images/watch1.png",
+            "price": 56999
+        },
+        {
+            "id": 215,
+            "name": "AMAZFIT Bip 3 Pro Black Pametni sat",
+            "imgUrl": "/images/watch2.png",
+            "price": 9499
+        },
+        {
+            "id": 216,
+            "name": "AMAZFIT GTS 4 Autumn Brown Pametni sat",
+            "imgUrl": "/images/watch3.jpg",
+            "price": 24999
+        },
+        {
+            "id": 217,
+            "name": "CELLY Trainer MoonPink Pametni sat",
+            "imgUrl": "/images/watch4.jpg",
+            "price":  6799
+        },
+        {
+            "id": 218,
+            "name": "SAMSUNG Galaxy Watch 4 40mm Black (Crna)",
+            "imgUrl": "/images/watch5.png",
+            "price": 24999
+        },
+        {
+            "id": 219,
+            "name": "XIAOMI Redmi Watch 3 Ivory Pametni sat",
+            "imgUrl": "/images/watch6.jpg",
+            "price": 13599
+        },
+        {
+            "id": 220,
+            "name": "JUST IN CASE Zamenske narukvice 2u1 za pametne satove 20mm Brown-Gold",
+            "imgUrl": "/images/watch7.png",
+            "price": 4399
+        },
+        {
+            "id": 222,
+            "name": "PANZERGLASS Zaštitno staklo za Apple Watch",
+            "imgUrl": "/images/watch8.jpg",
+            "price": 3599
+        }
+        
+    ],
+    
+    "tablets": [
+        {
+            "id": 223,
+            "name": "APPLE iPad Pro 11 4th Gen 2022 Wi-Fi+Cell 8/128GB Silver",
+            "imgUrl": "/images/tablet.jpg",
+            "price": 156999
+        },
+        {
+            "id": 224,
+            "name": "SAMSUNG Galaxy Tab A8 10.5 X200 4/64GB Wi-Fi Tablet",
+            "imgUrl": "/images/tablet2.png",
+            "price": 39499
+        },
+        {
+            "id": 225,
+            "name": "LENOVO Tab M8 (4th Gen) LTE 3/32GB Arctic Grey",
+            "imgUrl": "/images/tablet3.jpg",
+            "price": 19999
+        },
+        {
+            "id": 226,
+            "name": "APPLE iPad 10.9 Air 5 Cellular 8/64GB Space Gray",
+            "imgUrl": "/images/tablet4.png",
+            "price": 126799
+        },
+        {
+            "id": 227,
+            "name": "APPLE iPad 10.9 10th Gen 2022 Wi-Fi 256GB Silver Tablet",
+            "imgUrl": "/images/tablet5.png",
+            "price": 102999
+        }        
+    ],
+    
+    "headphones": [
+        {
+            "id": 228,
+            "name": "SENNHEISER Žične slušalice HD 25 PLUS",
+            "imgUrl": "/images/sl1.png",
+            "price": 24799
+        },
+        {
+            "id": 229,
+            "name": "JLAB GO Air Pop TWS - IEUEBGAIRPOPRTEL124 Bežične bubice",
+            "imgUrl": "/images/sl2.png",
+            "price": 4499
+        },
+        {
+            "id": 230,
+            "name": "RAMPAGE Gejmerske slušalice RM-K19 Raging Plus ",
+            "imgUrl": "/images/sl3.png",
+            "price": 4499
+        },
+        {
+            "id": 231,
+            "name": "URBANISTA Bežične bubice STOCKHOLM PLUS TWS (Roze)",
+            "imgUrl": "/images/sl4.png",
+            "price": 6999
+        },
+        {
+            "id": 232,
+            "name": "ENERGY SISTEM bluetooth bubice Neckband 3 (Plave)",
+            "imgUrl": "/images/sl5.png",
+            "price": 3999
+        },
+        {
+            "id": 233,
+            "name": "PLANTRONICS slušalice BLACKWIRE 3325",
+            "imgUrl": "/images/sl6.png",
+            "price": 12999
+        },
+        {
+            "id": 234,
+            "name": "ENERGY SISTEM bubice RUNNING TWO NEON PINK (Pink) ",
+            "imgUrl": "/images/sl7.png",
+            "price": 1899
+        },
+        {
+            "id": 235,
+            "name": "BEATS Studio TWS Buds - MMT73ZM/A Ocean Blue",
+            "imgUrl": "/images/sl8.png",
+            "price": 27599
+        }        
+    ],
+    
+    "bluetoothSpeakers": [
+        {
+            "id": 236,
+            "name": "LG Bluetooth zvučnik XBOOM Go PL5 (Crni)",
+            "imgUrl": "/images/bs1.png",
+            "price": 15799
+        },
+        {
+            "id": 237,
+            "name": "LG Bluetooth zvučnik XBOOM Go PL2W (Beli)e",
+            "imgUrl": "/images/bs2.png",
+            "price": 7499
+        },
+        {
+            "id": 238,
+            "name": "LG Bluetooth zvučnik XBOOM Go PL2 (Crni)",
+            "imgUrl": "/images/bs3.png",
+            "price": 7499
+        },
+        {
+            "id": 239,
+            "name": "LG Bluetooth zvučnik XBOOM Go PL2S Jellybean (Žuta)",
+            "imgUrl": "/images/bs4.png",
+            "price": 7999
+        },
+        {
+            "id": 240,
+            "name": "SONOS One SL Bežični zvučnik",
+            "imgUrl": "/images/bs5.png",
+            "price": 29999
+        },
+        {
+            "id": 241,
+            "name": "ENERGY SISTEM Urban Box 2 Jade Bluetooth zvučnici",
+            "imgUrl": "/images/bs6.jpg",
+            "price": 2999
+        },
+        {
+            "id": 243,
+            "name": "BOSE Bežični zvučnik SoundLink Flex (Bela)",
+            "imgUrl": "/images/bs7.png",
+            "price": 22599
+        }  ,
+        {
+            "id": 242,
+            "name": "JBL CLIP 4 ECO WHITE Bluetooth zvučnik",
+            "imgUrl": "/images/bs8.jpg",
+            "price": 9899
+        }      
+    ],
+    
+    "powerBanks": [
+        {
+            "id": 243,
+            "name": "XIAOMI 22.5W 10000mAh BHR5884GL Power bank)",
+            "imgUrl": "/images/pb1.png",
+            "price": 3799
+        },
+        {
+            "id": 244,
+            "name": "CELLY 10000 mAh Black - PBE10000BK Power bank",
+            "imgUrl": "/images/pb2.png",
+            "price": 1499
+        },
+        {
+            "id": 245,
+            "name": "CELLY PB EVO PBPD10000EVO 10000mAh - Power Bank",
+            "imgUrl": "/images/pb3.png",
+            "price": 5599
+        },
+        {
+            "id": 246,
+            "name": "PURIDEA Power bank Apollon PD83 (Bela)",
+            "imgUrl": "/images/pb4.png",
+            "price": 3499
+        }
+    ],
+    
+    "memoryCards": [
+        {
+            "id": 247,
+            "name": "KINGSTON Memorijska kartica 64GB Select Canvas Plus",
+            "imgUrl": "/images/mc1.png",
+            "price": 2299
+        },
+        {
+            "id": 248,
+            "name": "KINGSTON Memorijska kartica MicroSD 2x64 GB",
+            "imgUrl": "/images/mc2.png",
+            "price": 3499
+        },
+        {
+            "id": 249,
+            "name": "KINGSTON Memorijska kartica MicroSD 3x64 GB",
+            "imgUrl": "/images/mc3.png",
+            "price": 2399
+        },
+        {
+            "id": 250,
+            "name": "KINGSTON SD CanvasGo! Plus memorijska kartica 512GB",
+            "imgUrl": "/images/mc4.png",
+            "price": 13499
+        },
+        {
+            "id": 251,
+            "name": "KINGSTON Memorijska kartica 64GB Canvas React Plus - SDR2/64GB",
+            "imgUrl": "/images/mc5.png",
+            "price": 11499
+        }
     ]
 }
