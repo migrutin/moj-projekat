@@ -951,5 +951,62 @@
             "imgUrl": "/images/mike7.png",
             "price": 19999
         }
+    ],
+    
+    "cables": [
+        {
+            "id": 154,
+            "name": "VENTION 3.0 - 30998 S-ATA HDD-A, 3.0 Blue color",
+            "imgUrl": "/images/kabl1.png",
+            "price": 399
+        },
+        {
+            "id": 155,
+            "name": "VENTION - 30985 S-ATA HDD-A, 3.0 Red color",
+            "imgUrl": "/images/kabl2.png",
+            "price": 399
+        },
+        {
+            "id": 156,
+            "name": "MAIWO Adapter USB tip C na SATA 2.5 K104AG1 (Beli)",
+            "imgUrl": "/images/kabl3.png",
+            "price": 1499
+        },
+        {
+            "id": 157,
+            "name": "DIGITUS LAN(RJ45) kabl UTP CAT.6 LSOH 7m (Siva)",
+            "imgUrl": "/images/kabl4.png",
+            "price": 999
+        },
+        {
+            "id": 158,
+            "name": "LINKOM kabl za napajanje S-ATA HDD-A 0.15m",
+            "imgUrl": "/images/kabl5.png",
+            "price": 399
+        },
+        {
+            "id": 159,
+            "name": "GEMBIRD USB na SATA adapter 223 HDD-A",
+            "imgUrl": "/images/kabl6.png",
+            "price": 1799
+        },
+        {
+            "id": 160,
+            "name": "HAMA strujni kabl, 1.5m (Crni) - 00029167",
+            "imgUrl": "/images/kabl7.jpg",
+            "price": 999
+        },
+        {
+            "id": 161,
+            "name": "GEMBIRD SATA kabl 0.5 m flat - 4022 ABA",
+            "imgUrl": "/images/kabl8.png",
+            "price": 299
+        },
+        {
+            "id": 162,
+            "name": "GEMBIRD Bluetooth audio adapter BTR-05",
+            "imgUrl": "/images/kabl9.png",
+            "price": 1999
+        }
     ]
 }
