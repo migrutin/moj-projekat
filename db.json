@@ -382,7 +382,7 @@
         },
         {
             "id": 65,
-            "name": "MICROSOFT Windows 11 Pro GGK 64bit",
+            "name": "MICROSOFT - Windows 11 Pro GGK 64bit",
             "imgUrl": "/images/os5.jpg",
             "price": 25999
         },
@@ -408,13 +408,13 @@
     "software": [
         {
             "id": 67,
-            "name": "MICROSOFT 365 Personal QQ2-01404",
+            "name": "MICROSOFT 365 Personal QQ2-01404 BAB",
             "imgUrl": "/images/soft1.jpg",
             "price": 4499
         },
         {
             "id": 68,
-            "name": "BITDEFENDER Internet Security 5 licenci",
+            "name": "BITDEFENDER Internet Security - 5 licenci (Pravna lica)",
             "imgUrl": "/images/soft2.png",
             "price": 7999
         },
@@ -432,7 +432,7 @@
         },
         {
             "id": 71,
-            "name": "BITDEFENDER Internet",
+            "name": "BITDEFENDER Internet Standard Security 2020",
             "imgUrl": "/images/soft5.png",
             "price": 3999
         }
@@ -1031,13 +1031,13 @@
         },
         {
             "id": 166,
-            "name": "SHARP 40BF3 Televizor",
-            "imgUrl": "/images/tv4.png",
+            "name": "SHARP 40BF3LED123 Televizor Siva boja 59' ",
+            "imgUrl": "/images/tv4.jpg",
             "price":  64999
         },
         {
             "id": 167,
-            "name": "PHILIPS 75PUS8807 Smart televizor",
+            "name": "PHILIPS 75PUS8807 Smart televizor Silver",
             "imgUrl": "/images/tv5.png",
             "price": 197399
         },
@@ -1049,7 +1049,7 @@
         },
         {
             "id": 169,
-            "name": "VIVAX Imago TV-55S60WO Televizor",
+            "name": "VIVAX Imago TV-55S60WO Televizor Crna boja",
             "imgUrl": "/images/tv7.jpg",
             "price": 42999
         },
@@ -1061,25 +1061,25 @@
         },
         {
             "id": 171,
-            "name": "PHILIPS Televizor 50PUS7506 12 SMART5",
+            "name": "PHILIPS Televizor 50PUS7506 12 SMART5 Siva boja",
             "imgUrl": "/images/tv9.png",
             "price": 51999
         },
         {
             "id": 172,
-            "name": "HISENSE 70A6BG Smart televizor",
+            "name": "HISENSE 70A6BG Smart televizor Crna boja",
             "imgUrl": "/images/tv10.jpg",
             "price": 99999
         },
         {
             "id": 173,
-            "name": "VIVAX 40LE114T2S2 Televizor",
+            "name": "VIVAX 40LE114T2S2 Televizor Crna boja 44'",
             "imgUrl": "/images/tv11.png",
             "price": 19999
         },
         {
             "id": 174,
-            "name": "SAMSUNG UE43AU7022K Smart televizor",
+            "name": "SAMSUNG UE43AU7022K Smart televizor - Crna boja",
             "imgUrl": "/images/tv12.png",
             "price": 41999
         }
@@ -1271,7 +1271,7 @@
         },
         {
             "id": 203,
-            "name": "ARMAC O/3000I/PF1 UPS",
+            "name": "ARMAC O/3000I/PF1 UPS UPS - SASP-DP252H1-AZ01B",
             "imgUrl": "/images/ep.jpg",
             "price":  91999
         },
@@ -1293,7 +1293,7 @@
         },
         {
             "id": 206,
-            "name": "NOKIA G11 Plus 4/64GB Blue",
+            "name": "NOKIA G11 Plus 4/64GB Blue DSA98P159 / MAX",
             "imgUrl": "/images/phone2.jpg",
             "price": 23499
         },
@@ -1323,7 +1323,7 @@
         },
         {
             "id": 211,
-            "name": "HONOR Magic5 PRO 12/512GB Black",
+            "name": "HONOR Magic5 PRO 12/512GB Black color",
             "imgUrl": "/images/phone7.jpg",
             "price": 137399
         },
@@ -1351,7 +1351,7 @@
         },
         {
             "id": 215,
-            "name": "AMAZFIT Bip 3 Pro Black Pametni sat",
+            "name": "AMAZFIT Bip 3 Pro Black Pametni sat Beige ",
             "imgUrl": "/images/watch2.png",
             "price": 9499
         },
@@ -1363,7 +1363,7 @@
         },
         {
             "id": 217,
-            "name": "CELLY Trainer MoonPink Pametni sat",
+            "name": "CELLY Trainer MoonPink Pametni sat Pink color",
             "imgUrl": "/images/watch4.jpg",
             "price":  6799
         },
@@ -1487,7 +1487,7 @@
         },
         {
             "id": 237,
-            "name": "LG Bluetooth zvučnik XBOOM Go PL2W (Beli)e",
+            "name": "LG Bluetooth zvučnik XBOOM Go PL2W (Beli)",
             "imgUrl": "/images/bs2.png",
             "price": 7499
         },
@@ -1505,7 +1505,7 @@
         },
         {
             "id": 240,
-            "name": "SONOS One SL Bežični zvučnik",
+            "name": "SONOS One SL Bežični zvučnik (Bela boja)",
             "imgUrl": "/images/bs5.png",
             "price": 29999
         },
@@ -1523,7 +1523,7 @@
         }  ,
         {
             "id": 242,
-            "name": "JBL CLIP 4 ECO WHITE Bluetooth zvučnik",
+            "name": "JBL CLIP 4 ECO WHITE Bluetooth zvučnik Siva boja",
             "imgUrl": "/images/bs8.jpg",
             "price": 9899
         }      
@@ -1643,7 +1643,7 @@
         },
         {
             "id": 260,
-            "name": "PHILIPS Pegla DST3040 70",
+            "name": "PHILIPS Pegla DST3040 70MBA (Plava boja) ",
             "imgUrl": "/images/ha4.png",
             "price": 5999
         },
@@ -1667,31 +1667,31 @@
         },
         {
             "id": 264,
-            "name": "PHILIPS Prečišćivač vazduha AC3858/51",
+            "name": "PHILIPS Prečišćivač vazduha AC3858/51/M",
             "imgUrl": "/images/ha8.png",
             "price": 89499
         },
         {
             "id": 265,
-            "name": "PHILIPS Prečišćivač vazduha AC3055/51",
+            "name": "PHILIPS Prečišćivač vazduha AC3055/51/S",
             "imgUrl": "/images/ha9.png",
             "price": 74499
         },
         {
             "id": 266,
-            "name": "VILEDA Paročistač Steam Plusj",
+            "name": "VILEDA Paročistač Steam Plus dw-124-mg",
             "imgUrl": "/images/ha10.png",
             "price": 11499
         },
         {
             "id": 267,
-            "name": "SENCOR SSC 3001YL Paročistač",
+            "name": "SENCOR SSC 3001YL Paročistač 275/SA/41",
             "imgUrl": "/images/ha11.png",
             "price": 5499
         },
         {
             "id": 268,
-            "name": "AENO SM1 Paročistač",
+            "name": "AENO SM1 Paročistač sa nastavcima (Bela boja)",
             "imgUrl": "/images/ha12.jpg",
             "price": 15499
         },
@@ -1703,13 +1703,13 @@
         },
         {
             "id": 270,
-            "name": "VIVAX FS-45MRT Ventilator",
+            "name": "VIVAX FS-45MRT Ventilator sa podesivim stalkom",
             "imgUrl": "/images/ha14.jpg",
             "price": 7499
         },
         {
             "id": 271,
-            "name": "STADLER FORM Tim Ventilator",
+            "name": "STADLER FORM Tim Ventilator 2.0 (Crna boja)",
             "imgUrl": "/images/ha15.png",
             "price": 9499
         },
@@ -1727,7 +1727,7 @@
         },
         {
             "id": 274,
-            "name": "KARCHER Četka 2.644-121.0",
+            "name": "KARCHER Četka 2.644-121.0 sa nastavkom",
             "imgUrl": "/images/ha18.png",
             "price": 6499
         }
@@ -1736,7 +1736,7 @@
     "kitchenAppliances": [
         {
             "id": 275,
-            "name": "MIDEA Mikser HM0293B - Bela boja",
+            "name": "MIDEA Mikser HM0293B 2.2MB  (Bela boja)",
             "imgUrl": "/images/ka1.png",
             "price": 3299
         },
@@ -1772,13 +1772,13 @@
         },
         {
             "id": 281,
-            "name": "BOSCH Blender MMBH6P6B 256HB",
+            "name": "BOSCH Blender MMBH6P6B 256HB sa nastavkom",
             "imgUrl": "/images/ka7.png",
             "price": 35499
         },
         {
             "id": 282,
-            "name": "SENCOR nutri blender SNB 4303BK",
+            "name": "SENCOR nutri blender SNB 4303BK Dve čaše",
             "imgUrl": "/images/ka8.png",
             "price": 10499
         },
@@ -1790,7 +1790,7 @@
         },
         {
             "id": 284,
-            "name": "SENCOR Seckalica SCB 6150SS-EUE3",
+            "name": "SENCOR Seckalica SCB 6150SS-EUE333-m",
             "imgUrl": "/images/ka10.png",
             "price": 6499
         },
@@ -1802,7 +1802,7 @@
         },
         {
             "id": 286,
-            "name": "BRITA Bokal Style 2.4 l plavi",
+            "name": "BRITA Bokal za prečišćavanje vode Style 2.4 l plavi",
             "imgUrl": "/images/ka12.png",
             "price": 4499
         },
@@ -1814,7 +1814,7 @@
         },
         {
             "id": 289,
-            "name": "COLOSSUS Aparat za perece CSS-5303C",
+            "name": "COLOSSUS Aparat za perece CSS-5303C crni",
             "imgUrl": "/images/ka14.png",
             "price": 3499
         },
