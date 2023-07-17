@@ -5,7 +5,7 @@ import Newsletter from '../components/Newsletter'
 import Footer from '../components/Footer'
 import SignInForm from '../components/SignInForm'
 
-const SignIn = () => {
+const SignInPage = () => {
   return (
     <div>
         <Header></Header>
@@ -17,4 +17,4 @@ const SignIn = () => {
   )
 }
 
-export default SignIn
+export default SignInPage

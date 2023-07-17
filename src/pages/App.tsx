@@ -13,7 +13,6 @@ import GejmingKorner from './GejmingKorner';
 import Klime from './Klime';
 import Globaltel from './Globaltel';
 import PortablePCs from './PortablePCs';
-import SignIn from './SignIn';
 import NewUser from './NewUser';
 import ShoppingBasket from './ShoppingBasket';
 import LaptopPage from './LaptopPage';
@@ -32,7 +31,6 @@ import DesktopPage from './DesktopPage';
 import BrandNameRacunariPage from './BrandNameRacunariPage';
 import AllInPage from './AllInPage';
 import MonitorPage from './MonitorPage';
-import Components from '../components/Components';
 import ComponentPage from './ComponentPage';
 import GamePage from './GamePage';
 import OpremaPage from './OpremaPage';
@@ -41,6 +39,7 @@ import BasePage from './BasePage';
 import PrinterPage from './PrinterPage';
 import SpeakerPage from './SpeakerPage';
 import MikePage from './MikePage';
+import SignInPage from './SignInPage';
 
 
 
@@ -85,6 +84,7 @@ const App = () => {
       <Route path='/komponente' element={<ComponentPage/>} />
       <Route path='/igre' element={<GamePage/>} />
       <Route path='/oprema' element={<OpremaPage/>} />
+      <Route path='/tastature' element={<KeyboardPage/>} />
       <Route path='/podloge' element={<BasePage/>} />
       <Route path='/stampaci' element={<PrinterPage/>}/>
       <Route path='/zvucnici' element={<SpeakerPage/>}/>
@@ -94,7 +94,7 @@ const App = () => {
 
       
 
-      <Route path='/login' element={<SignIn />} />
+      <Route path='/login' element={<SignInPage />} />
       <Route path='/registracija' element={<NewUser />} />
       <Route path='/korpa' element={<ShoppingBasket />} />
 
