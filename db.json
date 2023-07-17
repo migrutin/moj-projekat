@@ -1008,5 +1008,279 @@
             "imgUrl": "/images/kabl9.png",
             "price": 1999
         }
+    ],
+    
+    "tvs": [
+        {
+            "id": 163,
+            "name": "LG Televizor OLED55B23LA SMART",
+            "imgUrl": "/images/tv.png",
+            "price": 149399
+        },
+        {
+            "id": 164,
+            "name": "LG Televizor OLED55G23LA SMART",
+            "imgUrl": "/images/tv2.png",
+            "price": 195999
+        },
+        {
+            "id": 165,
+            "name": "PHILIPS 65OLED707 Smart televizor",
+            "imgUrl": "/images/tv3.png",
+            "price": 188999
+        },
+        {
+            "id": 166,
+            "name": "SHARP 40BF3 Televizor",
+            "imgUrl": "/images/tv4.png",
+            "price":  64999
+        },
+        {
+            "id": 167,
+            "name": "PHILIPS 75PUS8807 Smart televizor",
+            "imgUrl": "/images/tv5.png",
+            "price": 197399
+        },
+        {
+            "id": 168,
+            "name": "SAMSUNG Televizor QE65Q80BAT SMART",
+            "imgUrl": "/images/tv6.png",
+            "price": 185999
+        },
+        {
+            "id": 169,
+            "name": "VIVAX Imago TV-55S60WO Televizor",
+            "imgUrl": "/images/tv7.jpg",
+            "price": 42999
+        },
+        {
+            "id": 170,
+            "name": "SAMSUNG Televizor UE65BU8072U SMART",
+            "imgUrl": "/images/tv8.png",
+            "price": 109299
+        },
+        {
+            "id": 171,
+            "name": "PHILIPS Televizor 50PUS7506 12 SMART5",
+            "imgUrl": "/images/tv9.png",
+            "price": 51999
+        },
+        {
+            "id": 172,
+            "name": "HISENSE 70A6BG Smart televizor",
+            "imgUrl": "/images/tv10.jpg",
+            "price": 99999
+        },
+        {
+            "id": 173,
+            "name": "VIVAX 40LE114T2S2 Televizor",
+            "imgUrl": "/images/tv11.png",
+            "price": 19999
+        },
+        {
+            "id": 174,
+            "name": "SAMSUNG UE43AU7022K Smart televizor",
+            "imgUrl": "/images/tv12.png",
+            "price": 41999
+        }
+    ],
+    
+    "projectors": [
+        {
+            "id": 175,
+            "name": "HISENSE 100L5F-B12 Laser TV",
+            "imgUrl": "/images/p1.png",
+            "price": 249399
+        },
+        {
+            "id": 176,
+            "name": "EPSON Ultra-mobile EB-1780W",
+            "imgUrl": "/images/p2.png",
+            "price": 115999
+        },
+        {
+            "id": 177,
+            "name": "SONY Projektor VPL-PHZ50",
+            "imgUrl": "/images/p3.png",
+            "price": 344999
+        },
+        {
+            "id": 178,
+            "name": "EPSON EB-1795F Projektor",
+            "imgUrl": "/images/p4.png",
+            "price":  164999
+        },
+        {
+            "id": 179,
+            "name": "EPSON EB-U50 Projektor",
+            "imgUrl": "/images/p5.png",
+            "price": 144399
+        },
+        {
+            "id": 180,
+            "name": "EPSON EB-800F Projektor",
+            "imgUrl": "/images/p6.png",
+            "price": 477999
+        },
+        {
+            "id": 181,
+            "name": "XIAOMI Smart projektor 2 Pro MI",
+            "imgUrl": "/images/p7.png",
+            "price": 114199
+        },
+        {
+            "id": 182,
+            "name": "EPSON Projektor EB-FH52",
+            "imgUrl": "/images/p8.png",
+            "price": 119299
+        }
+    ],
+    
+    "audioVideo": [
+        {
+            "id": 183,
+            "name": "MOYE Aurora Plus Radio sat",
+            "imgUrl": "/images/av1.png",
+            "price": 6999
+        },
+        {
+            "id": 184,
+            "name": "MUSE MT-105 B Gramofon",
+            "imgUrl": "/images/av2.png",
+            "price": 15999
+        },
+        {
+            "id": 185,
+            "name": "MUSE M-186 CMR Radio sat",
+            "imgUrl": "/images/av3.png",
+            "price": 4999
+        },
+        {
+            "id": 186,
+            "name": "DENVER TR-61 Radio (Crna)",
+            "imgUrl": "/images/av4.png",
+            "price":  4299
+        },
+        {
+            "id": 187,
+            "name": "PANASONIC Mikro linija SC-HC410EG-W",
+            "imgUrl": "/images/av5.png",
+            "price": 22399
+        },
+        {
+            "id": 188,
+            "name": "DENVER Gramofon VPL-120 (Plavi)",
+            "imgUrl": "/images/av6.png",
+            "price": 7999
+        },
+        {
+            "id": 189,
+            "name": "KORATO Pojačalo Phono 30",
+            "imgUrl": "/images/av7.png",
+            "price": 71199
+        },
+        {
+            "id": 190,
+            "name": "iFi ZEN Air CAN Analogno pojačalo za slušalice2",
+            "imgUrl": "/images/av8.jpg",
+            "price": 13999
+        }
+    ],
+
+    
+    "radioStations": [  
+        {
+            "id": 191,
+            "name": "MIDLAND XT70​ - Toki Voki",
+            "imgUrl": "/images/rs1.png",
+            "price": 11999
+        },
+        {
+            "id": 192,
+            "name": "MIDLAND XT60​ - Toki Voki",
+            "imgUrl": "/images/rs2.png",
+            "price": 15999
+        },
+        {
+            "id": 193,
+            "name": "MIDLAND XT70 ​ADVENTURE- Toki Voki",
+            "imgUrl": "/images/rs3.png",
+            "price": 24399
+        },
+        {
+            "id": 194,
+            "name": "TOPCOM Twintalker 9100",
+            "imgUrl": "/images/rs4.png",
+            "price":  19299
+        }
+        
+    ],
+    
+    "batteries": [
+        {
+            "id": 195,
+            "name": "VARTA Alkalne baterije LR03 8+4 AAA",
+            "imgUrl": "/images/bat1.png",
+            "price": 1199
+        },
+        {
+            "id": 196,
+            "name": "ANSMANN Alkalne baterije MONO LR20",
+            "imgUrl": "/images/bat2.png",
+            "price": 569
+        },
+        {
+            "id": 197,
+            "name": "ANSMANN Punjive baterije HR14",
+            "imgUrl": "/images/bat3.png",
+            "price": 1599
+        },
+        {
+            "id": 198,
+            "name": "VARTA Litijumske baterije CR2016",
+            "imgUrl": "/images/bat4.png",
+            "price":  299
+        },
+        {
+            "id": 199,
+            "name": "PANASONIC Eneloop pro AA KJ55HCD40E",
+            "imgUrl": "/images/bat5.jpg",
+            "price": 6399
+        }
+        
+    ],
+    
+    "electroProtections": [
+        {
+            "id": 200,
+            "name": "ALLOCACOC PowerCube Extended USB 4xSchuko",
+            "imgUrl": "/images/ep1.jpg",
+            "price": 3199
+        },
+        {
+            "id": 201,
+            "name": "NJOY Horus Plus 1500 900W UPS - PWUP-LI150H1-AZ01B",
+            "imgUrl": "/images/ep2.png",
+            "price": 23499
+        },
+        {
+            "id": 202,
+            "name": "ELCO prenaponska zaštita šestostruka priključnica 2m - 20156",
+            "imgUrl": "/images/ep3.png",
+            "price": 3599
+        },
+        {
+            "id": 198,
+            "name": "ARMAC O/3000I/PF1 UPS",
+            "imgUrl": "/images/ep.jpg",
+            "price":  91999
+        },
+        {
+            "id": 199,
+            "name": "POWERWALKER 1000VA Korektor napona",
+            "imgUrl": "/images/ep5.png",
+            "price": 7399
+        }
+        
     ]
 }

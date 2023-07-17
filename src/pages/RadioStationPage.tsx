@@ -3,16 +3,16 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Printers from '../components/Printers'
+import RadioStations from '../components/RadioStations'
 
 
 
-const PrinterPage = () => {
+const RadioStationPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Printers></Printers>
+        <RadioStations></RadioStations>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -20,4 +20,4 @@ const PrinterPage = () => {
   )
 }
 
-export default PrinterPage
+export default RadioStationPage

@@ -1,23 +1,23 @@
 import { useEffect, useState } from 'react'
-import Base from './Base';
+import Battery from './Battery';
 
-type OneBase = {
+type OneBattery = {
   id:number,
   name: string;
   imgUrl : string;
   price: number;
 }
 
-type MyFetchType = Array<OneBase>
+type MyFetchType = Array<OneBattery>
 
 
-const Bases = () => {
+const Batteries = () => {
   
-  const [data,setData]=useState<OneBase[]>();
+  const [data,setData]=useState<OneBattery[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/bases");
+      const response=await fetch(" http://localhost:3000/batteries");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -29,9 +29,9 @@ const Bases = () => {
     if(data==null){
       return <div></div>
     }else{
-      return <Base arrayBase={data}/>
+      return <Battery arrayBatteries={data}/>
     }
   
 }
 
-export default Bases
+export default Batteries

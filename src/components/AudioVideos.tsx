@@ -1,23 +1,23 @@
 import { useEffect, useState } from 'react'
-import Base from './Base';
+import AudioVideo from './AudioVideo';
 
-type OneBase = {
+type OneAudioVideo = {
   id:number,
   name: string;
   imgUrl : string;
   price: number;
 }
 
-type MyFetchType = Array<OneBase>
+type MyFetchType = Array<OneAudioVideo>
 
 
-const Bases = () => {
+const AudioVideos = () => {
   
-  const [data,setData]=useState<OneBase[]>();
+  const [data,setData]=useState<OneAudioVideo[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/bases");
+      const response=await fetch(" http://localhost:3000/audioVideo");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -29,9 +29,9 @@ const Bases = () => {
     if(data==null){
       return <div></div>
     }else{
-      return <Base arrayBase={data}/>
+      return <AudioVideo arrayAv={data}/>
     }
   
 }
 
-export default Bases
+export default AudioVideos

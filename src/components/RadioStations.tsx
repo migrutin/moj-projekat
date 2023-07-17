@@ -1,23 +1,23 @@
 import { useEffect, useState } from 'react'
-import Base from './Base';
+import RadioStation from './RadioStation';
 
-type OneBase = {
+type OneRadioStation = {
   id:number,
   name: string;
   imgUrl : string;
   price: number;
 }
 
-type MyFetchType = Array<OneBase>
+type MyFetchType = Array<OneRadioStation>
 
 
-const Bases = () => {
+const RadioStations = () => {
   
-  const [data,setData]=useState<OneBase[]>();
+  const [data,setData]=useState<OneRadioStation[]>();
   useEffect(()=>{
 
     const fetchingFunc=async ()=>{
-      const response=await fetch(" http://localhost:3000/bases");
+      const response=await fetch(" http://localhost:3000/radioStations");
       const result=await response.json() as MyFetchType;
       console.log(result);
       setData(result);
@@ -29,9 +29,9 @@ const Bases = () => {
     if(data==null){
       return <div></div>
     }else{
-      return <Base arrayBase={data}/>
+      return <RadioStation arrayRadioStations={data}/>
     }
   
 }
 
-export default Bases
+export default RadioStations

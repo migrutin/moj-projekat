@@ -3,16 +3,14 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Printers from '../components/Printers'
+import Batteries from '../components/Batteries'
 
-
-
-const PrinterPage = () => {
+const BatteryPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Printers></Printers>
+        <Batteries></Batteries>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -20,4 +18,4 @@ const PrinterPage = () => {
   )
 }
 
-export default PrinterPage
+export default BatteryPage

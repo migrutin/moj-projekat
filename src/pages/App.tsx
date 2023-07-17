@@ -41,6 +41,13 @@ import SpeakerPage from './SpeakerPage';
 import MikePage from './MikePage';
 import SignInPage from './SignInPage';
 import CablePage from './CablePage';
+import TvAudioVideoPage from './TvAudioVideoPage';
+import TvPage from './TvPage';
+import ProjectorPage from './ProjectorPage';
+import AudioVideoPage from './AudioVideoPage';
+import BatteryPage from './BatteryPage';
+import RadioStationPage from './RadioStationPage';
+import ElectroProtectionPage from './ElectroProtectionPage';
 
 
 
@@ -91,6 +98,12 @@ const App = () => {
       <Route path='/zvucnici' element={<SpeakerPage/>}/>
       <Route path='/mikrofoni' element={<MikePage/>}/>
       <Route path='/kablovi' element={<CablePage/>}/>
+      <Route path='/tv-audio-video' element={<TvAudioVideoPage/>}/>
+      <Route path='/tv' element={<TvPage/>}/>
+      <Route path='/audio-video-oprema' element={<AudioVideoPage/>}/>
+      <Route path='/baterije' element={<BatteryPage/>}/>
+      <Route path='/radio-stanice' element={<RadioStationPage/>}/>
+      <Route path='/elektro-zastita' element={<ElectroProtectionPage/>}/>
 
 
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
 const ProductsDropdown = () => {
@@ -9,7 +8,7 @@ const ProductsDropdown = () => {
         <Link to="/racunari" className="dropdown-link">Računari i komponente</Link>
         <Link to="/oprema" className="dropdown-link">Oprema za računare</Link>
         <Link to="/gaming" className="dropdown-link">Gaming</Link>
-        <Link to="/tv" className="dropdown-link">Tv, audio i video</Link>
+        <Link to="/tv-audio-video" className="dropdown-link">Tv, audio i video</Link>
         <Link to="/mobilni-telefoni" className="dropdown-link">Mobilni telefoni i tableti</Link>
         <Link to="/klima-uredjaji" className="dropdown-link">Klima uređaji</Link>
         <Link to="/akcije" className="dropdown-link">Mali kućni aparati</Link>
