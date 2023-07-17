@@ -56,6 +56,9 @@ import HeadphonesPage from './HeadphonesPage';
 import BSpeakerPage from './BSpeakerPage';
 import MemoryCardPage from './MemoryCardPage';
 import PowerBankPage from './PowerBankPage';
+import AirCondPage from './AirCondPage';
+import HomeAppPage from './HomePage';
+import KitchenAppPage from './KitchenAppPage';
 
 
 
@@ -121,6 +124,9 @@ const App = () => {
       <Route path='/bezicni-zvucnici' element={<BSpeakerPage/>}/>
       <Route path='/memorijske-kartice' element={<MemoryCardPage/>}/>
       <Route path='/eksterne-baterije' element={<PowerBankPage/>}/>
+      <Route path='/klima-uredjaji' element={<AirCondPage/>}/>
+      <Route path='/mali-kucni-aparati' element={<HomeAppPage/>}/>
+      <Route path='/mali-kuhinjski-aparati' element={<KitchenAppPage/>}/>
       
 
 

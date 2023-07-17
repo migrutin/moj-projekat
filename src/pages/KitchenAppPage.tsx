@@ -3,14 +3,14 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Bases from '../components/Bases'
+import KitchenApps from '../components/KitchenApps'
 
-const BasePage = () => {
+const KitchenAppPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Bases></Bases>
+        <KitchenApps></KitchenApps>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -18,4 +18,4 @@ const BasePage = () => {
   )
 }
 
-export default BasePage
+export default KitchenAppPage

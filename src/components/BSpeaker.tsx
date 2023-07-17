@@ -1,5 +1,4 @@
 import OneBSpeaker from "./OneBSpeaker";
-import OneMemoryCard from "./OneMemoryCard";
 
 interface TypeOneBSpeaker{ 
     id:number;

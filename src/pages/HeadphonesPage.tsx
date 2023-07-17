@@ -3,7 +3,6 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Speakers from '../components/Speakers'
 import Headphones from '../components/Headphones'
 
 

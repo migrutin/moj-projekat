@@ -3,14 +3,14 @@ import Underline from '../components/Underline'
 import Newsletter from '../components/Newsletter'
 import AboveFooter from '../components/AboveFooter'
 import Footer from '../components/Footer'
-import Bases from '../components/Bases'
+import AirConditioners from '../components/AirConditioners'
 
-const BasePage = () => {
+const AirCondPage = () => {
   return (
     <div>
         <Header></Header>
         <Underline></Underline>
-        <Bases></Bases>
+        <AirConditioners></AirConditioners>
         <Newsletter></Newsletter>
         <AboveFooter></AboveFooter>
         <Footer></Footer>
@@ -18,4 +18,4 @@ const BasePage = () => {
   )
 }
 
-export default BasePage
+export default AirCondPage

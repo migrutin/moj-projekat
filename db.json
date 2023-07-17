@@ -1587,5 +1587,242 @@
             "imgUrl": "/images/mc5.png",
             "price": 11499
         }
+    ],
+    
+    "airConditioners": [
+        {
+            "id": 252,
+            "name": "HISENSE Klima uređaj inverter Energy Pro Plus",
+            "imgUrl": "/images/air1.png",
+            "price": 62299
+        },
+        {
+            "id": 253,
+            "name": "BOSCH CL3000i-35 WE 12 kBTU Inverter klima uređaj",
+            "imgUrl": "/images/air2.jpg",
+            "price": 69499
+        },
+        {
+            "id": 254,
+            "name": "LG Klima uređaj inverter PC12SK",
+            "imgUrl": "/images/air3.png",
+            "price": 100999
+        },
+        {
+            "id": 255,
+            "name": "VOX IJO9-SC4D Klima uređaj inverter",
+            "imgUrl": "/images/air4.jpg",
+            "price": 53999
+        },
+        {
+            "id": 256,
+            "name": "TESLA TT68X81-24410A Klima uređaj",
+            "imgUrl": "/images/air5.png",
+            "price": 61499
+        }
+    ],
+    
+    "homeAppliances": [
+        {
+            "id": 257,
+            "name": "iROBOT Roomba i7158 Robot usisivač Crna boja",
+            "imgUrl": "/images/ha1.png",
+            "price": 79299
+        },
+        {
+            "id": 258,
+            "name": "iROBOT Roomba i3+ (i3554) Robot usisivač",
+            "imgUrl": "/images/ha2.png",
+            "price": 89499
+        },
+        {
+            "id": 259,
+            "name": "DEERMA VC-25 PLUS Štapni usisivač Bela boja",
+            "imgUrl": "/images/ha3.png",
+            "price": 18999
+        },
+        {
+            "id": 260,
+            "name": "PHILIPS Pegla DST3040 70",
+            "imgUrl": "/images/ha4.png",
+            "price": 5999
+        },
+        {
+            "id": 261,
+            "name": "RUSSELL HOBBS Pegla za vertikalno peglanje Steam Genie 25600-56",
+            "imgUrl": "/images/ha5.png",
+            "price": 9999
+        },
+        {
+            "id": 262,
+            "name": "PHILIPS Parna stanica PerfectCare 8000 PSG804060",
+            "imgUrl": "/images/ha6.png",
+            "price": 61499
+        },
+        {
+            "id": 263,
+            "name": "ZEPTER MYION ION-02 Personalni prečišćivač vazduha",
+            "imgUrl": "/images/ha7.jpg",
+            "price": 17499
+        },
+        {
+            "id": 264,
+            "name": "PHILIPS Prečišćivač vazduha AC3858/51",
+            "imgUrl": "/images/ha8.png",
+            "price": 89499
+        },
+        {
+            "id": 265,
+            "name": "PHILIPS Prečišćivač vazduha AC3055/51",
+            "imgUrl": "/images/ha9.png",
+            "price": 74499
+        },
+        {
+            "id": 266,
+            "name": "VILEDA Paročistač Steam Plusj",
+            "imgUrl": "/images/ha10.png",
+            "price": 11499
+        },
+        {
+            "id": 267,
+            "name": "SENCOR SSC 3001YL Paročistač",
+            "imgUrl": "/images/ha11.png",
+            "price": 5499
+        },
+        {
+            "id": 268,
+            "name": "AENO SM1 Paročistač",
+            "imgUrl": "/images/ha12.jpg",
+            "price": 15499
+        },
+        {
+            "id": 269,
+            "name": "RADIALIGHT Pokretni rashlađivač vazduha Aer DOMUS",
+            "imgUrl": "/images/ha13.png",
+            "price": 22499
+        },
+        {
+            "id": 270,
+            "name": "VIVAX FS-45MRT Ventilator",
+            "imgUrl": "/images/ha14.jpg",
+            "price": 7499
+        },
+        {
+            "id": 271,
+            "name": "STADLER FORM Tim Ventilator",
+            "imgUrl": "/images/ha15.png",
+            "price": 9499
+        },
+        {
+            "id": 272,
+            "name": "BIEFFE FARINELLI Profesionalni generator pare BF009SANI",
+            "imgUrl": "/images/ha16.png",
+            "price": 129499
+        },
+        {
+            "id": 273,
+            "name": "BIEFFE FARINELLI Uređaj za usisavanje i čišćenje parom",
+            "imgUrl": "/images/ha17.png",
+            "price": 169499
+        },
+        {
+            "id": 274,
+            "name": "KARCHER Četka 2.644-121.0",
+            "imgUrl": "/images/ha18.png",
+            "price": 6499
+        }
+    ],
+    
+    "kitchenAppliances": [
+        {
+            "id": 275,
+            "name": "MIDEA Mikser HM0293B - Bela boja",
+            "imgUrl": "/images/ka1.png",
+            "price": 3299
+        },
+        {
+            "id": 276,
+            "name": "RUSSELL HOBBS Mikser 25200-56 - Crvena boja",
+            "imgUrl": "/images/ka2.png",
+            "price": 9499
+        },
+        {
+            "id": 277,
+            "name": "KITCHENAID KA5KSM95PSEMC Mikser Siva boja",
+            "imgUrl": "/images/ka.png",
+            "price": 88999
+        },
+        {
+            "id": 278,
+            "name": "BOSCH Sokovnik MES25C0 Crveno-bela boja",
+            "imgUrl": "/images/ka4.png",
+            "price": 25999
+        },
+        {
+            "id": 279,
+            "name": "HUROM Sokovnik H-AA-EBE17 Crvena boja",
+            "imgUrl": "/images/ka5.png",
+            "price": 69999
+        },
+        {
+            "id": 280,
+            "name": "RUSSELL HOBBS Blender Nutri Boost 23180-560",
+            "imgUrl": "/images/ka6.png",
+            "price": 11499
+        },
+        {
+            "id": 281,
+            "name": "BOSCH Blender MMBH6P6B 256HB",
+            "imgUrl": "/images/ka7.png",
+            "price": 35499
+        },
+        {
+            "id": 282,
+            "name": "SENCOR nutri blender SNB 4303BK",
+            "imgUrl": "/images/ka8.png",
+            "price": 10499
+        },
+        {
+            "id": 283,
+            "name": "RUSSELL HOBBS Seckalica Desire 24660-56",
+            "imgUrl": "/images/ka9.png",
+            "price": 5499
+        },
+        {
+            "id": 284,
+            "name": "SENCOR Seckalica SCB 6150SS-EUE3",
+            "imgUrl": "/images/ka10.png",
+            "price": 6499
+        },
+        {
+            "id": 285,
+            "name": "SENCOR Seckalica SSV 230WH - ELE01267",
+            "imgUrl": "/images/ka11.png",
+            "price": 5499
+        },
+        {
+            "id": 286,
+            "name": "BRITA Bokal Style 2.4 l plavi",
+            "imgUrl": "/images/ka12.png",
+            "price": 4499
+        },
+        {
+            "id": 287,
+            "name": "SENCOR Aparat za kuvanje jaja SEG 710BP",
+            "imgUrl": "/images/ka13.png",
+            "price": 22499
+        },
+        {
+            "id": 289,
+            "name": "COLOSSUS Aparat za perece CSS-5303C",
+            "imgUrl": "/images/ka14.png",
+            "price": 3499
+        },
+        {
+            "id": 290,
+            "name": "PHILIPS HD2151/40 All-in-One Aparat za kuvanje",
+            "imgUrl": "/images/ka15.png",
+            "price": 29499
+        }
     ]
 }
