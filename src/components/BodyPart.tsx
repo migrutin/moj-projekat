@@ -1,5 +1,5 @@
 
-import { Link} from 'react-router-dom'
+import { Link, useNavigate} from 'react-router-dom'
 import logomajstor from '../img/logomajstor.png';
 import majstor from '../img/majstor.png'
 import glob from '../img/glob.png'
@@ -12,6 +12,12 @@ import SmallImgSlide from './SmallImgSlide';
 import BodyLabel from './BodyLabel';
 
 const BodyPart = () => {
+    
+    const navigate = useNavigate()
+
+  const handleNavigate = () => {
+    navigate('/mobilni')
+  }
 
 
 
@@ -27,14 +33,7 @@ const BodyPart = () => {
            
             <BodyLabel></BodyLabel>
 
-            {/* Najtrazeniji proizvodi */}
-            <div className='bg-transparent rounded-lg h-56 w-3/4 mt-10 ml-44 
-            pt-auto flex  justify-between flex-col '>
-
-                <h1 className='font-bold text-2xl pb-5'>Najtraženiji proizvodi</h1>
-                <div className="container bg-white rounded-lg h-52 w-full"></div>
-
-            </div>
+         
 
             {/* Specijalni popusti i akcije */}
 
@@ -106,11 +105,7 @@ const BodyPart = () => {
 
                 </div>
             </div>
-
-
-            {/* Usluzna montaza */}
-            {/*  !!!!!!!!!!OVDE UNETI LINK KA DRUGOJ STRANICI!!!!!!!!! */}
-            <Link to="/App.tsx">
+            <Link to="/montaza-televizora">
                 <div className='bg-blue-900 rounded-lg h-24 w-3/4 mt-10 ml-44 
             pt-auto flex  justify-between py-1'>
                     <img src={logomajstor} alt="" className='h-32 w-32 ' />
@@ -125,7 +120,7 @@ const BodyPart = () => {
                 </div>
             </Link>
 
-            <Link to="/">
+            <Link to="/globaltel">
                 <div className='bg-purple-950 rounded-lg h-24 w-3/4 mt-32 ml-44 
             pt-auto flex  justify-between py-1'>
                     <img src={glob} alt="" className='h-20 w-32 ml-2 mt-1' />
@@ -148,14 +143,14 @@ const BodyPart = () => {
                 <div className='rounded-lg w-1/2  bg-gray-200 flex-col flex items-center justify-top '>
                     <img src={samsung} alt="" className='w-1/3 ' />
                     <h1 className='font-bold text-3xl text-center'>Zakorači u Samsung <br></br>e-svet</h1>
-                    <button className='h-10 w-32 rounded-full mt-5 bg-white'>Saznajte više</button>
+                    <button className='h-10 w-32 rounded-full mt-5 bg-white' onClick={handleNavigate}>Saznajte više</button>
                     <img src={sams} alt="samsung uredjaji" className='h-56 mt-10' />
                 </div>
 
                 <div className='rounded-lg w-1/2  bg-green-200 flex-col flex items-center justify-top '>
                     <img src={a} alt="" className='w-1/3 mt-3' />
                     <h1 className='font-bold text-3xl text-center mt-5'>Besprekorno iskustvo  u <br></br>svakom uređaju</h1>
-                    <button className='h-10 w-32 rounded-full mt-5 bg-white'>Saznajte više</button>
+                    <button className='h-10 w-32 rounded-full mt-5 bg-white'onClick={handleNavigate} >Saznajte više</button>
                     <img src={appdevice} alt="apple uredjaji" className='h-44 w-96 mt-16' />
 
                 </div>

@@ -69,10 +69,9 @@ const AboveFooter = () =>{
                 <div className=' w-1/6 space-y-3'>
                     <h1 className='font-bold text-white'>PRODAJA</h1>
 
-                    {/* PROMENITI LINK!!!!!!!!!!!!! */}
-                    <Link to='/App.tsx'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Akcije</h2></Link>
-                    <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Novosti</h2></Link>
-                    <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Gaming korner</h2></Link>
+                    <Link to='/akcije'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Akcije</h2></Link>
+                    <Link to='/novosti'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Novosti</h2></Link>
+                    <Link to='/gaming-korner'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Gaming korner</h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Registracija poklona</h2></Link>
                 </div>
 
@@ -93,7 +92,7 @@ const AboveFooter = () =>{
                     <h1 className='font-bold text-white'>KUPOVINA</h1>
 
                     {/* PROMENITI LINK!!!!!!!!!!!!! */}
-                    <Link to='/App.tsx'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Gigtraon loyalty kartica</h2></Link>
+                    <Link to='/bonus'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Gigtraon loyalty kartica</h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Uslovi korišćenja</h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Politika privatnosti</h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Detalji ugovora o prodaji</h2></Link>
@@ -120,7 +119,7 @@ const AboveFooter = () =>{
                     <h1 className='font-bold text-white'>PLAĆANJE I ISPORUKA</h1>
 
                     {/* PROMENITI LINK!!!!!!!!!!!!! */}
-                    <Link to='/App.tsx'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Način plaćanja </h2></Link>
+                    <Link to='/nacin-placanja'> <h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Način plaćanja </h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>Isporuka</h2></Link>
                     <Link to='/App.tsx'><h2 className='text-gray-300 hover:text-gray-500 cursor-pointer'>TAX FREE i Ambasade</h2></Link>
                 </div>

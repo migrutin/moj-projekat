@@ -12,11 +12,11 @@ import { useShoppingCart } from '../context/ShoppingCartContext';
 const Header = () => {
     const [dropDown, setDropDown] = useState(false)
 
-    const{ totalNumberItems} = useShoppingCart()
+    const { totalNumberItems } = useShoppingCart()
 
     const navigate = useNavigate();
 
-    const handleNavigation=()=> {
+    const handleNavigation = () => {
         navigate('/korpa')
     }
 
@@ -64,18 +64,7 @@ const Header = () => {
                 </div>
 
 
-                <div className="flex h-8 pb-5">
 
-                    <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1">
-                        <i className="fas fa-box text-white"></i>
-                        <span className='text-white invisible lg:visible'>Status porudžbine</span>
-                    </div>
-
-                    <div className="flex items-center space-x-2 cursor-pointer mt-1">
-                        <i className="fa-regular fa-heart text-white" ></i>
-                        <span className='text-white invisible lg:visible'>Lista želja</span>
-                    </div>
-                </div>
             </nav>
 
 
@@ -83,21 +72,20 @@ const Header = () => {
 
 
             {/* Drugi red u Headeru */}
-            <div className='flex mt-0 '>
+            <div className='flex mt-0 justify-between '>
                 <div className=" invisible md:visible flex justify-between items-center h-24 px-4 ml-44 mr-5 my-0">
                     <Link to='/'><img src={logo} alt="Logo" className='h-28 w-40 my-2' /></Link>
 
                 </div>
 
-                <input type="text" id="searchField" placeholder="Unesite pojam za pretragu"
-                    className="ml-0 h-10 w-1/2 mt-7 px-4 py-1  border border-gray-300 rounded-full"></input>
-
-                <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">
+                <div className='flex mr-56'> 
+                    
+                    <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">
                     <i className="fa-regular fa-user text-white"></i>
                     <Link to='/login' className='text-white invisible lg:visible'>Prijava</Link>
-                </div>
+                    </div>
 
-                <button className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4 relative" onClick={handleNavigation}>
+                    <button className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4 relative" onClick={handleNavigation}>
                     <i className="fa fa-shopping-cart text-white">
                         <div className='rounded-full bg-yellow-400
                         h-5 w-5 flex justify-center align-middle absolute -mt-7 -ml-3'>
@@ -106,6 +94,13 @@ const Header = () => {
                     </i>
                     <span className='text-white invisible lg:visible'>Korpa</span>
                 </button>
+
+
+
+                </div>
+
+
+
 
 
 
