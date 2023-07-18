@@ -1754,9 +1754,9 @@
         },
         {
             "id": 278,
-            "name": "BOSCH Sokovnik MES25C0 Crveno-bela boja",
-            "imgUrl": "/images/ka4.png",
-            "price": 25999
+            "name": "PHILIPS Parna stanica PerfectCare 8000 PSG804060",
+            "imgUrl": "/images/ha6.png",
+            "price": 61499
         },
         {
             "id": 279,
@@ -1824,5 +1824,52 @@
             "imgUrl": "/images/ka15.png",
             "price": 29499
         }
+    ],
+    
+    "appliances": [
+        {
+            "id": 291,
+            "name": "MIDEA Mikser HM0293B 2.2MB  (Bela boja)",
+            "imgUrl": "/images/ka1.png",
+            "price": 3299
+        },
+        {
+            "id": 292,
+            "name": "BOSCH Sokovnik MES25C0 Crveno-bela boja",
+            "imgUrl": "/images/ka4.png",
+            "price": 25999
+        },
+        {
+            "id": 293,
+            "name": "PHILIPS HD2151/40 All-in-One Aparat za kuvanje",
+            "imgUrl": "/images/ka15.png",
+            "price": 29499
+        },
+        {
+            "id": 294,
+            "name": "BOSCH Sokovnik MES25C0 Crveno-bela boja",
+            "imgUrl": "/images/ka4.png",
+            "price": 25999
+        },
+        {
+            "id": 295,
+            "name": "VOX IJO9-SC4D Klima uređaj inverter",
+            "imgUrl": "/images/air4.jpg",
+            "price": 53999
+        },
+        {
+            "id": 297,
+            "name": "BOSCH Blender MMBH6P6B 256HB sa nastavkom",
+            "imgUrl": "/images/ka7.png",
+            "price": 35499
+        },
+        {
+            "id": 230,
+            "name": "PHILIPS HD2151/40 All-in-One Aparat za kuvanje",
+            "imgUrl": "/images/ka15.png",
+            "price": 29499
+        }
     ]
+
+
 }

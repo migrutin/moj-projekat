@@ -58,7 +58,9 @@ import PowerBankPage from './PowerBankPage';
 import AirCondPage from './AirCondPage';
 import HomeAppPage from './HomePage';
 import KitchenAppPage from './KitchenAppPage';
-import GamingPage from './GamingPage';
+import AppliancePage from './AppliancePage';
+import UgradnjaKlimaPage from './UgradnjaKlimaPage';
+import MontazaTvPage from './MontazaTvPage';
 
 
 
@@ -126,7 +128,9 @@ const App = () => {
       <Route path='/klima-uredjaji' element={<AirCondPage/>}/>
       <Route path='/mali-kucni-aparati' element={<HomeAppPage/>}/>
       <Route path='/mali-kuhinjski-aparati' element={<KitchenAppPage/>}/>
-      <Route path='/gaming' element={<GamingPage/>}/>
+      <Route path='/bela-tehnika' element={<AppliancePage/>}/>
+      <Route path='/ugradnja-klima' element={<UgradnjaKlimaPage/>}/>
+      <Route path='/montaza-televizora' element={<MontazaTvPage/>}/>
       
 
 

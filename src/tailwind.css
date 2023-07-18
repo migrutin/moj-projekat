@@ -409,10 +409,17 @@ img {
 
 .dropdown {
   width: 288px;
-  height: 384px;
+  height: 340px;
   background: white;
   border-radius: 25px;
   box-shadow: #6b7280;
+}
+.products-dropdown{
+  margin-top: 176px;
+  padding-left: 144px;
+  justify-items: normal;
+  position: fixed;
+  inset: 20px;
 }
 
 .dropdown-link {

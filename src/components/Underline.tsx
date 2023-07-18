@@ -51,7 +51,6 @@ const Underline = () => {
         <Link to='/akcije' className='text-black cursor-pointer font-semibold'>Akcije</Link>
         <a href='https://gigatron.rs/prodavnice' className='text-black cursor-pointer'>Prodavnice</a>
         <Link to='/poslovanje' className='text-black cursor-pointer'>Poslovanje</Link>
-        <Link to='/gaming' className='text-black cursor-pointer'>Gaming</Link>
         <Link to='/kontakt' className='text-black cursor-pointer'>Kontakt</Link>
         <Link to='/globaltel' className='text-black cursor-pointer'>Globaltel</Link>
       </div>
