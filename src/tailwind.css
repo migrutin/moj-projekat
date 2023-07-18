@@ -23,6 +23,30 @@
   width: 1000px;
 }
 
+.preporuke-h{
+  font-weight: 500;
+  font-size: xx-large;
+  margin-left: 176px;
+  
+}
+.preporuke-div{
+  border-radius: 8px;
+  width: 75%;
+  margin-top: 40px;
+  margin-left: 176px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+ 
+}
+
+.preporuke-square{
+  border-radius: 8px;
+  height: 384px;
+  width: 25%;
+  align-items: center;
+  
+}
+
 .home{
   background-color: #f3f4f6;
   padding-left: 64px;
