@@ -14,7 +14,7 @@ export default function CartItem(item: CartItemProps) {
     const numberOfItems:number = getItemQuantity(item.id)
 
   return (
-    <div className=' flex justify-between mb-5'>
+    <div className='flex justify-between mb-5 mt-10'>
      
      <div className='flex'><div className='cart'>
         <img src={item.imgUrl} alt="" className='cart-img bg-white' />
