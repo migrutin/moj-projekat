@@ -12,11 +12,11 @@ const SignInForm =() => {
 
   const navigate = useNavigate();
 
-  const ProceedLogin = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleLogin = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (validation()) {
         console.log('aaaa')
-        fetch('http://localhost:3600/users').then((res) => {
+        fetch('http://localhost:3000/users').then((res) => {
             return res.json();
         }).then((resp)=> {
             const user = resp.find((user:any) => user.email===email);
@@ -52,7 +52,7 @@ const SignInForm =() => {
 
   return (
     <div className='bg-gray-100 sm:h-screen sm:w-full sm:flex sm:items-center sm:justify-center'>
-      <form onSubmit={ProceedLogin} className='registration-form'>
+      <form onSubmit={handleLogin} className='registration-form'>
         <h1 className='text-xl'>Vaš Gigatron nalog</h1>
         <div className='flex'>
           <h3 className='text-sm'>Nemate Gigatron nalog?</h3>

@@ -34,7 +34,7 @@ const NewUserForm = () => {
   };
 
     const registerUser = (registrationObject: RegistrationObject) => {
-        fetch('http://localhost:3600/users', {
+        fetch('http://localhost:3000/users', {
           method: 'POST',
           headers: { 'content-type': 'application/json' },
           body: JSON.stringify(registrationObject),
@@ -51,7 +51,7 @@ const NewUserForm = () => {
 
     const checkEmail = async (email:string) => {
         try {
-            const respons = await fetch(`http://localhost:3600/users?email=${email}`);
+            const respons = await fetch(`http://localhost:3000/users?email=${email}`);
             const responsJson = await respons.json();
             return responsJson.length > 0;
             
