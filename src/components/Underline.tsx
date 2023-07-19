@@ -26,11 +26,11 @@ const Underline = () => {
   }, []);
 
   return (
-    <div className='bg-white max-w-full h-16 flex px-32 justify-between text-base border-b-2'>
-      <div className='flex space-x-2 ml-12'>
+    <div className='undreline-div flex'>
+      <div className='flex space-x-2  ml-12 mr-56'>
         <div className='space-x-1 py-2' onClick={() => setfirstDropDown(!firstDropDown)}>
           <i className="fa-solid fa-bars"></i>
-          <a className='text-black font-semibold cursor-pointer text-xl'>Proizvodi</a>
+          <a className='undreline-text'>Proizvodi</a>
         </div>
 
         {firstDropDown && (
@@ -39,7 +39,7 @@ const Underline = () => {
 
         <div className='space-x-1 py-2' onClick={() => setsecondDropDown(!secondDropDown)}>
           <i className="fa-solid fa-heart"></i>
-          <a className='text-black font-semibold cursor-pointer text-xl'>Pogodnosti</a>
+          <a className='undreline-text'>Pogodnosti</a>
         </div>
 
         {secondDropDown && (

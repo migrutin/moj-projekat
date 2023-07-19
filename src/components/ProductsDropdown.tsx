@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const ProductsDropdown = () => {
   return (
     <div className="flex z-50 products-dropdown"    >
-      <div className="dropdown flex flex-col">
+      <div className="dropdown-p flex flex-col">
         <Link to="/portable-pc" className="dropdown-link">Laptop računari</Link>
         <Link to="/racunari" className="dropdown-link">Računari i komponente</Link>
         <Link to="/oprema" className="dropdown-link">Oprema za računare</Link>

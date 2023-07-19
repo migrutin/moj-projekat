@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const SecondDropDown = () => {
   return (
     <div className="fixed products-dropdown z-50"    >
-      <div className="dropdown flex flex-col ml-24">
+      <div className="dropdown-s flex flex-col ml-24">
         <Link to="/nacin-placanja" className="dropdown-link">Način plaćanja</Link>
         <Link to="/bonus" className="dropdown-link">Loyalty program</Link>
         <Link to="/bela-tehnika" className="dropdown-link">Giga preporuka bele tehnike</Link>

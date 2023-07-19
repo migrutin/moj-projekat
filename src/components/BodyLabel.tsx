@@ -31,7 +31,7 @@ const BodyLabel = () => {
                 <i className="fa-solid fa-money-check-dollar fa-2xl"></i>
                 <div className="flex flex-col ml-4 ">
                     <h2 className="font-semibold ">Kupovina na rate</h2>
-                    <Link to='/kupovina-na-rate' className="underline ml-2">Saznajte više</Link>
+                    <Link to='/nacin-placanja' className="underline ml-2">Saznajte više</Link>
                 </div>
                 <div className="w-0.5 h-1/2 bg-gray-200 mx-4 mt-2"></div>
 

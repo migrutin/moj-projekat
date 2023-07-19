@@ -82,9 +82,18 @@ width: 200px;
 .undreline-div{
   background-color: white;
   height: 64px;
-  padding-left: 128px;
+  padding-left: 200px;
   padding-right: 128px;
   max-width: max-content;
+  align-items: center;
+  
+}
+
+.undreline-text{
+  color: black;
+  font-weight: 500;
+  font-size: 22px;
+  cursor: pointer;
   
 }
 
@@ -493,15 +502,27 @@ img {
 }
 
 
-.dropdown {
+.dropdown-p {
   width: 288px;
   height: 340px;
   background: white;
   border-radius: 25px;
   box-shadow: #6b7280;
+  margin-left: 70px;
+}
+
+.dropdown-s{
+  width: 288px;
+  height: 340px;
+  background: white;
+  border-radius: 25px;
+  box-shadow: #6b7280;
+  margin-left: 200px;
 }
 .products-dropdown{
-  margin-top: 176px;
+  margin-top: 136px;
+  margin-right: 36px;
+
   padding-left: 144px;
   justify-items: normal;
   position: fixed;
