@@ -14,100 +14,67 @@ const Header = () => {
 
     const { totalNumberItems } = useShoppingCart()
 
-    const navigate = useNavigate();
-
-    const handleNavigation = () => {
-        navigate('/korpa')
-    }
-
-
     return (
 
-        <header className="bg-blue-950 text-base sticky z-50 top-0 ">
-            <nav className="text-base flex justify-between items-center px-4 lg:mx-44 ">
+        <header className='header flex top-0'>
+            <div className="header-1 lg:visible py-2">
+                <div onMouseOver={() => setDropDown(true)} onMouseLeave={() => setDropDown(false)}
+                    className="cursor-pointer">
+                    <div className='space-x-2'>
+                        <i className="fa fa-phone text-white" ></i>
+                        <span className='text-contact lg:visible'>Pozovite nas</span>
 
+                        {dropDown && (
+                            <div className=" dropdown-contact ">
+                                <div className="py-2">
+                                    <div className="px-4 py-2">
+                                        <h2>Fizička lica</h2>
+                                        <p>011 44 14 000</p>
+                                    </div>
+                                    <div className="px-4 py-2">
+                                        <h2>Pravna lica</h2>
+                                        <p>011 44 14 010</p>
+                                    </div>
 
-                {/* prvi red u Headeru */}
-                <div className=" flex h-10 mb-0">
-
-                    <div onMouseOver={() => setDropDown(true)} onMouseLeave={() => setDropDown(false)}
-                        className="flexitems-center space-x-2 cursor-pointer mr-3">
-                        <div className='sm:invisible lg:visible space-x-2 '>
-                            <i className="fa fa-phone text-white" ></i>
-                            <span className=' text-white'>Pozovite nas</span>
-
-
-                            {dropDown && (
-                                <div className="absolute top-5 left-44
-                                        mt-8 w-48 bg-white border border-gray-300 rounded-md shadow-lg ">
-                                    <ul className="py-2">
-                                        <li className="px-4 py-2">
-                                            <h2>Fizička lica</h2>
-                                            <p>011 44 14 000</p>
-                                        </li>
-                                        <li className="px-4 py-2">
-                                            <h2>Pravna lica</h2>
-                                            <p>011 44 14 010</p>
-                                        </li>
-
-                                    </ul>
                                 </div>
+                            </div>
+                        )}
 
-                            )}
-
-                        </div>
-                    </div>
-                    <div className=' mt-0 h-8 w-64 cursor-pointer'>
-                        <i className="fas fa-envelope text-white" ></i>
-                        <span className='ml-2 text-white invisible lg:visible '>prodaja@gigatronshop.com</span>
                     </div>
                 </div>
 
-
-
-            </nav>
-
-
-
-
-
-            {/* Drugi red u Headeru */}
-            <div className='flex mt-0 justify-between '>
-                <div className=" invisible md:visible flex justify-between items-center h-24 px-4 ml-44 mr-5 my-0">
-                    <Link to='/'><img src={logo} alt="Logo" className='h-28 w-40 my-2' /></Link>
-
+                <div className=''>
+                    <i className="fas fa-envelope text-white" ></i>
+                    <span className='ml-2 text-white '>prodaja@gigatronshop.com</span>
                 </div>
-
-                <div className='flex mr-56'> 
-                    
-                    <div className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4">
-                    <i className="fa-regular fa-user text-white"></i>
-                    <Link to='/login' className='text-white invisible lg:visible'>Prijava</Link>
-                    </div>
-
-                    <button className="flex items-center space-x-2 cursor-pointer mr-3 mt-1 ml-4 relative" onClick={handleNavigation}>
-                    <i className="fa fa-shopping-cart text-white">
-                        <div className='rounded-full bg-yellow-400
-                        h-5 w-5 flex justify-center align-middle absolute -mt-7 -ml-3'>
-                            {totalNumberItems}
-                        </div>
-                    </i>
-                    <span className='text-white invisible lg:visible'>Korpa</span>
-                </button>
+            </div>
 
 
+            <div className="flex w-1/3 items-center justify-center ">
 
-                </div>
-
-
-
+                <Link to='/'><img src={logo} alt="Logo" className='sm:h-64 sm:w-full my-2' /></Link>
 
 
 
             </div>
+            <div className="flex flex-col items-end w-1/3  py-2 px-2 space-y-2">
+                
+                <Link to='/login' ><i className="fa-regular fa-user text-white fa-xl"></i></Link>
 
+                <Link to='/korpa'> <i className="fa fa-shopping-cart text-white fa-xl"></i></Link>
+                        {/* {totalNumberItems >  0 && (
+                             <div className='rounded-full bg-yellow-400
+                        h-5 w-5 flex justify-center align-middle absolute -mt-7 -ml-3'>
+                            {totalNumberItems}
+                        </div>)} */}
+                       
+                
+            </div>
+            <div></div>
 
-        </header>
+        
+
+        </header >
     )
 }
 
