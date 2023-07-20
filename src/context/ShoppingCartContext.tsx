@@ -26,6 +26,7 @@ type CartItem = Item & { quantity: number }
 
 const ShoppingCartContext = createContext({} as ShoppingCartContext)
 
+
 export function useShoppingCart() {
   return useContext(ShoppingCartContext)
 }
