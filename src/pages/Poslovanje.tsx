@@ -9,13 +9,12 @@ import Jobs from '../components/Jobs'
 const Poslovanje = () => {
   return (
     <div>
-        <Header></Header>
-        <Underline></Underline>
-       <Jobs></Jobs>
-
-        <Newsletter></Newsletter>
-        <AboveFooter></AboveFooter>
-        <Footer></Footer>
+      <Header></Header>
+      <Underline></Underline>
+      <Jobs></Jobs>
+      <Newsletter></Newsletter>
+      <AboveFooter></AboveFooter>
+      <Footer></Footer>
     </div>
   )
 }
